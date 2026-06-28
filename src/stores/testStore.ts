@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import type { Question, TestMode, TestAnswer, TestSession } from '../types'
+import type { Question, TestMode, TestSession } from '../types'
 import { generateId } from '../utils'
 
 interface TestStore {
@@ -14,7 +14,6 @@ interface TestStore {
   clearResponse: (questionId: string) => void
   submitTest: () => void
   resetTest: () => void
-  restoreSession: () => void
 }
 
 const DURATIONS: Record<TestMode, number> = {
@@ -31,9 +30,9 @@ export const useTestStore = create<TestStore>()(
   persist(
     (set, get) => ({
       session: null,
-      questionBank: [],
-      setQuestionBank: (questions) => set({ questionBank: questions }),
-      startTest: (mode, questions, duration) => {
+      questionBank: [] as Question[],
+      setQuestionBank: (questions: Question[]) => set({ questionBank: questions }),
+      startTest: (mode: TestMode, questions: Question[], duration?: number) => {
         const newSession: TestSession = {
           id: generateId(),
           mode,
@@ -47,7 +46,7 @@ export const useTestStore = create<TestStore>()(
         }
         set({ session: newSession })
       },
-      setAnswer: (questionId, answer) => {
+      setAnswer: (questionId: string, answer: number | null) => {
         const session = get().session
         if (!session || session.isCompleted) return
         const existing = session.answers[questionId]
@@ -69,7 +68,7 @@ export const useTestStore = create<TestStore>()(
           },
         })
       },
-      toggleMarkForReview: (questionId) => {
+      toggleMarkForReview: (questionId: string) => {
         const session = get().session
         if (!session) return
         const existing = session.answers[questionId]
@@ -89,12 +88,12 @@ export const useTestStore = create<TestStore>()(
           },
         })
       },
-      setCurrentIndex: (index) => {
+      setCurrentIndex: (index: number) => {
         const session = get().session
         if (!session) return
         set({ session: { ...session, currentIndex: index } })
       },
-      clearResponse: (questionId) => {
+      clearResponse: (questionId: string) => {
         const session = get().session
         if (!session) return
         set({
@@ -121,11 +120,10 @@ export const useTestStore = create<TestStore>()(
         })
       },
       resetTest: () => set({ session: null }),
-      restoreSession: () => {},
     }),
     {
       name: 'cdac-test-session',
-      partialize: (state) => ({ session: state.session }),
+      partialize: (state: TestStore) => ({ session: state.session }),
     }
   )
 )

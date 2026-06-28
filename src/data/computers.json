@@ -757,7 +757,8 @@
     "options": [
       "Internal Data Exchange",
       "Input Device Extension",
-      "Integrated Development Environment"
+      "Integrated Development Environment",
+      "Controller"
     ],
     "correctAnswer": 2,
     "explanation": "Answer: Integrated Development Environment",
@@ -858,7 +859,8 @@
     "options": [
       "Object Output Process",
       "Object Oriented Programming",
-      "Ordered Object Programming"
+      "Ordered Object Programming",
+      "Memory"
     ],
     "correctAnswer": 1,
     "explanation": "Answer: Object Oriented Programming",

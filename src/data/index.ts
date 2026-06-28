@@ -35,7 +35,7 @@ export async function loadAllQuestions(): Promise<Question[]> {
     questionModules.bigdata(),
   ])
 
-  cachedQuestions = results.flatMap((m) => (m as { default: Question[] }).default)
+  cachedQuestions = results.flatMap((m: any) => m.default as Question[])
   return cachedQuestions
 }
 

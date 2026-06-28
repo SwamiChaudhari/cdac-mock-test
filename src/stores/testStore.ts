@@ -33,10 +33,13 @@ export const useTestStore = create<TestStore>()(
       questionBank: [] as Question[],
       setQuestionBank: (questions: Question[]) => set({ questionBank: questions }),
       startTest: (mode: TestMode, questions: Question[], duration?: number) => {
+        // Final dedup check: ensure no duplicate question IDs in the test
+        const uniqueQuestions = deduplicateQuestions(questions)
+        
         const newSession: TestSession = {
           id: generateId(),
           mode,
-          questions,
+          questions: uniqueQuestions,
           answers: {},
           currentIndex: 0,
           startTime: Date.now(),
@@ -127,3 +130,22 @@ export const useTestStore = create<TestStore>()(
     }
   )
 )
+
+/**
+ * Deduplicate questions by normalized text content.
+ * This is a safety net to ensure no duplicates ever reach the test session.
+ */
+function deduplicateQuestions(questions: Question[]): Question[] {
+  const seen = new Set<string>()
+  const result: Question[] = []
+  
+  for (const q of questions) {
+    const normalized = q.question.toLowerCase().replace(/\s+/g, ' ').trim()
+    if (!seen.has(normalized)) {
+      seen.add(normalized)
+      result.push(q)
+    }
+  }
+  
+  return result
+}

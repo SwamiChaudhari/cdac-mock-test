@@ -88,6 +88,16 @@ export function calculateResults(
   }
 }
 
+/**
+ * Generate a unique ID using crypto API when available
+ */
 export function generateId(): string {
-  return Math.random().toString(36).substring(2, 9)
+  if (typeof crypto !== 'undefined' && crypto.randomUUID) {
+    return crypto.randomUUID()
+  }
+  // Fallback with better entropy
+  const timestamp = Date.now().toString(36)
+  const randomPart = Math.random().toString(36).substring(2, 10)
+  const randomPart2 = Math.random().toString(36).substring(2, 6)
+  return `${timestamp}-${randomPart}-${randomPart2}`
 }

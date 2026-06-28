@@ -97,6 +97,15 @@ export default function HomePage({ questions }: Props) {
             <button onClick={() => navigate('/dashboard')} className="px-2 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition hidden sm:block">
               Dashboard
             </button>
+            <button onClick={() => navigate('/history')} className="px-2 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition hidden sm:block">
+              History
+            </button>
+            <button onClick={() => navigate('/learning')} className="px-2 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition">
+              Learn
+            </button>
+            <button onClick={() => navigate('/analytics')} className="px-2 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition hidden sm:block">
+              Analytics
+            </button>
             <button onClick={() => navigate('/revision')} className="px-2 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition">
               Revision
             </button>

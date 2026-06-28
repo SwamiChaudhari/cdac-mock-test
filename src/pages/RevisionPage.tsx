@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useStatsStore } from '../stores/statsStore'
+import { useGamificationStore } from '../stores/gamificationStore'
 import { useQuestionTracker } from '../stores/questionTracker'
 import type { Question } from '../types'
 
@@ -10,7 +10,7 @@ interface Props {
 
 export default function RevisionPage({ questions }: Props) {
   const navigate = useNavigate()
-  const { bookmarkedQuestions, toggleBookmark, mistakeHistory } = useStatsStore()
+  const { bookmarkedQuestions, toggleBookmark, mistakeHistory } = useGamificationStore()
   const { attemptedQuestionIds, lastResult } = useQuestionTracker()
   const [activeTab, setActiveTab] = useState<'mistakes' | 'bookmarked' | 'attempted' | 'formulas'>('mistakes')
   const [expandedQ, setExpandedQ] = useState<string | null>(null)

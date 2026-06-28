@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router-dom'
 import { useTestStore } from '../stores/testStore'
-import { useStatsStore } from '../stores/statsStore'
+import { useGamificationStore } from '../stores/gamificationStore'
 import { calculateResults, formatTime } from '../utils'
 
 export default function ResultPage() {
   const navigate = useNavigate()
   const { session, resetTest } = useTestStore()
-  const { results } = useStatsStore()
+  const { results } = useGamificationStore()
 
   if (!session) {
     navigate('/')
@@ -77,7 +77,7 @@ export default function ResultPage() {
         <div className="bg-white rounded-2xl border border-gray-200 p-6 mb-6 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Subject-wise Analysis</h2>
           <div className="space-y-3">
-            {resultsData.subjectAnalysis.map((sa) => (
+            {Object.values(resultsData.subjectAnalysis).map((sa) => (
               <div key={sa.subject} className="flex items-center gap-4">
                 <div className="w-32 text-sm font-medium text-gray-700 truncate">{sa.subject}</div>
                 <div className="flex-1">
@@ -124,15 +124,24 @@ export default function ResultPage() {
         </div>
 
         {/* Actions */}
-        <div className="flex gap-3 justify-center">
+        <div className="flex flex-wrap gap-3 justify-center">
           <button onClick={() => { resetTest(); navigate('/'); }} className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium">
             Back to Home
           </button>
-          <button onClick={() => navigate('/dashboard')} className="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 font-medium">
-            View Dashboard
-          </button>
           <button onClick={() => navigate('/revision')} className="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 font-medium">
             Review Answers
+          </button>
+          <button onClick={() => navigate('/dashboard')} className="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 font-medium">
+            Dashboard
+          </button>
+          <button onClick={() => navigate('/history')} className="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 font-medium">
+            Test History
+          </button>
+          <button onClick={() => navigate('/learning')} className="px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 font-medium">
+            Learn from Mistakes
+          </button>
+          <button onClick={() => navigate('/analytics')} className="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 font-medium">
+            Analytics
           </button>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import type { UserStats, TestResult, Question } from '../types'
+import type { UserStats, TestResult, SmartNote, TopicMastery } from '../types'
+import { generateId } from '../utils'
 
 interface GamificationStore extends UserStats {
   // XP & Level
@@ -13,6 +14,8 @@ interface GamificationStore extends UserStats {
   // Learning Mode
   flashcards: Flashcard[]
   dailyQuests: DailyQuest[]
+  smartNotes: SmartNote[]
+  topicMastery: TopicMastery[]
   
   // Actions
   addResult: (result: TestResult) => void
@@ -24,6 +27,9 @@ interface GamificationStore extends UserStats {
   addFlashcard: (card: Flashcard) => void
   reviewFlashcard: (id: string, correct: boolean) => void
   completeQuest: (id: string) => void
+  generateFlashcardsFromMistakes: (result: TestResult) => void
+  generateSmartNotes: (result: TestResult) => void
+  updateTopicMastery: (result: TestResult) => void
   reset: () => void
 }
 
@@ -94,9 +100,11 @@ const initialStats: UserStats = {
   totalTests: 0,
   averageScore: 0,
   bestScore: 0,
+  worstScore: 0,
   totalCorrect: 0,
   totalWrong: 0,
   totalSkipped: 0,
+  totalStudyTime: 0,
   results: [],
   bookmarkedQuestions: [],
   mistakeHistory: {},
@@ -113,6 +121,8 @@ export const useGamificationStore = create<GamificationStore>()(
       achievements: [],
       flashcards: [],
       dailyQuests: generateDailyQuests(),
+      smartNotes: [],
+      topicMastery: [],
 
       addResult: (result: TestResult) => {
         const prev = get()
@@ -137,18 +147,150 @@ export const useGamificationStore = create<GamificationStore>()(
           }
         })
 
+        // Update topic mastery
+        get().updateTopicMastery(result)
+
+        // Auto-generate flashcards from mistakes
+        get().generateFlashcardsFromMistakes(result)
+
+        // Auto-generate smart notes
+        get().generateSmartNotes(result)
+
         set({
           totalTests: newResults.length,
           averageScore: Math.round(totalScore / newResults.length),
           bestScore: Math.max(prev.bestScore, result.score),
+          worstScore: newResults.length === 1 ? result.score : Math.min(prev.worstScore || result.score, result.score),
           totalCorrect: prev.totalCorrect + result.correct,
           totalWrong: prev.totalWrong + result.wrong,
           totalSkipped: prev.totalSkipped + result.skipped,
+          totalStudyTime: prev.totalStudyTime + result.timeSpent,
           results: newResults,
           xp: newXP,
           level: getLevel(newXP),
           achievements: newAchievements,
         })
+      },
+
+      generateFlashcardsFromMistakes: (result: TestResult) => {
+        const prev = get()
+        const newCards: Flashcard[] = []
+        
+        result.questionDetails
+          .filter(q => !q.isCorrect)
+          .forEach(q => {
+            // Check if flashcard already exists for this question
+            const exists = prev.flashcards.some(f => f.front === q.question)
+            if (!exists) {
+              newCards.push({
+                id: generateId(),
+                front: q.question,
+                back: q.options[q.correctAnswer],
+                topic: q.topic,
+                nextReview: Date.now(),
+                interval: 1,
+                easeFactor: 2.5,
+                reviews: 0,
+                correctReviews: 0,
+              })
+            }
+          })
+        
+        if (newCards.length > 0) {
+          set({ flashcards: [...prev.flashcards, ...newCards] })
+        }
+      },
+
+      generateSmartNotes: (result: TestResult) => {
+        const prev = get()
+        const notes: SmartNote[] = []
+        
+        // Generate notes from incorrect questions
+        const incorrectByTopic: Record<string, typeof result.questionDetails> = {}
+        result.questionDetails.filter(q => !q.isCorrect).forEach(q => {
+          const key = `${q.subject}|${q.topic}`
+          if (!incorrectByTopic[key]) incorrectByTopic[key] = []
+          incorrectByTopic[key].push(q)
+        })
+
+        Object.entries(incorrectByTopic).forEach(([key, questions]) => {
+          const [subject, topic] = key.split('|')
+          const correctQ = questions[0]
+          if (!correctQ) return
+          
+          notes.push({
+            id: generateId(),
+            type: 'concept',
+            title: `${topic} - Key Concept`,
+            content: correctQ.explanation,
+            subject,
+            topic,
+          })
+        })
+
+        // Generate formula notes from strong topics (for revision)
+        result.questionDetails
+          .filter(q => q.isCorrect && q.explanation.includes('='))
+          .slice(0, 3)
+          .forEach(q => {
+            notes.push({
+              id: generateId(),
+              type: 'formula',
+              title: `${q.topic} Formula`,
+              content: q.explanation,
+              subject: q.subject,
+              topic: q.topic,
+            })
+          })
+
+        if (notes.length > 0) {
+          set({ smartNotes: [...prev.smartNotes, ...notes].slice(-100) }) // Keep last 100
+        }
+      },
+
+      updateTopicMastery: (result: TestResult) => {
+        const prev = get()
+        const masteryMap = new Map(prev.topicMastery.map(t => [`${t.subject}|${t.topic}`, t]))
+
+        Object.entries(result.topicAnalysis).forEach(([topic, analysis]) => {
+          const key = `${analysis.subject}|${topic}`
+          const existing = masteryMap.get(key)
+          
+          if (existing) {
+            const newTotal = existing.totalAttempts + analysis.total
+            const newCorrect = existing.correct + analysis.correct
+            const newAccuracy = (newCorrect / newTotal) * 100
+            const prevAccuracy = existing.accuracy
+            
+            let trend: 'improving' | 'declining' | 'stable' = 'stable'
+            if (newAccuracy > prevAccuracy + 5) trend = 'improving'
+            else if (newAccuracy < prevAccuracy - 5) trend = 'declining'
+            
+            masteryMap.set(key, {
+              topic,
+              subject: analysis.subject,
+              totalAttempts: newTotal,
+              correct: newCorrect,
+              accuracy: newAccuracy,
+              lastAttempted: result.date,
+              masteryLevel: newAccuracy >= 75 ? 'strong' : newAccuracy >= 50 ? 'improving' : 'weak',
+              trend,
+            })
+          } else {
+            masteryMap.set(key, {
+              topic,
+              subject: analysis.subject,
+              totalAttempts: analysis.total,
+              correct: analysis.correct,
+              accuracy: analysis.accuracy,
+              lastAttempted: result.date,
+              masteryLevel: analysis.accuracy >= 75 ? 'strong' : analysis.accuracy >= 50 ? 'improving' : 'weak',
+              trend: 'stable',
+            })
+          }
+        })
+
+        set({ topicMastery: Array.from(masteryMap.values()) })
       },
 
       toggleBookmark: (questionId: string) => {
@@ -259,7 +401,7 @@ export const useGamificationStore = create<GamificationStore>()(
         set({ dailyQuests: quests })
       },
 
-      reset: () => set({ ...initialStats, xp: 0, level: 1, streak: 0, achievements: [], flashcards: [], dailyQuests: generateDailyQuests() }),
+      reset: () => set({ ...initialStats, xp: 0, level: 1, streak: 0, achievements: [], flashcards: [], dailyQuests: generateDailyQuests(), smartNotes: [], topicMastery: [] }),
     }),
     {
       name: 'cdac-gamification',

@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useGamificationStore, getLevelProgress, ACHIEVEMENTS } from '../stores/gamificationStore'
 
 export default function DashboardPage() {
-  const { xp, level, streak, achievements, totalTests, averageScore, bestScore, totalCorrect, totalWrong, results, flashcards, dailyQuests } = useGamificationStore()
+  const navigate = useNavigate()
+  const { xp, level, streak, achievements, totalTests, averageScore, bestScore, worstScore, totalCorrect, totalWrong, totalStudyTime, results, flashcards, dailyQuests, smartNotes } = useGamificationStore()
   const levelProgress = getLevelProgress(xp)
   const [activeTab, setActiveTab] = useState<'overview' | 'quests' | 'achievements' | 'flashcards'>('overview')
 
@@ -143,8 +145,11 @@ export default function DashboardPage() {
               <div className="bg-white/5 rounded-xl border border-white/10 p-4 sm:p-6">
                 <h3 className="text-base sm:text-lg font-semibold mb-3">Quick Actions</h3>
                 <div className="space-y-2">
-                  <a href="/" className="block w-full text-center py-2 bg-purple-600 rounded-lg hover:bg-purple-700 text-sm">Start Practice</a>
-                  <a href="/revision" className="block w-full text-center py-2 bg-white/10 rounded-lg hover:bg-white/20 text-sm">Review Mistakes</a>
+                  <button onClick={() => navigate('/')} className="block w-full text-center py-2 bg-purple-600 rounded-lg hover:bg-purple-700 text-sm">Start Practice</button>
+                  <button onClick={() => navigate('/revision')} className="block w-full text-center py-2 bg-white/10 rounded-lg hover:bg-white/20 text-sm">Review Mistakes</button>
+                  <button onClick={() => navigate('/history')} className="block w-full text-center py-2 bg-white/10 rounded-lg hover:bg-white/20 text-sm">Test History</button>
+                  <button onClick={() => navigate('/learning')} className="block w-full text-center py-2 bg-white/10 rounded-lg hover:bg-white/20 text-sm">Learn from Mistakes</button>
+                  <button onClick={() => navigate('/analytics')} className="block w-full text-center py-2 bg-white/10 rounded-lg hover:bg-white/20 text-sm">Analytics</button>
                 </div>
               </div>
 

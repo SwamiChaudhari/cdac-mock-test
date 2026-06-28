@@ -1,16 +1,18 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTestStore } from '../stores/testStore'
-import { useStatsStore } from '../stores/statsStore'
+import { useGamificationStore } from '../stores/gamificationStore'
 import { useQuestionTracker } from '../stores/questionTracker'
+import { useHistoryStore } from '../stores/historyStore'
 import { formatTime, getQuestionStatus, calculateResults } from '../utils'
 import type { QuestionStatus, TestResult } from '../types'
 
 export default function TestPage() {
   const navigate = useNavigate()
   const { session, setAnswer, toggleMarkForReview, setCurrentIndex, clearResponse, submitTest, resetTest } = useTestStore()
-  const { addResult, addMistake } = useStatsStore()
+  const { addResult, addMistake } = useGamificationStore()
   const { recordSessionComplete } = useQuestionTracker()
+  const { saveTest } = useHistoryStore()
   const [timeLeft, setTimeLeft] = useState(0)
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false)
   const [showNavigator, setShowNavigator] = useState(false)
@@ -50,6 +52,13 @@ export default function TestPage() {
       id: session.id,
       sessionId: session.id,
       mode: session.mode,
+      testName: session.mode === 'full-mock' ? 'Full Mock Test' :
+                session.mode === 'section-a' ? 'Section A Mock' :
+                session.mode === 'section-b' ? 'Section B Mock' :
+                session.mode === 'topic-practice' ? 'Topic Practice' :
+                session.mode === 'previous-mistakes' ? 'Previous Mistakes' :
+                session.mode === 'daily-challenge' ? 'Daily Challenge' :
+                session.mode === 'rapid-revision' ? 'Rapid Revision' : session.mode,
       score: results.score,
       totalMarks: results.totalMarks,
       correct: results.correct,
@@ -61,11 +70,15 @@ export default function TestPage() {
       weakTopics: results.weakTopics,
       strongTopics: results.strongTopics,
       date: Date.now(),
+      topicAnalysis: {},
+      questionDetails: [],
+      smartNotes: [],
+      generatedFlashcardIds: [],
     }
 
-    // Build subject analysis
-    results.subjectAnalysis.forEach((sa) => {
-      result.subjectAnalysis[sa.subject] = {
+    // Build subject analysis (already a Record from utils)
+    Object.entries(results.subjectAnalysis).forEach(([subject, sa]) => {
+      result.subjectAnalysis[subject] = {
         subject: sa.subject,
         total: sa.total,
         correct: sa.correct,
@@ -75,6 +88,14 @@ export default function TestPage() {
         timeSpent: 0,
       }
     })
+
+    // Build topic analysis
+    Object.entries(results.topicAnalysis).forEach(([topic, ta]) => {
+      result.topicAnalysis[topic] = ta
+    })
+
+    // Save question details for review
+    result.questionDetails = results.questionDetails
 
     // Track mistakes and record attempts
     const questionIds: string[] = []
@@ -90,8 +111,28 @@ export default function TestPage() {
     recordSessionComplete(questionIds, session.id)
 
     addResult(result)
+
+    // Save to history for review
+    saveTest({
+      id: result.id,
+      result,
+      questions: session.questions.map(q => ({
+        id: q.id,
+        question: q.question,
+        options: q.options,
+        correctAnswer: q.correctAnswer,
+        explanation: q.explanation,
+        subject: q.subject,
+        topic: q.topic,
+        difficulty: q.difficulty,
+        marks: q.marks,
+      })),
+      reattempts: [],
+      savedAt: Date.now(),
+    })
+
     navigate('/result')
-  }, [session, timeLeft, submitTest, addResult, addMistake, recordSessionComplete, navigate])
+  }, [session, timeLeft, submitTest, addResult, addMistake, recordSessionComplete, saveTest, navigate])
 
   if (!session) return null
 

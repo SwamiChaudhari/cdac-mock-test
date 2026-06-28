@@ -1,0 +1,8502 @@
+[
+  {
+    "id": "oop-cla-00001",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "Class is?",
+    "options": [
+      "Function",
+      "Variable",
+      "Object",
+      "Blueprint"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Blueprint",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00002",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "Object is?",
+    "options": [
+      "Instance of class",
+      "Variable",
+      "Class",
+      "Function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Instance of class",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00003",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "Class members are ? by default",
+    "options": [
+      "Protected",
+      "Static",
+      "Public",
+      "Private"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Private",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00004",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "Object creation uses?",
+    "options": [
+      "create Class",
+      "obj Class",
+      "new Class()",
+      "ClassName obj;"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: ClassName obj;",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00005",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "Dot operator accesses?",
+    "options": [
+      "Address",
+      "Reference",
+      "Pointer",
+      "Member of object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Member of object",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00006",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "easy",
+    "question": "Constructor name is same as?",
+    "options": [
+      "Class",
+      "Variable",
+      "Function",
+      "Object"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Class",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00007",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "Constructor has ? return type",
+    "options": [
+      "void",
+      "char",
+      "No",
+      "int"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: No",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00008",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "Default constructor takes ? args",
+    "options": [
+      "No",
+      "One",
+      "Any",
+      "Two"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: No",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00009",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "Copy constructor takes?",
+    "options": [
+      "Value",
+      "Pointer",
+      "Object reference",
+      "Object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Object reference",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00010",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "easy",
+    "question": "Constructor is called when?",
+    "options": [
+      "Program ends",
+      "Object deleted",
+      "Object created",
+      "Function called"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Object created",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00011",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "hard",
+    "question": "Destructor starts with?",
+    "options": [
+      "~",
+      "!",
+      "#",
+      "*"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: ~",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00012",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "Destructor is called when?",
+    "options": [
+      "Object destroyed",
+      "Program starts",
+      "Function called",
+      "Object created"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Object destroyed",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00013",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "Destructor takes ? args",
+    "options": [
+      "One",
+      "No",
+      "Two",
+      "Any"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: No",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00014",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "medium",
+    "question": "Class can have ? destructors",
+    "options": [
+      "One",
+      "Two",
+      "Zero",
+      "Many"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: One",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00015",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "Destructor has ? return type",
+    "options": [
+      "char",
+      "No",
+      "int",
+      "void"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: No",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00016",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "Inheritance means?",
+    "options": [
+      "Reusing code",
+      "Hiding",
+      "Copying",
+      "Deleting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Reusing code",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00017",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "Base class is also called?",
+    "options": [
+      "Sub",
+      "Parent class",
+      "Derived",
+      "Child"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Parent class",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00018",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "hard",
+    "question": "Derived class is also called?",
+    "options": [
+      "Child class",
+      "Base",
+      "Super",
+      "Parent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Child class",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00019",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "Single inheritance has ? base",
+    "options": [
+      "Three",
+      "One",
+      "Many",
+      "Two"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: One",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00020",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "Multiple inheritance has ? bases",
+    "options": [
+      "Zero",
+      "One",
+      "Three",
+      "Two or more"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Two or more",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00021",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "hard",
+    "question": "Multilevel: A\u2192B\u2192C is?",
+    "options": [
+      "Multilevel",
+      "Hierarchical",
+      "Multiple",
+      "Hybrid"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Multilevel",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00022",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "easy",
+    "question": "Multiple: A,B\u2192C is?",
+    "options": [
+      "Multiple",
+      "Multilevel",
+      "Single",
+      "Hierarchical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Multiple",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00023",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "hard",
+    "question": "Hierarchical: A\u2192B,C is?",
+    "options": [
+      "Multiple",
+      "Single",
+      "Hierarchical",
+      "Multilevel"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Hierarchical",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00024",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "easy",
+    "question": "Hybrid combines?",
+    "options": [
+      "Only hierarchical",
+      "Multiple types",
+      "Only single",
+      "Only multiple"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Multiple types",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00025",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "easy",
+    "question": "Virtual inheritance solves?",
+    "options": [
+      "Polymorphism",
+      "Encapsulation",
+      "Diamond problem",
+      "Abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Diamond problem",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00026",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "Virtual function enables?",
+    "options": [
+      "Runtime polymorphism",
+      "Early binding",
+      "Static",
+      "Compile-time"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Runtime polymorphism",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00027",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "virtual keyword is in?",
+    "options": [
+      "Both",
+      "Derived",
+      "Base class",
+      "Neither"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Base class",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00028",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "Virtual function is called using?",
+    "options": [
+      "Object",
+      "Value",
+      "Reference",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00029",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "Vtable is created for classes with?",
+    "options": [
+      "Const",
+      "Inline",
+      "Static",
+      "Virtual functions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Virtual functions",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00030",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "Pure virtual function has?",
+    "options": [
+      "= null",
+      "= void",
+      "= empty",
+      "= 0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: = 0",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00031",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "Abstract class has ? pure virtual function",
+    "options": [
+      "Two",
+      "Zero",
+      "At least one",
+      "All"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: At least one",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00032",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "Abstract class can be instantiated?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Always"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: No",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00033",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "Abstract class is used as?",
+    "options": [
+      "Derived",
+      "Friend",
+      "Static",
+      "Base class"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Base class",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00034",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "Interface in C++ is?",
+    "options": [
+      "Abstract class",
+      "Class with all pure virtual",
+      "Friend",
+      "Template"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Class with all pure virtual",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00035",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": "Polymorphism means?",
+    "options": [
+      "Two forms",
+      "Many forms",
+      "No form",
+      "One form"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Many forms",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00036",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "Compile-time polymorphism uses?",
+    "options": [
+      "Virtual",
+      "Template",
+      "Inheritance",
+      "Function overloading"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Function overloading",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00037",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "Runtime polymorphism uses?",
+    "options": [
+      "Macros",
+      "Overloading",
+      "Templates",
+      "Virtual functions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Virtual functions",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00038",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "Function overloading is?",
+    "options": [
+      "Same name different params",
+      "Different return",
+      "Same params",
+      "Different name"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Same name different params",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00039",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": "Operator overloading is?",
+    "options": [
+      "Hiding",
+      "Overloading function",
+      "Overriding",
+      "Giving new meaning to operator"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Giving new meaning to operator",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00040",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "Template provides?",
+    "options": [
+      "Object-oriented",
+      "Specific",
+      "Procedural",
+      "Generic programming"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Generic programming",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00041",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "Template keyword syntax?",
+    "options": [
+      "template<typename T>",
+      "class<T>",
+      "template<T>",
+      "generic<T>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: template<typename T>",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00042",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "Function template creates?",
+    "options": [
+      "Variable",
+      "Object",
+      "Generic function",
+      "Class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Generic function",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00043",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "Class template creates?",
+    "options": [
+      "Object",
+      "Function",
+      "Generic class",
+      "Variable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Generic class",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00044",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "try block contains?",
+    "options": [
+      "Nothing",
+      "Cleanup",
+      "Handler",
+      "Code that may throw"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Code that may throw",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00045",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "catch block contains?",
+    "options": [
+      "Throw code",
+      "Try code",
+      "Cleanup",
+      "Exception handler"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Exception handler",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00046",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": "throw is used to?",
+    "options": [
+      "Handle",
+      "Raise exception",
+      "Ignore",
+      "Catch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Raise exception",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00047",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "catch(...) catches?",
+    "options": [
+      "String",
+      "Int",
+      "Char",
+      "All exceptions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: All exceptions",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00048",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": "Finally block in C++?",
+    "options": [
+      "Exists",
+      "Does not exist",
+      "Required",
+      "Optional"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Does not exist",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00049",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "hard",
+    "question": "Friend function is ? member of class",
+    "options": [
+      "Not a",
+      "Const",
+      "Static",
+      "A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Not a",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00050",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "easy",
+    "question": "Friend function can access?",
+    "options": [
+      "Private members",
+      "Only public",
+      "Nothing",
+      "Only protected"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Private members",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00051",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "medium",
+    "question": "Friend keyword is used in?",
+    "options": [
+      "Function",
+      "Global",
+      "Main",
+      "Class declaration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Class declaration",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00052",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "hard",
+    "question": "Friend class can access?",
+    "options": [
+      "Private of another",
+      "Only public",
+      "Only protected",
+      "Nothing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Private of another",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00053",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "Static member is shared by?",
+    "options": [
+      "Two objects",
+      "All objects",
+      "One object",
+      "No objects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: All objects",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00054",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "Static member function can access?",
+    "options": [
+      "Non-static",
+      "All members",
+      "Private",
+      "Only static members"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Only static members",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00055",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "Static member is initialized?",
+    "options": [
+      "Outside class",
+      "Inside class",
+      "In main",
+      "In constructor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Outside class",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00056",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "easy",
+    "question": "Static variable retains value?",
+    "options": [
+      "Cleared",
+      "Lost",
+      "Reset",
+      "Between calls"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Between calls",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00057",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "Reference is?",
+    "options": [
+      "Variable",
+      "Constant",
+      "Pointer",
+      "Alias"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Alias",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00058",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "Reference must be?",
+    "options": [
+      "Null",
+      "Initialized",
+      "Declared",
+      "Deleted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Initialized",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00059",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "Reference can be reassigned?",
+    "options": [
+      "No",
+      "Sometimes",
+      "Always",
+      "Yes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: No",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00060",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "& in declaration is?",
+    "options": [
+      "Pointer",
+      "Reference",
+      "Address",
+      "AND"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Reference",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00061",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "easy",
+    "question": "Which cannot be overloaded?",
+    "options": [
+      "+",
+      "-",
+      "::",
+      "*"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: ::",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00062",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "Which cannot be overloaded?",
+    "options": [
+      "sizeof",
+      "+",
+      "-",
+      "*"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: sizeof",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00063",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "Which cannot be overloaded?",
+    "options": [
+      "*",
+      ".",
+      "+",
+      "-"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00064",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "Which cannot be overloaded?",
+    "options": [
+      "-",
+      "+",
+      "*",
+      "?:"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: ?:",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00065",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "Overloaded operator must have ? operand",
+    "options": [
+      "None",
+      "At least one class",
+      "Two built-in",
+      "Three"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: At least one class",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00066",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "RTTI stands for?",
+    "options": [
+      "Return Type",
+      "Runtime Type Information",
+      "Real Time",
+      "Run Time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Runtime Type Information",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00067",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "typeid operator returns?",
+    "options": [
+      "type_info object",
+      "String",
+      "Int",
+      "Char"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: type_info object",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00068",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "dynamic_cast is used for?",
+    "options": [
+      "Downcasting",
+      "Const cast",
+      "Static cast",
+      "Upcasting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Downcasting",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00069",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "typeid requires?",
+    "options": [
+      "vector",
+      "typeinfo header",
+      "string",
+      "iostream"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: typeinfo header",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00070",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "static_cast is checked at?",
+    "options": [
+      "Never",
+      "Link time",
+      "Runtime",
+      "Compile time"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Compile time",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00071",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "easy",
+    "question": "dynamic_cast is checked at?",
+    "options": [
+      "Link time",
+      "Runtime",
+      "Never",
+      "Compile time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Runtime",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00072",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "const_cast removes?",
+    "options": [
+      "Volatile",
+      "Static",
+      "Const",
+      "Mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Const",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00073",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "reinterpret_cast is?",
+    "options": [
+      "Checked",
+      "High level",
+      "Safe",
+      "Low level"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Low level",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00074",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "easy",
+    "question": "Inline function is expanded at?",
+    "options": [
+      "Call site",
+      "Runtime",
+      "Compile",
+      "Link"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Call site",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00075",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "inline is a?",
+    "options": [
+      "Command",
+      "Request to compiler",
+      "Guaranteed",
+      "Mandatory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Request to compiler",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00076",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "Inline reduces?",
+    "options": [
+      "Memory",
+      "Size",
+      "Function call overhead",
+      "Variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Function call overhead",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00077",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": "Large functions should be inline?",
+    "options": [
+      "Yes",
+      "No",
+      "Always",
+      "Depends"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: No",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00078",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "hard",
+    "question": "Default args are specified in?",
+    "options": [
+      "Declaration",
+      "Both",
+      "Call",
+      "Definition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Declaration",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00079",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "medium",
+    "question": "Default args are filled from?",
+    "options": [
+      "Left to right",
+      "Right to left",
+      "Middle",
+      "Any"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Right to left",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00080",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "medium",
+    "question": "Default args can be in?",
+    "options": [
+      "Body",
+      "Prototype",
+      "Call",
+      "Definition only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Prototype",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00081",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "medium",
+    "question": "cin is an object of?",
+    "options": [
+      "ostream",
+      "iostream",
+      "istream",
+      "stream"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: istream",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00082",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "hard",
+    "question": "cout is an object of?",
+    "options": [
+      "iostream",
+      "ostream",
+      "istream",
+      "stream"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: ostream",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00083",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "medium",
+    "question": "<< is?",
+    "options": [
+      "Shift",
+      "Extraction",
+      "Insertion operator",
+      "Assignment"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Insertion operator",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00084",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "easy",
+    "question": ">> is?",
+    "options": [
+      "Insertion",
+      "Extraction operator",
+      "Shift",
+      "Assignment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extraction operator",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00085",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "hard",
+    "question": "cin >> reads from?",
+    "options": [
+      "Memory",
+      "Keyboard",
+      "Screen",
+      "File"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Keyboard",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00086",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Name conflict",
+      "Loop",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00087",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Error",
+      "Name conflict",
+      "Loop",
+      "Memory leak"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00088",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Modification in const",
+      "Static",
+      "Volatile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00089",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Loop",
+      "Name conflict",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00090",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Deletes std",
+      "Brings std to scope",
+      "Defines std"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00091",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Error",
+      "Name conflict",
+      "Memory leak"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00092",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Object",
+      "Reference",
+      "Pointer",
+      "Value"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00093",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Base",
+      "Previous",
+      "Next"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00094",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".c",
+      ".cc",
+      ".cxx",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00095",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Modifies",
+      "Returns const",
+      "Is static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00096",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Error",
+      "Memory leak",
+      "Loop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00097",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Destruction",
+      "Explicit",
+      "Implicit conversion",
+      "Constructor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00098",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cc",
+      ".c",
+      ".cxx",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00099",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Modification in const",
+      "Volatile",
+      "Static",
+      "Const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00100",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Constructor",
+      "Destruction",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00101",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "Bjarne Stroustrup",
+      "James Gosling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00102",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Base",
+      "Current object",
+      "Previous"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00103",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Previous",
+      "Base",
+      "Next"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00104",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Object",
+      "Reference",
+      "Value",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00105",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Deletes std",
+      "Defines std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00106",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Modifies",
+      "Returns const",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00107",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Constructor",
+      "Nothing",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00108",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Function",
+      "Constructor",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00109",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Implicit conversion",
+      "Explicit",
+      "Destruction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00110",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Pointer",
+      "Reference",
+      "Object"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00111",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Base",
+      "Next",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00112",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Error",
+      "Loop",
+      "Memory leak"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00113",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "James Gosling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00114",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "Bjarne Stroustrup",
+      "James Gosling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00115",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Error",
+      "Memory leak",
+      "Name conflict"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00116",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Function",
+      "Nothing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00117",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "James Gosling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00118",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Implicit conversion",
+      "Destruction",
+      "Constructor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00119",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Next",
+      "Previous",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00120",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Static",
+      "Volatile",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00121",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Reference",
+      "Object",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00122",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Modification in const",
+      "Static",
+      "Volatile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00123",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Pointer",
+      "Reference",
+      "Object"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00124",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".cpp",
+      ".cc",
+      ".c"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00125",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".c",
+      ".cxx",
+      ".cc",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00126",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Deletes std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00127",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Brings std to scope",
+      "Deletes std",
+      "Defines std"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00128",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00129",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Implicit conversion",
+      "Destruction",
+      "Explicit",
+      "Constructor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00130",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Deletes std",
+      "Defines std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00131",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Modification in const",
+      "Volatile",
+      "Const",
+      "Static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00132",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Const",
+      "Modification in const",
+      "Static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00133",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Volatile",
+      "Static",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00134",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Returns const",
+      "Is static",
+      "Doesn't modify object",
+      "Modifies"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00135",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Returns const",
+      "Modifies",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00136",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Is static",
+      "Modifies",
+      "Returns const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00137",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".cpp",
+      ".cc",
+      ".c"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00138",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Next",
+      "Current object",
+      "Previous"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00139",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".cxx",
+      ".cc",
+      ".c"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00140",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Error",
+      "Loop",
+      "Name conflict",
+      "Memory leak"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00141",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Volatile",
+      "Modification in const",
+      "Const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00142",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "James Gosling",
+      "Ken Thompson",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00143",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Value",
+      "Object",
+      "Reference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00144",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".c",
+      ".cpp",
+      ".cc"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00145",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Is static",
+      "Modifies",
+      "Returns const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00146",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Deletes std",
+      "Creates std",
+      "Defines std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00147",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Returns const",
+      "Is static",
+      "Modifies"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00148",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Base",
+      "Current object",
+      "Next"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00149",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Deletes std",
+      "Brings std to scope",
+      "Defines std",
+      "Creates std"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00150",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Volatile",
+      "Modification in const",
+      "Const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00151",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Previous",
+      "Current object",
+      "Next"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00152",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Function",
+      "Constructor",
+      "Nothing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00153",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Doesn't modify object",
+      "Modifies",
+      "Returns const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00154",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".c",
+      ".cxx",
+      ".cc"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00155",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00156",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Previous",
+      "Next",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00157",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Error",
+      "Memory leak",
+      "Loop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00158",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Modification in const",
+      "Volatile",
+      "Static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00159",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Deletes std",
+      "Brings std to scope",
+      "Defines std"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00160",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Creates std",
+      "Deletes std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00161",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Destructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00162",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Is static",
+      "Returns const",
+      "Modifies"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00163",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".c",
+      ".cc",
+      ".cxx"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00164",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Next",
+      "Previous",
+      "Base"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00165",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Is static",
+      "Returns const",
+      "Modifies"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00166",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".cc",
+      ".c",
+      ".cxx"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00167",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Current object",
+      "Base",
+      "Next"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00168",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Next",
+      "Current object",
+      "Base"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00169",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "James Gosling",
+      "Ken Thompson"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00170",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Destruction",
+      "Constructor",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00171",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Volatile",
+      "Modification in const",
+      "Const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00172",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Destruction",
+      "Constructor",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00173",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Name conflict",
+      "Error",
+      "Loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00174",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Object",
+      "Reference",
+      "Pointer",
+      "Value"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00175",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Name conflict",
+      "Memory leak",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00176",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Function",
+      "Nothing",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00177",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Implicit conversion",
+      "Destruction",
+      "Explicit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00178",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Current object",
+      "Next",
+      "Previous"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00179",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Reference",
+      "Object",
+      "Value",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00180",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Deletes std",
+      "Creates std",
+      "Defines std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00181",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Returns const",
+      "Doesn't modify object",
+      "Modifies",
+      "Is static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00182",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Current object",
+      "Previous",
+      "Base"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00183",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Object",
+      "Value",
+      "Reference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00184",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Base",
+      "Current object",
+      "Previous"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00185",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Const",
+      "Modification in const",
+      "Volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00186",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "James Gosling",
+      "Bjarne Stroustrup",
+      "Ken Thompson",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00187",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Reference",
+      "Object",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00188",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Creates std",
+      "Deletes std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00189",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".c",
+      ".cc",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00190",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Previous",
+      "Current object",
+      "Base"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00191",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Name conflict",
+      "Memory leak",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00192",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Next",
+      "Previous",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00193",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Deletes std",
+      "Creates std",
+      "Defines std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00194",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Memory leak",
+      "Error",
+      "Loop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00195",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Error",
+      "Memory leak",
+      "Loop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00196",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cc",
+      ".cxx",
+      ".cpp",
+      ".c"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00197",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Destructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00198",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Modifies",
+      "Doesn't modify object",
+      "Is static",
+      "Returns const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00199",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Previous",
+      "Base",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00200",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Defines std",
+      "Deletes std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00201",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Base",
+      "Current object",
+      "Previous"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00202",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Next",
+      "Previous",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00203",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Object",
+      "Value",
+      "Reference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00204",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Value",
+      "Object",
+      "Reference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00205",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".c",
+      ".cpp",
+      ".cc"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00206",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Nothing",
+      "Constructor",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00207",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Destruction",
+      "Constructor",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00208",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Function",
+      "Constructor",
+      "Nothing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00209",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Current object",
+      "Next",
+      "Previous"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00210",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".cpp",
+      ".cc",
+      ".c"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00211",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Function",
+      "Destructor",
+      "Constructor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00212",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Ken Thompson",
+      "James Gosling",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00213",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Constructor",
+      "Destructor",
+      "Function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00214",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Object",
+      "Pointer",
+      "Reference"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00215",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Destruction",
+      "Explicit",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00216",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Destruction",
+      "Implicit conversion",
+      "Constructor",
+      "Explicit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00217",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Constructor",
+      "Function",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00218",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Implicit conversion",
+      "Constructor",
+      "Destruction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00219",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "James Gosling",
+      "Ken Thompson"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00220",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Explicit",
+      "Implicit conversion",
+      "Destruction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00221",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Modifies",
+      "Doesn't modify object",
+      "Is static",
+      "Returns const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00222",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Deletes std",
+      "Brings std to scope",
+      "Defines std",
+      "Creates std"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00223",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "James Gosling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00224",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Reference",
+      "Object",
+      "Pointer",
+      "Value"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00225",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Nothing",
+      "Destructor",
+      "Function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00226",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Reference",
+      "Pointer",
+      "Object",
+      "Value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00227",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Deletes std",
+      "Creates std",
+      "Defines std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00228",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Name conflict",
+      "Memory leak",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00229",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Loop",
+      "Memory leak",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00230",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Object",
+      "Value",
+      "Pointer",
+      "Reference"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00231",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "Bjarne Stroustrup",
+      "James Gosling",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00232",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Doesn't modify object",
+      "Returns const",
+      "Modifies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00233",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Destruction",
+      "Explicit",
+      "Constructor",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00234",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Destructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00235",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Static",
+      "Modification in const",
+      "Const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00236",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Is static",
+      "Returns const",
+      "Modifies"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00237",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Reference",
+      "Value",
+      "Object"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00238",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Error",
+      "Memory leak",
+      "Loop",
+      "Name conflict"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00239",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Static",
+      "Volatile",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00240",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Nothing",
+      "Function",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00241",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "James Gosling",
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "Ken Thompson"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00242",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".cc",
+      ".c",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00243",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Implicit conversion",
+      "Destruction",
+      "Explicit",
+      "Constructor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00244",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "James Gosling",
+      "Ken Thompson",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00245",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Destructor",
+      "Function",
+      "Constructor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00246",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Nothing",
+      "Constructor",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00247",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Implicit conversion",
+      "Destruction",
+      "Constructor",
+      "Explicit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00248",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Value",
+      "Object",
+      "Reference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00249",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Reference",
+      "Value",
+      "Object"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00250",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Object",
+      "Reference",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00251",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".c",
+      ".cc",
+      ".cxx",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00252",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "James Gosling",
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00253",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "Ken Thompson",
+      "James Gosling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00254",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Object",
+      "Pointer",
+      "Reference"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00255",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Reference",
+      "Value",
+      "Object",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00256",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Error",
+      "Loop",
+      "Memory leak",
+      "Name conflict"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00257",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Returns const",
+      "Is static",
+      "Modifies",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00258",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Object",
+      "Reference",
+      "Value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00259",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Modifies",
+      "Doesn't modify object",
+      "Is static",
+      "Returns const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00260",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Memory leak",
+      "Error",
+      "Name conflict"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00261",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Function",
+      "Destructor",
+      "Nothing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00262",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Modifies",
+      "Returns const",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00263",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Nothing",
+      "Function",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00264",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Defines std",
+      "Brings std to scope",
+      "Deletes std"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00265",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Next",
+      "Current object",
+      "Base"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00266",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Volatile",
+      "Modification in const",
+      "Static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00267",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".cc",
+      ".cxx",
+      ".c"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00268",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Object",
+      "Reference",
+      "Value",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00269",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Base",
+      "Next",
+      "Previous"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00270",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Modifies",
+      "Doesn't modify object",
+      "Returns const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00271",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Memory leak",
+      "Loop",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00272",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Value",
+      "Reference",
+      "Object"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00273",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Nothing",
+      "Destructor",
+      "Constructor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00274",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Volatile",
+      "Modification in const",
+      "Const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00275",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Deletes std",
+      "Defines std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00276",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Reference",
+      "Value",
+      "Object",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00277",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Deletes std",
+      "Defines std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00278",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Current object",
+      "Base",
+      "Previous"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00279",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Memory leak",
+      "Loop",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00280",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Modification in const",
+      "Const",
+      "Static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00281",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Base",
+      "Next",
+      "Previous"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00282",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Nothing",
+      "Constructor",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00283",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Error",
+      "Loop",
+      "Name conflict"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00284",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Name conflict",
+      "Error",
+      "Memory leak"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00285",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Value",
+      "Object",
+      "Reference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00286",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Constructor",
+      "Function",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00287",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Destructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00288",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Modification in const",
+      "Const",
+      "Volatile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00289",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".cc",
+      ".c",
+      ".cxx"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00290",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Static",
+      "Volatile",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00291",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Nothing",
+      "Destructor",
+      "Function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00292",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "James Gosling",
+      "Bjarne Stroustrup",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00293",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00294",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Ken Thompson",
+      "Dennis Ritchie",
+      "James Gosling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00295",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Reference",
+      "Value",
+      "Pointer",
+      "Object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00296",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Error",
+      "Loop",
+      "Name conflict",
+      "Memory leak"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00297",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Reference",
+      "Object",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00298",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00299",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Defines std",
+      "Brings std to scope",
+      "Deletes std"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00300",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Loop",
+      "Error",
+      "Memory leak"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00301",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Destruction",
+      "Implicit conversion",
+      "Constructor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00302",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Volatile",
+      "Const",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00303",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cc",
+      ".cpp",
+      ".cxx",
+      ".c"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00304",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Returns const",
+      "Is static",
+      "Doesn't modify object",
+      "Modifies"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00305",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Constructor",
+      "Nothing",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00306",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Returns const",
+      "Modifies",
+      "Is static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00307",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Deletes std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00308",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Doesn't modify object",
+      "Returns const",
+      "Modifies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00309",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Destruction",
+      "Constructor",
+      "Explicit",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00310",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Deletes std",
+      "Brings std to scope",
+      "Defines std"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00311",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Implicit conversion",
+      "Destruction",
+      "Explicit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00312",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Modifies",
+      "Doesn't modify object",
+      "Is static",
+      "Returns const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00313",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "Dennis Ritchie",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00314",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Memory leak",
+      "Loop",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00315",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Deletes std",
+      "Brings std to scope",
+      "Defines std"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00316",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".cpp",
+      ".c",
+      ".cc"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00317",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".c",
+      ".cxx",
+      ".cc"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00318",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Current object",
+      "Base",
+      "Next"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00319",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Brings std to scope",
+      "Defines std",
+      "Deletes std"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00320",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Deletes std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00321",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Loop",
+      "Memory leak",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00322",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Error",
+      "Loop",
+      "Memory leak"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00323",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Explicit",
+      "Implicit conversion",
+      "Destruction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00324",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Returns const",
+      "Doesn't modify object",
+      "Modifies"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00325",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "James Gosling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00326",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Destructor",
+      "Nothing",
+      "Constructor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00327",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Error",
+      "Loop",
+      "Name conflict",
+      "Memory leak"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00328",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "James Gosling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00329",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".c",
+      ".cpp",
+      ".cc",
+      ".cxx"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00330",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "new operator returns?",
+    "options": [
+      "Reference",
+      "Value",
+      "Object",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00331",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Value",
+      "Object",
+      "Reference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00332",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Static",
+      "Modification in const",
+      "Const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00333",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Returns const",
+      "Modifies",
+      "Is static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00334",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Destructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00335",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Modification in const",
+      "Static",
+      "Const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00336",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Previous",
+      "Current object",
+      "Next"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00337",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Volatile",
+      "Static",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00338",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Nothing",
+      "Function",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00339",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Deletes std",
+      "Defines std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00340",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Previous",
+      "Next",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00341",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Next",
+      "Previous",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00342",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Error",
+      "Name conflict",
+      "Loop"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00343",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Deletes std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00344",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Name conflict",
+      "Loop",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00345",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".cc",
+      ".cxx",
+      ".c"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00346",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Base",
+      "Current object",
+      "Previous"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00347",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Function",
+      "Nothing",
+      "Constructor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00348",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Deletes std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00349",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Deletes std",
+      "Creates std",
+      "Defines std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00350",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Ken Thompson",
+      "James Gosling",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00351",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".c",
+      ".cc",
+      ".cxx",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00352",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Static",
+      "Modification in const",
+      "Const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00353",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Explicit",
+      "Destruction",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00354",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cc",
+      ".cpp",
+      ".c",
+      ".cxx"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00355",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Object",
+      "Pointer",
+      "Reference",
+      "Value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00356",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Reference",
+      "Object",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00357",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Is static",
+      "Returns const",
+      "Modifies"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00358",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Brings std to scope",
+      "Deletes std",
+      "Defines std"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00359",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Reference",
+      "Object",
+      "Value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00360",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Implicit conversion",
+      "Constructor",
+      "Destruction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00361",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Name conflict",
+      "Error",
+      "Loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00362",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cc",
+      ".cxx",
+      ".cpp",
+      ".c"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00363",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "James Gosling",
+      "Ken Thompson",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00364",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Static",
+      "Const",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00365",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00366",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Defines std",
+      "Creates std",
+      "Deletes std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00367",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Error",
+      "Loop",
+      "Memory leak"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00368",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "James Gosling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00369",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Constructor",
+      "Function",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00370",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".c",
+      ".cc",
+      ".cpp",
+      ".cxx"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00371",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Destruction",
+      "Explicit",
+      "Constructor",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00372",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Returns const",
+      "Is static",
+      "Modifies"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00373",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Implicit conversion",
+      "Destruction",
+      "Explicit",
+      "Constructor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00374",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Modification in const",
+      "Const",
+      "Static",
+      "Volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00375",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Implicit conversion",
+      "Destruction",
+      "Constructor",
+      "Explicit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00376",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Constructor",
+      "Function",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00377",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Returns const",
+      "Is static",
+      "Modifies",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00378",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Error",
+      "Name conflict",
+      "Memory leak"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00379",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "James Gosling",
+      "Ken Thompson"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00380",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".cxx",
+      ".cc",
+      ".c"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00381",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cc",
+      ".cpp",
+      ".c",
+      ".cxx"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00382",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Base",
+      "Current object",
+      "Previous"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00383",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Next",
+      "Previous",
+      "Base"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00384",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Current object",
+      "Previous",
+      "Next"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00385",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Defines std",
+      "Brings std to scope",
+      "Creates std",
+      "Deletes std"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00386",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Name conflict",
+      "Error",
+      "Loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00387",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Function",
+      "Nothing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-ope-00388",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Operator Overloading",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Modifies",
+      "Returns const",
+      "Doesn't modify object",
+      "Is static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00389",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Nothing",
+      "Constructor",
+      "Function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00390",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Static",
+      "Modification in const",
+      "Volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00391",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Const",
+      "Modification in const",
+      "Static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00392",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Const",
+      "Modification in const",
+      "Volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00393",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00394",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Modification in const",
+      "Volatile",
+      "Const",
+      "Static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00395",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "James Gosling",
+      "Bjarne Stroustrup",
+      "Ken Thompson"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00396",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Modification in const",
+      "Const",
+      "Static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00397",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Deletes std",
+      "Creates std",
+      "Defines std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00398",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Modification in const",
+      "Const",
+      "Volatile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00399",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Deletes std",
+      "Defines std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00400",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Destructor",
+      "Constructor",
+      "Nothing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00401",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Returns const",
+      "Modifies",
+      "Is static",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00402",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "James Gosling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00403",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Modification in const",
+      "Volatile",
+      "Const",
+      "Static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00404",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Is static",
+      "Modifies",
+      "Returns const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00405",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Destructor",
+      "Constructor",
+      "Function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00406",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Nothing",
+      "Function",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00407",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Static",
+      "Modification in const",
+      "Volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00408",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "James Gosling",
+      "Ken Thompson",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00409",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Memory leak",
+      "Error",
+      "Loop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00410",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Volatile",
+      "Modification in const",
+      "Const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00411",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Current object",
+      "Previous",
+      "Base"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00412",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Function",
+      "Nothing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00413",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Function",
+      "Constructor",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00414",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Base",
+      "Current object",
+      "Next"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00415",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Doesn't modify object",
+      "Modifies",
+      "Returns const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00416",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Value",
+      "Object",
+      "Pointer",
+      "Reference"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00417",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Modification in const",
+      "Volatile",
+      "Const",
+      "Static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00418",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Destruction",
+      "Implicit conversion",
+      "Explicit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00419",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "James Gosling",
+      "Ken Thompson"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00420",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Implicit conversion",
+      "Destruction",
+      "Explicit",
+      "Constructor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00421",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Implicit conversion",
+      "Constructor",
+      "Destruction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00422",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Previous",
+      "Current object",
+      "Base"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00423",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Memory leak",
+      "Error",
+      "Name conflict"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00424",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Nothing",
+      "Function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00425",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Doesn't modify object",
+      "Returns const",
+      "Modifies",
+      "Is static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00426",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".c",
+      ".cc",
+      ".cxx"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00427",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Error",
+      "Name conflict",
+      "Loop",
+      "Memory leak"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00428",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Constructor",
+      "Destructor",
+      "Function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00429",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Destruction",
+      "Implicit conversion",
+      "Explicit",
+      "Constructor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00430",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "easy",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Destruction",
+      "Constructor",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00431",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Previous",
+      "Base",
+      "Next"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00432",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Memory leak",
+      "Error",
+      "Loop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00433",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Destruction",
+      "Constructor",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00434",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Modification in const",
+      "Volatile",
+      "Const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00435",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "Bjarne Stroustrup",
+      "James Gosling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00436",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Creates std",
+      "Deletes std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00437",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Returns const",
+      "Doesn't modify object",
+      "Modifies"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00438",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".cc",
+      ".cpp",
+      ".c"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00439",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".cc",
+      ".c",
+      ".cxx"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00440",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Modification in const",
+      "Static",
+      "Const",
+      "Volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00441",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "medium",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Creates std",
+      "Deletes std",
+      "Defines std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00442",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Constructor",
+      "Function",
+      "Nothing",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00443",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "Ken Thompson",
+      "James Gosling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00444",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Returns const",
+      "Is static",
+      "Doesn't modify object",
+      "Modifies"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00445",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "easy",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Doesn't modify object",
+      "Modifies",
+      "Returns const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00446",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Memory leak",
+      "Loop",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00447",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Memory leak",
+      "Loop",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00448",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Next",
+      "Current object",
+      "Previous"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00449",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Types of Inheritance",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Volatile",
+      "Static",
+      "Const",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00450",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Destruction",
+      "Explicit",
+      "Implicit conversion",
+      "Constructor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00451",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".cxx",
+      ".c",
+      ".cc"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00452",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".c",
+      ".cc",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00453",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Error",
+      "Loop",
+      "Name conflict",
+      "Memory leak"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00454",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Defines std",
+      "Brings std to scope",
+      "Deletes std",
+      "Creates std"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00455",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Nothing",
+      "Destructor",
+      "Function",
+      "Constructor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-fri-00456",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Friend Functions",
+    "difficulty": "easy",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Error",
+      "Loop",
+      "Name conflict"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00457",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Memory leak",
+      "Name conflict",
+      "Error",
+      "Loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00458",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Creates std",
+      "Defines std",
+      "Brings std to scope",
+      "Deletes std"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00459",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Volatile",
+      "Static",
+      "Modification in const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00460",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Next",
+      "Base",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00461",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Defines std",
+      "Creates std",
+      "Deletes std",
+      "Brings std to scope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00462",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Next",
+      "Previous",
+      "Base"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00463",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Nothing",
+      "Destructor",
+      "Constructor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00464",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "James Gosling",
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00465",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "easy",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Deletes std",
+      "Defines std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-exc-00466",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Pointer",
+      "Object",
+      "Reference",
+      "Value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-cin-00467",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "cin and cout",
+    "difficulty": "medium",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".c",
+      ".cpp",
+      ".cc"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00468",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "James Gosling",
+      "Bjarne Stroustrup",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00469",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "Ken Thompson",
+      "James Gosling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00470",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".c",
+      ".cpp",
+      ".cc",
+      ".cxx"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00471",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Nothing",
+      "Constructor",
+      "Function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00472",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Explicit",
+      "Implicit conversion",
+      "Destruction",
+      "Constructor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00473",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Base",
+      "Next",
+      "Previous",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00474",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "hard",
+    "question": "new operator returns?",
+    "options": [
+      "Object",
+      "Reference",
+      "Pointer",
+      "Value"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00475",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cc",
+      ".cxx",
+      ".c",
+      ".cpp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00476",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "delete calls?",
+    "options": [
+      "Function",
+      "Nothing",
+      "Constructor",
+      "Destructor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00477",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Memory leak",
+      "Name conflict",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00478",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Modification in const",
+      "Const",
+      "Static",
+      "Volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00479",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "easy",
+    "question": "C++ extension?",
+    "options": [
+      ".cxx",
+      ".cpp",
+      ".cc",
+      ".c"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00480",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "medium",
+    "question": "namespace avoids?",
+    "options": [
+      "Name conflict",
+      "Loop",
+      "Memory leak",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00481",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "Ken Thompson",
+      "James Gosling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00482",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": "C++ was developed by?",
+    "options": [
+      "Bjarne Stroustrup",
+      "Ken Thompson",
+      "Dennis Ritchie",
+      "James Gosling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-ref-00483",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "References",
+    "difficulty": "medium",
+    "question": "mutable allows?",
+    "options": [
+      "Const",
+      "Modification in const",
+      "Volatile",
+      "Static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-pol-00484",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Polymorphism",
+    "difficulty": "easy",
+    "question": "this pointer points to?",
+    "options": [
+      "Current object",
+      "Next",
+      "Previous",
+      "Base"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-rtt-00485",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "RTTI",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Implicit conversion",
+      "Explicit",
+      "Destruction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-cla-00486",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Classes and Objects",
+    "difficulty": "medium",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Modifies",
+      "Returns const",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-inh-00487",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "hard",
+    "question": "C++ extension?",
+    "options": [
+      ".cpp",
+      ".c",
+      ".cc",
+      ".cxx"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: .cpp",
+    "marks": 1
+  },
+  {
+    "id": "oop-inl-00488",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Implicit conversion",
+      "Destruction",
+      "Explicit",
+      "Constructor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00489",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Modifies",
+      "Returns const",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00490",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "mutable allows?",
+    "options": [
+      "Static",
+      "Const",
+      "Modification in const",
+      "Volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Modification in const",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00491",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "medium",
+    "question": "new operator returns?",
+    "options": [
+      "Object",
+      "Value",
+      "Reference",
+      "Pointer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Pointer",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00492",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "explicit prevents?",
+    "options": [
+      "Constructor",
+      "Implicit conversion",
+      "Destruction",
+      "Explicit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-def-00493",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Default Arguments",
+    "difficulty": "hard",
+    "question": "delete calls?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Function",
+      "Nothing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Destructor",
+    "marks": 1
+  },
+  {
+    "id": "oop-con-00494",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructors",
+    "difficulty": "medium",
+    "question": "this pointer points to?",
+    "options": [
+      "Previous",
+      "Base",
+      "Next",
+      "Current object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  },
+  {
+    "id": "oop-vir-00495",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Functions",
+    "difficulty": "hard",
+    "question": "namespace avoids?",
+    "options": [
+      "Loop",
+      "Error",
+      "Memory leak",
+      "Name conflict"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Name conflict",
+    "marks": 1
+  },
+  {
+    "id": "oop-abs-00496",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Classes",
+    "difficulty": "medium",
+    "question": "explicit prevents?",
+    "options": [
+      "Destruction",
+      "Constructor",
+      "Explicit",
+      "Implicit conversion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Implicit conversion",
+    "marks": 1
+  },
+  {
+    "id": "oop-tem-00497",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Templates",
+    "difficulty": "easy",
+    "question": "C++ was developed by?",
+    "options": [
+      "Ken Thompson",
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "James Gosling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Bjarne Stroustrup",
+    "marks": 1
+  },
+  {
+    "id": "oop-typ-00498",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Type Casting",
+    "difficulty": "hard",
+    "question": "using namespace std?",
+    "options": [
+      "Brings std to scope",
+      "Defines std",
+      "Deletes std",
+      "Creates std"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Brings std to scope",
+    "marks": 1
+  },
+  {
+    "id": "oop-sta-00499",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Static Members",
+    "difficulty": "hard",
+    "question": "const member function?",
+    "options": [
+      "Is static",
+      "Returns const",
+      "Modifies",
+      "Doesn't modify object"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Doesn't modify object",
+    "marks": 1
+  },
+  {
+    "id": "oop-des-00500",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructors",
+    "difficulty": "hard",
+    "question": "this pointer points to?",
+    "options": [
+      "Next",
+      "Previous",
+      "Current object",
+      "Base"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Current object",
+    "marks": 1
+  }
+]

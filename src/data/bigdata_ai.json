@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "big-big-00001",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Big Data 5Vs include?",
+    "options": [
+      "Volume",
+      "Volume Velocity",
+      "Volume Velocity Variety Veracity Value",
+      "Volume Velocity Variety"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Volume Velocity Variety Veracity Value",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00002",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "hard",
+    "question": "Volume refers to?",
+    "options": [
+      "Amount of data",
+      "Quality",
+      "Speed",
+      "Type"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Amount of data",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00003",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "hard",
+    "question": "Velocity refers to?",
+    "options": [
+      "Speed of data",
+      "Amount",
+      "Quality",
+      "Type"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Speed of data",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00004",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "medium",
+    "question": "Variety refers to?",
+    "options": [
+      "Quality",
+      "Different types",
+      "Amount",
+      "Speed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different types",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00005",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Veracity refers to?",
+    "options": [
+      "Type",
+      "Amount",
+      "Speed",
+      "Quality/accuracy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Quality/accuracy",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00006",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Value refers to?",
+    "options": [
+      "Amount",
+      "Usefulness",
+      "Speed",
+      "Type"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Usefulness",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00007",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "medium",
+    "question": "Structured data is in?",
+    "options": [
+      "Tables",
+      "Videos",
+      "Text",
+      "Images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Tables",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00008",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "hard",
+    "question": "Semi-structured data example?",
+    "options": [
+      "Image",
+      "Plain text",
+      "JSON",
+      "Table"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: JSON",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00009",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "easy",
+    "question": "Unstructured data example?",
+    "options": [
+      "Table",
+      "JSON",
+      "Video",
+      "XML"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Video",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00010",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "easy",
+    "question": "CSV is?",
+    "options": [
+      "Binary",
+      "Unstructured",
+      "None",
+      "Structured/Semi-structured"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Structured/Semi-structured",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00011",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "easy",
+    "question": "SQL databases store?",
+    "options": [
+      "Semi",
+      "Structured data",
+      "Unstructured",
+      "Binary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Structured data",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00012",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "medium",
+    "question": "NoSQL stands for?",
+    "options": [
+      "Non SQL",
+      "New SQL",
+      "No SQL",
+      "Not Only SQL"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Not Only SQL",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00013",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "hard",
+    "question": "Document database example?",
+    "options": [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Oracle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: MongoDB",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00014",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "easy",
+    "question": "Key-value database example?",
+    "options": [
+      "MongoDB",
+      "Redis",
+      "MySQL",
+      "Cassandra"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Redis",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00015",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "medium",
+    "question": "Column-family example?",
+    "options": [
+      "Redis",
+      "MySQL",
+      "MongoDB",
+      "Cassandra"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Cassandra",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00016",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "hard",
+    "question": "Graph database example?",
+    "options": [
+      "Neo4j",
+      "MongoDB",
+      "MySQL",
+      "Redis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Neo4j",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00017",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "hard",
+    "question": "NoSQL is?",
+    "options": [
+      "Only vertical",
+      "Not scalable",
+      "Vertically",
+      "Horizontally scalable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Horizontally scalable",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00018",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "hard",
+    "question": "BASE stands for?",
+    "options": [
+      "Base Available",
+      "Basic Available",
+      "Basically Atomic",
+      "Basically Available Soft state Eventually consistent"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Basically Available Soft state Eventually consistent",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00019",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "hard",
+    "question": "CAP theorem allows?",
+    "options": [
+      "None",
+      "All 3",
+      "Only 2 of 3",
+      "Only 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Only 2 of 3",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00020",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "hard",
+    "question": "C in CAP is?",
+    "options": [
+      "Completion",
+      "Concurrency",
+      "Consistency",
+      "Compression"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Consistency",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00021",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "medium",
+    "question": "A in CAP is?",
+    "options": [
+      "Availability",
+      "Accuracy",
+      "Atomicity",
+      "Aggregation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Availability",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00022",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "easy",
+    "question": "P in CAP is?",
+    "options": [
+      "Partition tolerance",
+      "Performance",
+      "Processing",
+      "Persistence"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Partition tolerance",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00023",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "medium",
+    "question": "CP system sacrifices?",
+    "options": [
+      "Partition",
+      "Consistency",
+      "Availability",
+      "None"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Availability",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00024",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "easy",
+    "question": "AP system sacrifices?",
+    "options": [
+      "None",
+      "Partition",
+      "Availability",
+      "Consistency"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Consistency",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00025",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "hard",
+    "question": "Data warehouse is?",
+    "options": [
+      "Operational",
+      "Backup",
+      "Temporary",
+      "Integrated data store"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Integrated data store",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00026",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "hard",
+    "question": "OLAP stands for?",
+    "options": [
+      "Online Application",
+      "Online Analytical Processing",
+      "Online Access",
+      "Operational Analytical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Online Analytical Processing",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00027",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "hard",
+    "question": "OLTP stands for?",
+    "options": [
+      "Online Transaction Processing",
+      "Online Analytical",
+      "Operational Transaction",
+      "Online Transfer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Online Transaction Processing",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00028",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "hard",
+    "question": "OLAP is for?",
+    "options": [
+      "Analysis",
+      "Operations",
+      "Transactions",
+      "Backup"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Analysis",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00029",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "easy",
+    "question": "OLTP is for?",
+    "options": [
+      "Mining",
+      "Analysis",
+      "Transactions",
+      "Reporting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Transactions",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00030",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "medium",
+    "question": "Star schema has?",
+    "options": [
+      "Fact and dimensions",
+      "Only dimensions",
+      "Only facts",
+      "Tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Fact and dimensions",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00031",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "medium",
+    "question": "Snowflake schema is?",
+    "options": [
+      "Normalized star",
+      "Denormalized",
+      "Hierarchical",
+      "Flat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Normalized star",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00032",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "medium",
+    "question": "Fact table contains?",
+    "options": [
+      "Keys",
+      "Measures",
+      "Dimensions",
+      "Attributes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Measures",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00033",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "easy",
+    "question": "Hadoop is?",
+    "options": [
+      "Language",
+      "Distributed framework",
+      "OS",
+      "Database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Distributed framework",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00034",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "medium",
+    "question": "HDFS stands for?",
+    "options": [
+      "Hadoop Disk",
+      "Hadoop Data",
+      "Hadoop Distributed File System",
+      "Hadoop Distributed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Hadoop Distributed File System",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00035",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "hard",
+    "question": "MapReduce is for?",
+    "options": [
+      "Indexing",
+      "Storage",
+      "Processing",
+      "Querying"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Processing",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00036",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "easy",
+    "question": "NameNode is?",
+    "options": [
+      "Client",
+      "Slave",
+      "Master node",
+      "Worker"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Master node",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00037",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "medium",
+    "question": "DataNode is?",
+    "options": [
+      "Name",
+      "Master",
+      "Client",
+      "Slave node"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Slave node",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00038",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "hard",
+    "question": "YARN stands for?",
+    "options": [
+      "Yet Another Resource Negotiator",
+      "Young And",
+      "Yarn",
+      "Yet Another"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Yet Another Resource Negotiator",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00039",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "easy",
+    "question": "Hadoop default block size?",
+    "options": [
+      "64 MB",
+      "128 MB",
+      "256 MB",
+      "512 MB"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 128 MB",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00040",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "easy",
+    "question": "Replication factor default?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 3",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00041",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "hard",
+    "question": "Hive is?",
+    "options": [
+      "Database",
+      "OS",
+      "Language",
+      "Data warehouse on Hadoop"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data warehouse on Hadoop",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00042",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "hard",
+    "question": "HiveQL is like?",
+    "options": [
+      "Java",
+      "SQL",
+      "Python",
+      "C++"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: SQL",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00043",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "easy",
+    "question": "Hive stores metadata in?",
+    "options": [
+      "YARN",
+      "Metastore",
+      "HDFS",
+      "NameNode"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Metastore",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00044",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "medium",
+    "question": "Hive table format?",
+    "options": [
+      "CSV only",
+      "XML",
+      "JSON",
+      "ORC/Parquet/Text"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: ORC/Parquet/Text",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00045",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "medium",
+    "question": "Spark is faster than MapReduce due to?",
+    "options": [
+      "Disk",
+      "CPU",
+      "Network",
+      "In-memory processing"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: In-memory processing",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00046",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "easy",
+    "question": "RDD stands for?",
+    "options": [
+      "Resilient Data",
+      "Resilient Distributed Dataset",
+      "Resilient Disk",
+      "Reliable Distributed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Resilient Distributed Dataset",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00047",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "hard",
+    "question": "Spark is written in?",
+    "options": [
+      "C++",
+      "Python",
+      "Scala",
+      "Java"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Scala",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00048",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "hard",
+    "question": "Spark Streaming processes?",
+    "options": [
+      "Real-time data",
+      "Historical",
+      "None",
+      "Batch only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Real-time data",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00049",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "easy",
+    "question": "DataFrame in Spark is?",
+    "options": [
+      "Single table",
+      "Local",
+      "Distributed collection",
+      "Array"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Distributed collection",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00050",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "hard",
+    "question": "Batch processing handles?",
+    "options": [
+      "Single record",
+      "None",
+      "Real-time",
+      "Large static data"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Large static data",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00051",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "easy",
+    "question": "Stream processing handles?",
+    "options": [
+      "Static",
+      "Historical",
+      "Real-time data",
+      "Batch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Real-time data",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00052",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "easy",
+    "question": "Kafka is used for?",
+    "options": [
+      "Querying",
+      "Stream processing",
+      "Storage",
+      "Batch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Stream processing",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00053",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "medium",
+    "question": "Flink is?",
+    "options": [
+      "Batch only",
+      "Stream processor",
+      "Database",
+      "Language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Stream processor",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00054",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "ETL stands for?",
+    "options": [
+      "Enter Transform",
+      "Extract Transfer",
+      "Extract Transform Load",
+      "Extract Load Transform"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extract Transform Load",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00055",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "medium",
+    "question": "ETL transforms data ?",
+    "options": [
+      "After loading",
+      "Never",
+      "Before loading",
+      "During"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Before loading",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00056",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "hard",
+    "question": "ELT is used in?",
+    "options": [
+      "Data warehouses",
+      "Files",
+      "Data lakes",
+      "Databases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data lakes",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00057",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "ELT transforms data ?",
+    "options": [
+      "During",
+      "Never",
+      "After loading",
+      "Before"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: After loading",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00058",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "hard",
+    "question": "Data science uses?",
+    "options": [
+      "Only programming",
+      "Only domain",
+      "Statistical methods",
+      "Only math"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Statistical methods",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00059",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "hard",
+    "question": "Data science pipeline starts with?",
+    "options": [
+      "Modeling",
+      "Problem definition",
+      "Data collection",
+      "Deployment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Problem definition",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00060",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "hard",
+    "question": "Feature engineering is?",
+    "options": [
+      "Cleaning",
+      "Creating new features",
+      "Selecting data",
+      "Modeling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Creating new features",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00061",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "medium",
+    "question": "Supervised learning has?",
+    "options": [
+      "Actions",
+      "Rewards",
+      "Labels",
+      "No labels"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Labels",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00062",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "medium",
+    "question": "Regression predicts?",
+    "options": [
+      "Clusters",
+      "Continuous values",
+      "Categories",
+      "Labels"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Continuous values",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00063",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "hard",
+    "question": "Classification predicts?",
+    "options": [
+      "Labels",
+      "Clusters",
+      "Continuous",
+      "Categories"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Categories",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00064",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "ML is a subset of?",
+    "options": [
+      "OS",
+      "AI",
+      "Database",
+      "Networking"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: AI",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00065",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "Supervised learning uses?",
+    "options": [
+      "Rewards",
+      "Labeled data",
+      "Unlabeled",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Labeled data",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00066",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "Unsupervised learning finds?",
+    "options": [
+      "Labels",
+      "Outputs",
+      "Targets",
+      "Patterns"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00067",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Reinforcement learning uses?",
+    "options": [
+      "Patterns",
+      "Rewards",
+      "Labels",
+      "Targets"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Rewards",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00068",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Overfitting means?",
+    "options": [
+      "Low variance",
+      "Low bias high variance",
+      "High bias",
+      "Both low"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Low bias high variance",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00069",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "Underfitting means?",
+    "options": [
+      "High variance",
+      "High bias low variance",
+      "Low bias",
+      "Both high"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: High bias low variance",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00070",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Cross validation is for?",
+    "options": [
+      "Model evaluation",
+      "Data cleaning",
+      "Feature selection",
+      "Training"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Model evaluation",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00071",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "Precision is?",
+    "options": [
+      "TN/(TN+FP)",
+      "TP/(TP+FN)",
+      "TP/(TP+FP)",
+      "TP/(TP+TN)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: TP/(TP+FP)",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00072",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "Recall is?",
+    "options": [
+      "TP/(TP+FP)",
+      "TP/(TP+FN)",
+      "TN/(TN+FP)",
+      "TP/(TP+TN)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: TP/(TP+FN)",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00073",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "F1 score is?",
+    "options": [
+      "Geometric mean",
+      "Average",
+      "Harmonic mean of P&R",
+      "Arithmetic mean"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Harmonic mean of P&R",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00074",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "easy",
+    "question": "Neural network layers include?",
+    "options": [
+      "Only hidden",
+      "Only output",
+      "Only input",
+      "Input Hidden Output"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Input Hidden Output",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00075",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "easy",
+    "question": "Activation function adds?",
+    "options": [
+      "None",
+      "Non-linearity",
+      "Linearity",
+      "Constant"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Non-linearity",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00076",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "easy",
+    "question": "ReLU stands for?",
+    "options": [
+      "Random Linear",
+      "Rectified Logistic",
+      "Rectified Linear Unit",
+      "Regular Linear"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Rectified Linear Unit",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00077",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "hard",
+    "question": "Sigmoid outputs?",
+    "options": [
+      "0 to 1",
+      "-1 to 1",
+      "-inf to inf",
+      "0 to inf"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 0 to 1",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00078",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "easy",
+    "question": "Backpropagation is for?",
+    "options": [
+      "Inference",
+      "Testing",
+      "Training",
+      "Prediction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Training",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00079",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "easy",
+    "question": "CNN is used for?",
+    "options": [
+      "Numbers only",
+      "Text only",
+      "Images",
+      "Audio only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Images",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00080",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "hard",
+    "question": "RNN is used for?",
+    "options": [
+      "Images",
+      "Graphs",
+      "Tables",
+      "Sequences"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Sequences",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00081",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "hard",
+    "question": "Dropout is for?",
+    "options": [
+      "Data cleaning",
+      "Regularization",
+      "Training speed",
+      "Feature selection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Regularization",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00082",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "medium",
+    "question": "Epoch is?",
+    "options": [
+      "One sample",
+      "One full pass",
+      "One iteration",
+      "One batch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: One full pass",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00083",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "hard",
+    "question": "Image classification assigns?",
+    "options": [
+      "Audio",
+      "Text",
+      "Video",
+      "Label to image"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Label to image",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00084",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "medium",
+    "question": "Object detection finds?",
+    "options": [
+      "Text",
+      "Single object",
+      "Multiple objects",
+      "Audio"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Multiple objects",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00085",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "easy",
+    "question": "CNN stands for?",
+    "options": [
+      "Complex",
+      "Central",
+      "Circular",
+      "Convolutional Neural Network"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Convolutional Neural Network",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00086",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "hard",
+    "question": "Pooling layer?",
+    "options": [
+      "Maintains",
+      "Increases",
+      "Removes",
+      "Reduces dimensions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Reduces dimensions",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00087",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "medium",
+    "question": "NLP stands for?",
+    "options": [
+      "Numeric",
+      "Natural Language Processing",
+      "Neural",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Natural Language Processing",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00088",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "hard",
+    "question": "Tokenization splits?",
+    "options": [
+      "Text into words",
+      "Sentences",
+      "Paragraphs",
+      "Words into chars"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Text into words",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00089",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "medium",
+    "question": "Stemming reduces words to?",
+    "options": [
+      "Root form",
+      "Plural",
+      "Synonym",
+      "Antonym"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Root form",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00090",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "hard",
+    "question": "Sentiment analysis detects?",
+    "options": [
+      "Length",
+      "Spelling",
+      "Grammar",
+      "Emotion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Emotion",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00091",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "easy",
+    "question": "Bag of Words represents?",
+    "options": [
+      "Word frequencies",
+      "Meaning",
+      "Grammar",
+      "Sentences"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Word frequencies",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00092",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "easy",
+    "question": "TF-IDF stands for?",
+    "options": [
+      "Text",
+      "Test",
+      "Term Frequency-Inverse Document Frequency",
+      "Term"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Term Frequency-Inverse Document Frequency",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00093",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "easy",
+    "question": "AI stands for?",
+    "options": [
+      "Automated",
+      "Artificial Intelligence",
+      "Algorithmic",
+      "Advanced"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Artificial Intelligence",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00094",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "hard",
+    "question": "Turing test evaluates?",
+    "options": [
+      "Machine intelligence",
+      "Memory",
+      "Speed",
+      "Power"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Machine intelligence",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00095",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "easy",
+    "question": "Intelligent agent perceives through?",
+    "options": [
+      "Actuators",
+      "Memory",
+      "CPU",
+      "Sensors"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Sensors",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00096",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "hard",
+    "question": "Expert system uses?",
+    "options": [
+      "Knowledge base",
+      "Rules only",
+      "Database only",
+      "Neither"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Knowledge base",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00097",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "medium",
+    "question": "Fuzzy logic handles?",
+    "options": [
+      "Degrees of truth",
+      "Binary",
+      "True/False",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Degrees of truth",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00098",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "easy",
+    "question": "Genetic algorithm is inspired by?",
+    "options": [
+      "Math",
+      "Logic",
+      "Evolution",
+      "Physics"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Evolution",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00099",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "medium",
+    "question": "A* algorithm is for?",
+    "options": [
+      "Pathfinding",
+      "Sorting",
+      "Optimization",
+      "Searching"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Pathfinding",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00100",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "medium",
+    "question": "Minimax is used for?",
+    "options": [
+      "Optimization",
+      "Game trees",
+      "Sorting",
+      "Searching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Game trees",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00101",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "hard",
+    "question": "Cloud computing provides?",
+    "options": [
+      "None",
+      "Local only",
+      "On-demand resources",
+      "Fixed resources"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00102",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "medium",
+    "question": "Machine learning is?",
+    "options": [
+      "Unrelated",
+      "Subset of AI",
+      "Same as AI",
+      "Superset"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00103",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "hard",
+    "question": "Cloud computing provides?",
+    "options": [
+      "On-demand resources",
+      "None",
+      "Local only",
+      "Fixed resources"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00104",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Cleaned",
+      "Structured only",
+      "Processed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00105",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "ETL is used in?",
+    "options": [
+      "Indexing",
+      "Data integration",
+      "Searching",
+      "Sorting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00106",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "medium",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Local only",
+      "None",
+      "On-demand resources",
+      "Fixed resources"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00107",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "hard",
+    "question": "Data mining is?",
+    "options": [
+      "Loading",
+      "Storing",
+      "Cleaning",
+      "Finding patterns"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00108",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "easy",
+    "question": "IoT stands for?",
+    "options": [
+      "Internet of Tech",
+      "Interconnect",
+      "Internet of Things",
+      "Internal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00109",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "Agile is?",
+    "options": [
+      "Iterative development",
+      "Linear",
+      "Waterfall",
+      "Sequential"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00110",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Storing",
+      "Extracting insights",
+      "Deleting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00111",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "medium",
+    "question": "Deep learning uses?",
+    "options": [
+      "Logic",
+      "Rules",
+      "Decision trees",
+      "Neural networks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00112",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Finding patterns",
+      "Loading",
+      "Storing",
+      "Cleaning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00113",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Storing",
+      "Extracting insights",
+      "Deleting",
+      "Copying"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00114",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "medium",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Storing",
+      "Extracting insights",
+      "Deleting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00115",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Alan Turing",
+      "John McCarthy",
+      "Marvin Minsky",
+      "Herbert Simon"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00116",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Extracting insights",
+      "Storing",
+      "Copying"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00117",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "hard",
+    "question": "IoT stands for?",
+    "options": [
+      "Internet of Tech",
+      "Internal",
+      "Interconnect",
+      "Internet of Things"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00118",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Storing",
+      "Extracting insights",
+      "Copying"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00119",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "hard",
+    "question": "Data mining is?",
+    "options": [
+      "Cleaning",
+      "Finding patterns",
+      "Storing",
+      "Loading"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00120",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "easy",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "Alan Turing",
+      "John McCarthy",
+      "Herbert Simon"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00121",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "hard",
+    "question": "AI was coined by?",
+    "options": [
+      "Herbert Simon",
+      "Alan Turing",
+      "Marvin Minsky",
+      "John McCarthy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00122",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "medium",
+    "question": "Cloud computing provides?",
+    "options": [
+      "None",
+      "On-demand resources",
+      "Fixed resources",
+      "Local only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00123",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Structured only",
+      "Processed",
+      "Raw data",
+      "Cleaned"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00124",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "medium",
+    "question": "ETL is used in?",
+    "options": [
+      "Indexing",
+      "Searching",
+      "Sorting",
+      "Data integration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00125",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "hard",
+    "question": "Machine learning is?",
+    "options": [
+      "Unrelated",
+      "Superset",
+      "Subset of AI",
+      "Same as AI"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00126",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Extracting insights",
+      "Deleting",
+      "Storing",
+      "Copying"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00127",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "On-demand resources",
+      "Local only",
+      "Fixed resources",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00128",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "hard",
+    "question": "ETL is used in?",
+    "options": [
+      "Indexing",
+      "Sorting",
+      "Searching",
+      "Data integration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00129",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "IoT stands for?",
+    "options": [
+      "Internal",
+      "Internet of Things",
+      "Internet of Tech",
+      "Interconnect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00130",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "medium",
+    "question": "Agile is?",
+    "options": [
+      "Linear",
+      "Sequential",
+      "Iterative development",
+      "Waterfall"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00131",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "easy",
+    "question": "IoT stands for?",
+    "options": [
+      "Internet of Things",
+      "Interconnect",
+      "Internal",
+      "Internet of Tech"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00132",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "medium",
+    "question": "IoT stands for?",
+    "options": [
+      "Interconnect",
+      "Internet of Tech",
+      "Internal",
+      "Internet of Things"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00133",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Waterfall",
+      "Iterative development",
+      "Linear",
+      "Sequential"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00134",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "John McCarthy",
+      "Alan Turing",
+      "Herbert Simon"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00135",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "medium",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Local only",
+      "Fixed resources",
+      "None",
+      "On-demand resources"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00136",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "hard",
+    "question": "Cloud computing provides?",
+    "options": [
+      "On-demand resources",
+      "Fixed resources",
+      "Local only",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00137",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "hard",
+    "question": "Agile is?",
+    "options": [
+      "Waterfall",
+      "Linear",
+      "Iterative development",
+      "Sequential"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00138",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "hard",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Fixed resources",
+      "Local only",
+      "On-demand resources",
+      "None"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00139",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Deleting",
+      "Extracting insights",
+      "Storing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00140",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "hard",
+    "question": "Agile is?",
+    "options": [
+      "Waterfall",
+      "Iterative development",
+      "Sequential",
+      "Linear"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00141",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Storing",
+      "Extracting insights",
+      "Deleting",
+      "Copying"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00142",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "None",
+      "Fixed resources",
+      "Local only",
+      "On-demand resources"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00143",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "easy",
+    "question": "Data lake stores?",
+    "options": [
+      "Cleaned",
+      "Structured only",
+      "Processed",
+      "Raw data"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00144",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "easy",
+    "question": "IoT stands for?",
+    "options": [
+      "Interconnect",
+      "Internal",
+      "Internet of Tech",
+      "Internet of Things"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00145",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Alan Turing",
+      "Herbert Simon",
+      "John McCarthy",
+      "Marvin Minsky"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00146",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Alan Turing",
+      "Marvin Minsky",
+      "John McCarthy",
+      "Herbert Simon"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00147",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "easy",
+    "question": "Machine learning is?",
+    "options": [
+      "Same as AI",
+      "Subset of AI",
+      "Superset",
+      "Unrelated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00148",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "ETL is used in?",
+    "options": [
+      "Indexing",
+      "Data integration",
+      "Sorting",
+      "Searching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00149",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "easy",
+    "question": "IoT stands for?",
+    "options": [
+      "Internal",
+      "Internet of Things",
+      "Interconnect",
+      "Internet of Tech"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00150",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Processed",
+      "Structured only",
+      "Cleaned"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00151",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Herbert Simon",
+      "Alan Turing",
+      "John McCarthy",
+      "Marvin Minsky"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00152",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "ETL is used in?",
+    "options": [
+      "Searching",
+      "Indexing",
+      "Sorting",
+      "Data integration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00153",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "hard",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Local only",
+      "None",
+      "Fixed resources",
+      "On-demand resources"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00154",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "medium",
+    "question": "Data mining is?",
+    "options": [
+      "Finding patterns",
+      "Cleaning",
+      "Loading",
+      "Storing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00155",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "medium",
+    "question": "Agile is?",
+    "options": [
+      "Linear",
+      "Waterfall",
+      "Iterative development",
+      "Sequential"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00156",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "medium",
+    "question": "Data mining is?",
+    "options": [
+      "Cleaning",
+      "Storing",
+      "Loading",
+      "Finding patterns"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00157",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Cleaning",
+      "Loading",
+      "Storing",
+      "Finding patterns"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00158",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "easy",
+    "question": "ETL is used in?",
+    "options": [
+      "Indexing",
+      "Data integration",
+      "Sorting",
+      "Searching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00159",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Finding patterns",
+      "Storing",
+      "Cleaning",
+      "Loading"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00160",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "None",
+      "Local only",
+      "Fixed resources",
+      "On-demand resources"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00161",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "hard",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "Alan Turing",
+      "John McCarthy",
+      "Herbert Simon"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00162",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Cleaning",
+      "Loading",
+      "Storing",
+      "Finding patterns"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00163",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Storing",
+      "Copying",
+      "Extracting insights",
+      "Deleting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00164",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "medium",
+    "question": "Big data analytics is?",
+    "options": [
+      "Storing",
+      "Copying",
+      "Deleting",
+      "Extracting insights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00165",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "medium",
+    "question": "IoT stands for?",
+    "options": [
+      "Interconnect",
+      "Internet of Tech",
+      "Internal",
+      "Internet of Things"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00166",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Iterative development",
+      "Sequential",
+      "Linear",
+      "Waterfall"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00167",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "hard",
+    "question": "ETL is used in?",
+    "options": [
+      "Searching",
+      "Data integration",
+      "Indexing",
+      "Sorting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00168",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Cleaned",
+      "Processed",
+      "Structured only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00169",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Local only",
+      "On-demand resources",
+      "Fixed resources",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00170",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "Machine learning is?",
+    "options": [
+      "Same as AI",
+      "Subset of AI",
+      "Superset",
+      "Unrelated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00171",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "medium",
+    "question": "Data mining is?",
+    "options": [
+      "Loading",
+      "Storing",
+      "Finding patterns",
+      "Cleaning"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00172",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Extracting insights",
+      "Copying",
+      "Storing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00173",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Cleaned",
+      "Processed",
+      "Raw data",
+      "Structured only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00174",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "John McCarthy",
+      "Alan Turing",
+      "Herbert Simon"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00175",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "hard",
+    "question": "ETL is used in?",
+    "options": [
+      "Sorting",
+      "Data integration",
+      "Searching",
+      "Indexing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00176",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Waterfall",
+      "Linear",
+      "Iterative development",
+      "Sequential"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00177",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "medium",
+    "question": "Deep learning uses?",
+    "options": [
+      "Decision trees",
+      "Rules",
+      "Neural networks",
+      "Logic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00178",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "medium",
+    "question": "Deep learning uses?",
+    "options": [
+      "Logic",
+      "Decision trees",
+      "Rules",
+      "Neural networks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00179",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "ETL is used in?",
+    "options": [
+      "Sorting",
+      "Searching",
+      "Data integration",
+      "Indexing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00180",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Loading",
+      "Finding patterns",
+      "Cleaning",
+      "Storing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00181",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Alan Turing",
+      "Herbert Simon",
+      "John McCarthy",
+      "Marvin Minsky"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00182",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "Alan Turing",
+      "John McCarthy",
+      "Herbert Simon"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00183",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "hard",
+    "question": "AI was coined by?",
+    "options": [
+      "John McCarthy",
+      "Marvin Minsky",
+      "Herbert Simon",
+      "Alan Turing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00184",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "easy",
+    "question": "Data lake stores?",
+    "options": [
+      "Structured only",
+      "Processed",
+      "Cleaned",
+      "Raw data"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00185",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Storing",
+      "Loading",
+      "Finding patterns",
+      "Cleaning"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00186",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "medium",
+    "question": "Cloud computing provides?",
+    "options": [
+      "None",
+      "On-demand resources",
+      "Fixed resources",
+      "Local only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00187",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "easy",
+    "question": "IoT stands for?",
+    "options": [
+      "Internal",
+      "Internet of Tech",
+      "Internet of Things",
+      "Interconnect"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00188",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Structured only",
+      "Processed",
+      "Cleaned"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00189",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Waterfall",
+      "Iterative development",
+      "Sequential",
+      "Linear"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00190",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "Data mining is?",
+    "options": [
+      "Finding patterns",
+      "Loading",
+      "Storing",
+      "Cleaning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00191",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "easy",
+    "question": "Machine learning is?",
+    "options": [
+      "Superset",
+      "Same as AI",
+      "Subset of AI",
+      "Unrelated"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00192",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "hard",
+    "question": "IoT stands for?",
+    "options": [
+      "Internet of Things",
+      "Interconnect",
+      "Internet of Tech",
+      "Internal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00193",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Storing",
+      "Copying",
+      "Extracting insights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00194",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "medium",
+    "question": "IoT stands for?",
+    "options": [
+      "Internet of Tech",
+      "Internet of Things",
+      "Internal",
+      "Interconnect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00195",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "hard",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Local only",
+      "None",
+      "Fixed resources",
+      "On-demand resources"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00196",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Cleaning",
+      "Finding patterns",
+      "Storing",
+      "Loading"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00197",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "easy",
+    "question": "Machine learning is?",
+    "options": [
+      "Unrelated",
+      "Same as AI",
+      "Subset of AI",
+      "Superset"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00198",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "easy",
+    "question": "Deep learning uses?",
+    "options": [
+      "Rules",
+      "Logic",
+      "Decision trees",
+      "Neural networks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00199",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "John McCarthy",
+      "Alan Turing",
+      "Marvin Minsky",
+      "Herbert Simon"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00200",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "medium",
+    "question": "Machine learning is?",
+    "options": [
+      "Same as AI",
+      "Subset of AI",
+      "Unrelated",
+      "Superset"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00201",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Processed",
+      "Structured only",
+      "Raw data",
+      "Cleaned"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00202",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Cleaned",
+      "Processed",
+      "Raw data",
+      "Structured only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00203",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Structured only",
+      "Cleaned",
+      "Processed",
+      "Raw data"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00204",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Storing",
+      "Copying",
+      "Extracting insights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00205",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "On-demand resources",
+      "None",
+      "Local only",
+      "Fixed resources"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00206",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "IoT stands for?",
+    "options": [
+      "Internet of Things",
+      "Internet of Tech",
+      "Internal",
+      "Interconnect"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00207",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "ETL is used in?",
+    "options": [
+      "Searching",
+      "Indexing",
+      "Data integration",
+      "Sorting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00208",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Cleaned",
+      "Processed",
+      "Structured only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00209",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Cleaned",
+      "Processed",
+      "Raw data",
+      "Structured only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00210",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "Deep learning uses?",
+    "options": [
+      "Decision trees",
+      "Logic",
+      "Neural networks",
+      "Rules"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00211",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Storing",
+      "Extracting insights",
+      "Copying"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00212",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "medium",
+    "question": "ETL is used in?",
+    "options": [
+      "Searching",
+      "Sorting",
+      "Data integration",
+      "Indexing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00213",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question": "ETL is used in?",
+    "options": [
+      "Searching",
+      "Sorting",
+      "Data integration",
+      "Indexing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00214",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "medium",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Local only",
+      "On-demand resources",
+      "None",
+      "Fixed resources"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00215",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "hard",
+    "question": "Machine learning is?",
+    "options": [
+      "Same as AI",
+      "Subset of AI",
+      "Superset",
+      "Unrelated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00216",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Sequential",
+      "Linear",
+      "Waterfall",
+      "Iterative development"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00217",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Waterfall",
+      "Iterative development",
+      "Linear",
+      "Sequential"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00218",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "hard",
+    "question": "Agile is?",
+    "options": [
+      "Linear",
+      "Iterative development",
+      "Sequential",
+      "Waterfall"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00219",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "On-demand resources",
+      "Fixed resources",
+      "None",
+      "Local only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00220",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "hard",
+    "question": "ETL is used in?",
+    "options": [
+      "Indexing",
+      "Sorting",
+      "Searching",
+      "Data integration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00221",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "medium",
+    "question": "Cloud computing provides?",
+    "options": [
+      "On-demand resources",
+      "Local only",
+      "None",
+      "Fixed resources"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00222",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "easy",
+    "question": "Machine learning is?",
+    "options": [
+      "Subset of AI",
+      "Same as AI",
+      "Superset",
+      "Unrelated"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00223",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "hard",
+    "question": "Machine learning is?",
+    "options": [
+      "Same as AI",
+      "Subset of AI",
+      "Superset",
+      "Unrelated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00224",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Fixed resources",
+      "None",
+      "Local only",
+      "On-demand resources"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00225",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "medium",
+    "question": "ETL is used in?",
+    "options": [
+      "Data integration",
+      "Searching",
+      "Indexing",
+      "Sorting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00226",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "medium",
+    "question": "Big data analytics is?",
+    "options": [
+      "Extracting insights",
+      "Copying",
+      "Storing",
+      "Deleting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00227",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "medium",
+    "question": "Data mining is?",
+    "options": [
+      "Loading",
+      "Storing",
+      "Cleaning",
+      "Finding patterns"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00228",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "hard",
+    "question": "Machine learning is?",
+    "options": [
+      "Same as AI",
+      "Unrelated",
+      "Subset of AI",
+      "Superset"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00229",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "hard",
+    "question": "ETL is used in?",
+    "options": [
+      "Data integration",
+      "Sorting",
+      "Indexing",
+      "Searching"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00230",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "hard",
+    "question": "Deep learning uses?",
+    "options": [
+      "Logic",
+      "Neural networks",
+      "Rules",
+      "Decision trees"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00231",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "Herbert Simon",
+      "Alan Turing",
+      "John McCarthy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00232",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "hard",
+    "question": "AI was coined by?",
+    "options": [
+      "John McCarthy",
+      "Herbert Simon",
+      "Alan Turing",
+      "Marvin Minsky"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00233",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Deep learning uses?",
+    "options": [
+      "Decision trees",
+      "Neural networks",
+      "Rules",
+      "Logic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00234",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Herbert Simon",
+      "Marvin Minsky",
+      "John McCarthy",
+      "Alan Turing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00235",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Processed",
+      "Cleaned",
+      "Structured only",
+      "Raw data"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00236",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "medium",
+    "question": "ETL is used in?",
+    "options": [
+      "Searching",
+      "Data integration",
+      "Indexing",
+      "Sorting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data integration",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00237",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Cleaned",
+      "Structured only",
+      "Processed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00238",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "medium",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Extracting insights",
+      "Storing",
+      "Copying"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00239",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "hard",
+    "question": "IoT stands for?",
+    "options": [
+      "Interconnect",
+      "Internet of Things",
+      "Internal",
+      "Internet of Tech"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00240",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Copying",
+      "Storing",
+      "Extracting insights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00241",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Waterfall",
+      "Sequential",
+      "Linear",
+      "Iterative development"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00242",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "easy",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Cleaned",
+      "Processed",
+      "Structured only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00243",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "hard",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "Herbert Simon",
+      "John McCarthy",
+      "Alan Turing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00244",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "medium",
+    "question": "IoT stands for?",
+    "options": [
+      "Internal",
+      "Interconnect",
+      "Internet of Tech",
+      "Internet of Things"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00245",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "hard",
+    "question": "Cloud computing provides?",
+    "options": [
+      "On-demand resources",
+      "Fixed resources",
+      "Local only",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00246",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Structured only",
+      "Processed",
+      "Cleaned"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00247",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Extracting insights",
+      "Storing",
+      "Copying"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-nlp-00248",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "hard",
+    "question": "Agile is?",
+    "options": [
+      "Sequential",
+      "Waterfall",
+      "Linear",
+      "Iterative development"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00249",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "medium",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Storing",
+      "Extracting insights",
+      "Deleting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00250",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "hard",
+    "question": "Data mining is?",
+    "options": [
+      "Cleaning",
+      "Finding patterns",
+      "Loading",
+      "Storing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00251",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "John McCarthy",
+      "Herbert Simon",
+      "Alan Turing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00252",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "hard",
+    "question": "Data mining is?",
+    "options": [
+      "Finding patterns",
+      "Loading",
+      "Storing",
+      "Cleaning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00253",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Data lake stores?",
+    "options": [
+      "Cleaned",
+      "Raw data",
+      "Processed",
+      "Structured only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00254",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "medium",
+    "question": "Data mining is?",
+    "options": [
+      "Finding patterns",
+      "Cleaning",
+      "Loading",
+      "Storing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00255",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "easy",
+    "question": "Machine learning is?",
+    "options": [
+      "Unrelated",
+      "Same as AI",
+      "Superset",
+      "Subset of AI"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00256",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "medium",
+    "question": "Machine learning is?",
+    "options": [
+      "Unrelated",
+      "Superset",
+      "Subset of AI",
+      "Same as AI"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00257",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "medium",
+    "question": "Big data analytics is?",
+    "options": [
+      "Extracting insights",
+      "Deleting",
+      "Copying",
+      "Storing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00258",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Storing",
+      "Copying",
+      "Deleting",
+      "Extracting insights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00259",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Fixed resources",
+      "On-demand resources",
+      "None",
+      "Local only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00260",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "medium",
+    "question": "IoT stands for?",
+    "options": [
+      "Internet of Things",
+      "Interconnect",
+      "Internal",
+      "Internet of Tech"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00261",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "hard",
+    "question": "AI was coined by?",
+    "options": [
+      "Alan Turing",
+      "Marvin Minsky",
+      "Herbert Simon",
+      "John McCarthy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00262",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "easy",
+    "question": "Data lake stores?",
+    "options": [
+      "Raw data",
+      "Cleaned",
+      "Processed",
+      "Structured only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00263",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "easy",
+    "question": "Deep learning uses?",
+    "options": [
+      "Decision trees",
+      "Rules",
+      "Logic",
+      "Neural networks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00264",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "hard",
+    "question": "Agile is?",
+    "options": [
+      "Iterative development",
+      "Waterfall",
+      "Sequential",
+      "Linear"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00265",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Extracting insights",
+      "Storing",
+      "Deleting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00266",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Science",
+    "difficulty": "hard",
+    "question": "Deep learning uses?",
+    "options": [
+      "Logic",
+      "Decision trees",
+      "Rules",
+      "Neural networks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-dat-00267",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Data Warehouse",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Linear",
+      "Waterfall",
+      "Sequential",
+      "Iterative development"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00268",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "hard",
+    "question": "Deep learning uses?",
+    "options": [
+      "Decision trees",
+      "Neural networks",
+      "Rules",
+      "Logic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00269",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Machine learning is?",
+    "options": [
+      "Same as AI",
+      "Unrelated",
+      "Subset of AI",
+      "Superset"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00270",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "On-demand resources",
+      "Fixed resources",
+      "None",
+      "Local only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00271",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Structured only",
+      "Raw data",
+      "Cleaned",
+      "Processed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00272",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "hard",
+    "question": "Deep learning uses?",
+    "options": [
+      "Logic",
+      "Neural networks",
+      "Decision trees",
+      "Rules"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00273",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Storing",
+      "Finding patterns",
+      "Loading",
+      "Cleaning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-bas-00274",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "BASE and CAP Theorem",
+    "difficulty": "medium",
+    "question": "Cloud computing provides?",
+    "options": [
+      "Local only",
+      "Fixed resources",
+      "None",
+      "On-demand resources"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-str-00275",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Structured, Semi-Structured and Unstructured Data",
+    "difficulty": "hard",
+    "question": "Data mining is?",
+    "options": [
+      "Cleaning",
+      "Finding patterns",
+      "Storing",
+      "Loading"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00276",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "medium",
+    "question": "AI was coined by?",
+    "options": [
+      "Alan Turing",
+      "Herbert Simon",
+      "Marvin Minsky",
+      "John McCarthy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00277",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "easy",
+    "question": "Cloud computing provides?",
+    "options": [
+      "None",
+      "Fixed resources",
+      "Local only",
+      "On-demand resources"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: On-demand resources",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00278",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "medium",
+    "question": "Machine learning is?",
+    "options": [
+      "Same as AI",
+      "Unrelated",
+      "Subset of AI",
+      "Superset"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00279",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "medium",
+    "question": "Agile is?",
+    "options": [
+      "Iterative development",
+      "Waterfall",
+      "Sequential",
+      "Linear"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00280",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Cleaned",
+      "Structured only",
+      "Raw data",
+      "Processed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-etl-00281",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "ETL vs ELT",
+    "difficulty": "medium",
+    "question": "Data lake stores?",
+    "options": [
+      "Processed",
+      "Cleaned",
+      "Raw data",
+      "Structured only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00282",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "hard",
+    "question": "AI was coined by?",
+    "options": [
+      "Marvin Minsky",
+      "Herbert Simon",
+      "John McCarthy",
+      "Alan Turing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: John McCarthy",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00283",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "hard",
+    "question": "Data mining is?",
+    "options": [
+      "Loading",
+      "Storing",
+      "Finding patterns",
+      "Cleaning"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-hiv-00284",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hive",
+    "difficulty": "easy",
+    "question": "Deep learning uses?",
+    "options": [
+      "Logic",
+      "Neural networks",
+      "Rules",
+      "Decision trees"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Neural networks",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00285",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question": "Agile is?",
+    "options": [
+      "Iterative development",
+      "Sequential",
+      "Linear",
+      "Waterfall"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-mac-00286",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "question": "Data lake stores?",
+    "options": [
+      "Cleaned",
+      "Raw data",
+      "Structured only",
+      "Processed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00287",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "hard",
+    "question": "IoT stands for?",
+    "options": [
+      "Internet of Tech",
+      "Interconnect",
+      "Internet of Things",
+      "Internal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Internet of Things",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00288",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "hard",
+    "question": "Machine learning is?",
+    "options": [
+      "Unrelated",
+      "Subset of AI",
+      "Same as AI",
+      "Superset"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Subset of AI",
+    "marks": 1
+  },
+  {
+    "id": "big-bat-00289",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Batch Processing vs Stream Processing",
+    "difficulty": "easy",
+    "question": "Data mining is?",
+    "options": [
+      "Finding patterns",
+      "Storing",
+      "Loading",
+      "Cleaning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00290",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "hard",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Extracting insights",
+      "Deleting",
+      "Storing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00291",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "medium",
+    "question": "Agile is?",
+    "options": [
+      "Sequential",
+      "Iterative development",
+      "Linear",
+      "Waterfall"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00292",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Storing",
+      "Extracting insights",
+      "Deleting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-big-00293",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Deleting",
+      "Extracting insights",
+      "Storing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00294",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Copying",
+      "Storing",
+      "Extracting insights",
+      "Deleting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-nos-00295",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NoSQL",
+    "difficulty": "easy",
+    "question": "Data lake stores?",
+    "options": [
+      "Cleaned",
+      "Raw data",
+      "Processed",
+      "Structured only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  },
+  {
+    "id": "big-had-00296",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Hadoop",
+    "difficulty": "medium",
+    "question": "Data mining is?",
+    "options": [
+      "Loading",
+      "Finding patterns",
+      "Cleaning",
+      "Storing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Finding patterns",
+    "marks": 1
+  },
+  {
+    "id": "big-com-00297",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "easy",
+    "question": "Agile is?",
+    "options": [
+      "Waterfall",
+      "Sequential",
+      "Iterative development",
+      "Linear"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-spa-00298",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Spark",
+    "difficulty": "hard",
+    "question": "Agile is?",
+    "options": [
+      "Sequential",
+      "Linear",
+      "Waterfall",
+      "Iterative development"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Iterative development",
+    "marks": 1
+  },
+  {
+    "id": "big-ai-00299",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "AI",
+    "difficulty": "easy",
+    "question": "Big data analytics is?",
+    "options": [
+      "Deleting",
+      "Storing",
+      "Copying",
+      "Extracting insights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Extracting insights",
+    "marks": 1
+  },
+  {
+    "id": "big-dee-00300",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "hard",
+    "question": "Data lake stores?",
+    "options": [
+      "Processed",
+      "Structured only",
+      "Cleaned",
+      "Raw data"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Raw data",
+    "marks": 1
+  }
+]

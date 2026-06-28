@@ -1,0 +1,8502 @@
+[
+  {
+    "id": "net-osi-00001",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "OSI has ? layers",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 7",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00002",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Physical layer deals with?",
+    "options": [
+      "Frames",
+      "Segments",
+      "Packets",
+      "Bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Bits",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00003",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Data link layer deals with?",
+    "options": [
+      "Segments",
+      "Bits",
+      "Frames",
+      "Packets"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Frames",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00004",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Network layer deals with?",
+    "options": [
+      "Bits",
+      "Segments",
+      "Frames",
+      "Packets"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Packets",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00005",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Transport layer deals with?",
+    "options": [
+      "Segments",
+      "Bits",
+      "Packets",
+      "Frames"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Segments",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00006",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Session layer manages?",
+    "options": [
+      "Bits",
+      "Frames",
+      "Packets",
+      "Sessions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Sessions",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00007",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "Presentation layer does?",
+    "options": [
+      "Encryption",
+      "Routing",
+      "Framing",
+      "Bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Encryption",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00008",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Application layer provides?",
+    "options": [
+      "User interface",
+      "Bits",
+      "Routing",
+      "Framing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: User interface",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00009",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Layer 1 is?",
+    "options": [
+      "Transport",
+      "Data link",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00010",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Layer 4 is?",
+    "options": [
+      "Session",
+      "Transport",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Transport",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00011",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "TCP/IP has ? layers",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 4",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00012",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "Network access layer is also called?",
+    "options": [
+      "Data link",
+      "Physical",
+      "Link layer",
+      "Internet"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00013",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "medium",
+    "question": "Internet layer protocol?",
+    "options": [
+      "IP",
+      "TCP",
+      "UDP",
+      "HTTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: IP",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00014",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Transport layer protocols?",
+    "options": [
+      "TCP and UDP",
+      "HTTP",
+      "IP",
+      "FTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: TCP and UDP",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00015",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Application layer includes?",
+    "options": [
+      "TCP",
+      "ARP",
+      "IP",
+      "HTTP FTP DNS"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: HTTP FTP DNS",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00016",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "IPv4 address size?",
+    "options": [
+      "64 bits",
+      "128 bits",
+      "32 bits",
+      "16 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 32 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00017",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "IPv6 address size?",
+    "options": [
+      "256 bits",
+      "32 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 128 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00018",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "IP address class A range?",
+    "options": [
+      "224-239",
+      "192-223",
+      "128-191",
+      "1-126"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 1-126",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00019",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "IP address class B range?",
+    "options": [
+      "192-223",
+      "1-126",
+      "128-191",
+      "224-239"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 128-191",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00020",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "IP address class C range?",
+    "options": [
+      "128-191",
+      "1-126",
+      "192-223",
+      "224-239"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 192-223",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00021",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Loopback address?",
+    "options": [
+      "192.168.1.1",
+      "172.16.0.1",
+      "127.0.0.1",
+      "10.0.0.1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 127.0.0.1",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00022",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Private IP 10.x.x.x is class?",
+    "options": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: A",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00023",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Private IP 192.168.x.x is class?",
+    "options": [
+      "A",
+      "D",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: C",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00024",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Subnet mask for class C?",
+    "options": [
+      "255.255.0.0",
+      "255.255.255.255",
+      "255.255.255.0",
+      "255.0.0.0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 255.255.255.0",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00025",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Default gateway is?",
+    "options": [
+      "DNS",
+      "MAC",
+      "IP",
+      "Router address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Router address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00026",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "TCP is?",
+    "options": [
+      "Connectionless",
+      "Neither",
+      "Connection-oriented",
+      "Both"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Connection-oriented",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00027",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "TCP guarantees?",
+    "options": [
+      "Delivery",
+      "Speed",
+      "Nothing",
+      "No order"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delivery",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00028",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "TCP uses?",
+    "options": [
+      "1-way",
+      "3-way handshake",
+      "2-way",
+      "4-way"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 3-way handshake",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00029",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "TCP port number range?",
+    "options": [
+      "0-1000",
+      "0-255",
+      "0-1024",
+      "0-65535"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 0-65535",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00030",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "HTTP uses port?",
+    "options": [
+      "80",
+      "53",
+      "25",
+      "21"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 80",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00031",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "HTTPS uses port?",
+    "options": [
+      "21",
+      "25",
+      "80",
+      "443"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 443",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00032",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "FTP uses port?",
+    "options": [
+      "53",
+      "21",
+      "80",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 21",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00033",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "SMTP uses port?",
+    "options": [
+      "21",
+      "53",
+      "25",
+      "80"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 25",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00034",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "DNS uses port?",
+    "options": [
+      "53",
+      "21",
+      "80",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 53",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00035",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "SSH uses port?",
+    "options": [
+      "25",
+      "21",
+      "80",
+      "22"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 22",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00036",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "UDP is?",
+    "options": [
+      "Connection-oriented",
+      "Both",
+      "Connectionless",
+      "Neither"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Connectionless",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00037",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "UDP is ? than TCP",
+    "options": [
+      "Faster",
+      "Same",
+      "Reliable",
+      "Slower"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Faster",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00038",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "UDP does not guarantee?",
+    "options": [
+      "Speed",
+      "Delivery",
+      "Address",
+      "Port"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delivery",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00039",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "DNS uses?",
+    "options": [
+      "UDP",
+      "Neither",
+      "Both",
+      "TCP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: UDP",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00040",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "DHCP uses?",
+    "options": [
+      "Neither",
+      "Both",
+      "UDP",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: UDP",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00041",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Video streaming uses?",
+    "options": [
+      "TCP",
+      "Neither",
+      "Both",
+      "UDP"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: UDP",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00042",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "ARP stands for?",
+    "options": [
+      "Address Register",
+      "Address Routing",
+      "Advanced Routing",
+      "Address Resolution Protocol"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Address Resolution Protocol",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00043",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "ARP maps?",
+    "options": [
+      "Port to IP",
+      "IP to MAC",
+      "MAC to IP",
+      "IP to Port"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: IP to MAC",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00044",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "ARP request is?",
+    "options": [
+      "Broadcast",
+      "Unicast",
+      "Multicast",
+      "Anycast"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Broadcast",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00045",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "ARP reply is?",
+    "options": [
+      "Multicast",
+      "Anycast",
+      "Broadcast",
+      "Unicast"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Unicast",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00046",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "RARP stands for?",
+    "options": [
+      "Routing ARP",
+      "Random ARP",
+      "Reverse ARP",
+      "Remote ARP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Reverse ARP",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00047",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "ICMP stands for?",
+    "options": [
+      "Internet Control",
+      "Internet Connection",
+      "Internal Control",
+      "Internet Control Message Protocol"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Internet Control Message Protocol",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00048",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Ping uses?",
+    "options": [
+      "TCP",
+      "ICMP",
+      "UDP",
+      "ARP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: ICMP",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00049",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "ICMP is used for?",
+    "options": [
+      "Error reporting",
+      "Routing",
+      "Addressing",
+      "Data transfer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Error reporting",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00050",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Traceroute uses?",
+    "options": [
+      "ICMP",
+      "ARP",
+      "UDP",
+      "TCP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: ICMP",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00051",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "DNS stands for?",
+    "options": [
+      "Domain Name Server",
+      "Data Network",
+      "Digital Name",
+      "Domain Name System"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Domain Name System",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00052",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "DNS maps?",
+    "options": [
+      "IP to Port",
+      "Port to IP",
+      "IP to MAC",
+      "Domain to IP"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Domain to IP",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00053",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "DNS uses port?",
+    "options": [
+      "21",
+      "25",
+      "53",
+      "80"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 53",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00054",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "DNS uses protocol?",
+    "options": [
+      "UDP",
+      "Both",
+      "TCP",
+      "Neither"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: UDP",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00055",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "Root DNS servers count?",
+    "options": [
+      "15",
+      "13",
+      "20",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 13",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00056",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "HTTP stands for?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Transfer",
+      "HyperText Transfer Program",
+      "Hyper Transfer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: HyperText Transfer Protocol",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00057",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "HTTP is ? protocol",
+    "options": [
+      "Session",
+      "Stateful",
+      "Connected",
+      "Stateless"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Stateless",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00058",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "HTTP GET is used for?",
+    "options": [
+      "Sending",
+      "Retrieving data",
+      "Deleting",
+      "Updating"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Retrieving data",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00059",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "HTTP POST is used for?",
+    "options": [
+      "Retrieving",
+      "Updating",
+      "Deleting",
+      "Sending data"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Sending data",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00060",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "HTTP status 200 means?",
+    "options": [
+      "Not Found",
+      "OK",
+      "Redirect",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: OK",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00061",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "HTTP status 404 means?",
+    "options": [
+      "OK",
+      "Redirect",
+      "Error",
+      "Not Found"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Not Found",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00062",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "HTTP status 500 means?",
+    "options": [
+      "OK",
+      "Redirect",
+      "Server Error",
+      "Not Found"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Server Error",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00063",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "HTTP status 301 means?",
+    "options": [
+      "Error",
+      "Redirect",
+      "OK",
+      "Not Found"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Redirect",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00064",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "FTP stands for?",
+    "options": [
+      "File Transfer Protocol",
+      "File Transport",
+      "Fast Transfer",
+      "File Transfer Program"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: File Transfer Protocol",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00065",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "FTP uses port?",
+    "options": [
+      "25",
+      "80",
+      "53",
+      "21"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 21",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00066",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "hard",
+    "question": "FTP control port?",
+    "options": [
+      "22",
+      "80",
+      "20",
+      "21"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 21",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00067",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "FTP data port?",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "80"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 20",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00068",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "SFTP stands for?",
+    "options": [
+      "Simple FTP",
+      "Secure FTP",
+      "Standard FTP",
+      "SSH File Transfer Protocol"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: SSH File Transfer Protocol",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00069",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "medium",
+    "question": "Subnet mask is used for?",
+    "options": [
+      "Host identification",
+      "Port",
+      "Protocol",
+      "Network identification"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Network identification",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00070",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "CIDR notation /24 means?",
+    "options": [
+      "255.0.0.0",
+      "255.255.255.255",
+      "255.255.0.0",
+      "255.255.255.0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 255.255.255.0",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00071",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "CIDR /16 means?",
+    "options": [
+      "255.255.255.255",
+      "255.255.255.0",
+      "255.0.0.0",
+      "255.255.0.0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 255.255.0.0",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00072",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "CIDR /8 means?",
+    "options": [
+      "255.255.255.0",
+      "255.255.0.0",
+      "255.255.255.255",
+      "255.0.0.0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 255.0.0.0",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00073",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Broadcast address has all host bits?",
+    "options": [
+      "Alternating",
+      "0",
+      "1",
+      "Random"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 1",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00074",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Network address has all host bits?",
+    "options": [
+      "0",
+      "Alternating",
+      "Random",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 0",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00075",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Client-server model has?",
+    "options": [
+      "Client requests server",
+      "Server requests client",
+      "Peer to peer",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Client requests server",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00076",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "Web browser is?",
+    "options": [
+      "Client",
+      "Neither",
+      "Server",
+      "Both"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Client",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00077",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Web server software?",
+    "options": [
+      "Firefox",
+      "Safari",
+      "Apache",
+      "Chrome"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Apache",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00078",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Three-tier architecture has?",
+    "options": [
+      "3 layers",
+      "2",
+      "1",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 3 layers",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00079",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "SaaS stands for?",
+    "options": [
+      "Storage as",
+      "System as",
+      "Software as a Service",
+      "Service as"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Software as a Service",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00080",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "PaaS stands for?",
+    "options": [
+      "Program as",
+      "Platform and",
+      "Platform as a Service",
+      "Process as"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Platform as a Service",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00081",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "IaaS stands for?",
+    "options": [
+      "Information as",
+      "Internal as",
+      "Internet as",
+      "Infrastructure as a Service"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Infrastructure as a Service",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00082",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Public cloud is?",
+    "options": [
+      "Private",
+      "Community",
+      "Shared",
+      "Hybrid"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Shared",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00083",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "medium",
+    "question": "Private cloud is?",
+    "options": [
+      "Dedicated",
+      "Shared",
+      "Hybrid",
+      "Public"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Dedicated",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00084",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Hybrid cloud combines?",
+    "options": [
+      "Only public",
+      "Only private",
+      "Public and private",
+      "Community"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Public and private",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00085",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Speed",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00086",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "Two LANs",
+      "LAN and WAN",
+      "Two WANs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00087",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Error",
+      "Speed",
+      "Bandwidth",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00088",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "32 bits",
+      "128 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00089",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Physical",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00090",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Data link",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00091",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "LAN and WAN",
+      "Computers",
+      "Two WANs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00092",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Error",
+      "Delay",
+      "Distance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00093",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "Two WANs",
+      "Two LANs",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00094",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Network",
+      "Data link layer",
+      "Transport"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00095",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "IP",
+      "Logical",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00096",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "128 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00097",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Distance",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00098",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Network layer",
+      "Physical",
+      "Transport",
+      "Data link"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00099",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "LAN and WAN",
+      "Two WANs",
+      "Two LANs",
+      "Computers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00100",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Physical address",
+      "Port",
+      "Logical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00101",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Network",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00102",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "Logical",
+      "IP",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00103",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Delay",
+      "Bandwidth",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00104",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "LAN and WAN",
+      "Two WANs",
+      "Two LANs",
+      "Computers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00105",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Transport",
+      "Network layer",
+      "Data link",
+      "Physical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00106",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Physical layer",
+      "Data link",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00107",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00108",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Actual data rate",
+      "Maximum",
+      "Minimum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00109",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Network layer",
+      "Physical",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00110",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Network",
+      "Physical layer",
+      "Transport"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00111",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Actual data rate",
+      "Minimum",
+      "Maximum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00112",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Physical",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00113",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same LAN",
+      "Same WAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00114",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Error",
+      "Delay",
+      "Speed",
+      "Bandwidth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00115",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "Physical address",
+      "Port",
+      "IP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00116",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Port",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00117",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Data link layer",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00118",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Network",
+      "Transport",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00119",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Network",
+      "Transport",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00120",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Network layer",
+      "Physical",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00121",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Actual data rate",
+      "Maximum",
+      "Average"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00122",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "48 bits",
+      "128 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00123",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Data rate",
+      "Distance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00124",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "LAN and WAN",
+      "Two LANs",
+      "Computers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00125",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Network",
+      "Physical",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00126",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Actual data rate",
+      "Average",
+      "Minimum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00127",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Same LAN",
+      "Different protocols",
+      "Same WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00128",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Data link layer",
+      "Physical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00129",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "Physical address",
+      "IP",
+      "Logical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00130",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Actual data rate",
+      "Minimum",
+      "Average"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00131",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Network",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00132",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Same protocol",
+      "Different protocols",
+      "Same LAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00133",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "32 bits",
+      "64 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00134",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Network layer",
+      "Physical",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00135",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Error",
+      "Bandwidth",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00136",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Distance",
+      "Data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00137",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Maximum",
+      "Average",
+      "Minimum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00138",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "LAN and WAN",
+      "Two WANs",
+      "Computers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00139",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Physical",
+      "Network layer",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00140",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Physical",
+      "Network layer",
+      "Transport",
+      "Data link"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00141",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Speed",
+      "Bandwidth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00142",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "Two LANs",
+      "LAN and WAN",
+      "Two WANs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00143",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Average",
+      "Actual data rate",
+      "Minimum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00144",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Distance",
+      "Error",
+      "Data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00145",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Data rate",
+      "Distance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00146",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Data link layer",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00147",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same LAN",
+      "Same protocol",
+      "Same WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00148",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "LAN and WAN",
+      "Two WANs",
+      "Computers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00149",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "48 bits",
+      "128 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00150",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "128 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00151",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Speed",
+      "Error",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00152",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Physical",
+      "Data link layer",
+      "Network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00153",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Delay",
+      "Error",
+      "Distance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00154",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Data rate",
+      "Distance",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00155",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Speed",
+      "Bandwidth",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00156",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Minimum",
+      "Actual data rate",
+      "Maximum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00157",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network layer",
+      "Physical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00158",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Average",
+      "Actual data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00159",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "LAN and WAN",
+      "Computers",
+      "Two LANs",
+      "Two WANs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00160",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Minimum",
+      "Actual data rate",
+      "Maximum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00161",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Transport",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00162",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Error",
+      "Data rate",
+      "Distance",
+      "Delay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00163",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Distance",
+      "Error",
+      "Data rate",
+      "Delay"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00164",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "Physical address",
+      "Port",
+      "IP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00165",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Distance",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00166",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Transport",
+      "Physical",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00167",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "LAN and WAN",
+      "Computers",
+      "Two LANs",
+      "Two WANs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00168",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "32 bits",
+      "48 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00169",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Transport",
+      "Physical",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00170",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Physical address",
+      "Logical",
+      "Port"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00171",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Bandwidth",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00172",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Data link layer",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00173",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Network layer",
+      "Data link",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00174",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Physical layer",
+      "Network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00175",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Network",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00176",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Data link layer",
+      "Physical",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00177",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Physical",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00178",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Logical",
+      "Port",
+      "IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00179",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same protocol",
+      "Same WAN",
+      "Same LAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00180",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Port",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00181",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Average",
+      "Minimum",
+      "Actual data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00182",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "IP",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00183",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Data link layer",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00184",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "48 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00185",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Physical address",
+      "Logical",
+      "Port"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00186",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Error",
+      "Bandwidth",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00187",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same LAN",
+      "Same WAN",
+      "Different protocols",
+      "Same protocol"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00188",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Network",
+      "Transport",
+      "Data link",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00189",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Transport",
+      "Physical",
+      "Data link",
+      "Network layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00190",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "32 bits",
+      "128 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00191",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "48 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00192",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Average",
+      "Maximum",
+      "Actual data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00193",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Same protocol",
+      "Same LAN",
+      "Different protocols"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00194",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Average",
+      "Actual data rate",
+      "Minimum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00195",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Transport",
+      "Physical",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00196",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Error",
+      "Delay",
+      "Speed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00197",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Actual data rate",
+      "Average"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00198",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Error",
+      "Distance",
+      "Data rate",
+      "Delay"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00199",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "Two WANs",
+      "Computers",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00200",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Network",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00201",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same WAN",
+      "Same protocol",
+      "Same LAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00202",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same LAN",
+      "Different protocols",
+      "Same WAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00203",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Data link layer",
+      "Network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00204",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00205",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Data link",
+      "Network",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00206",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Same protocol",
+      "Different protocols",
+      "Same LAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00207",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Delay",
+      "Speed",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00208",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Delay",
+      "Error",
+      "Bandwidth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00209",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Transport",
+      "Data link",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00210",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Physical",
+      "Data link layer",
+      "Network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00211",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "Two WANs",
+      "Two LANs",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00212",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00213",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Same WAN",
+      "Same LAN",
+      "Different protocols"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00214",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "LAN and WAN",
+      "Two WANs",
+      "Two LANs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00215",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "32 bits",
+      "64 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00216",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00217",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Transport",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00218",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Error",
+      "Distance",
+      "Delay"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00219",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "Computers",
+      "LAN and WAN",
+      "Two LANs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00220",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Network layer",
+      "Data link",
+      "Physical",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00221",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Actual data rate",
+      "Minimum",
+      "Maximum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00222",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Transport",
+      "Network layer",
+      "Physical",
+      "Data link"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00223",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Physical",
+      "Data link",
+      "Transport",
+      "Network layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00224",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Logical",
+      "IP",
+      "Port"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00225",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Data link",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00226",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "Computers",
+      "Two LANs",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00227",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Port",
+      "Logical",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00228",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "Computers",
+      "Two WANs",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00229",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "Port",
+      "Physical address",
+      "IP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00230",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Data link layer",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00231",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "128 bits",
+      "32 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00232",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Error",
+      "Distance",
+      "Delay"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00233",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00234",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Average",
+      "Actual data rate",
+      "Minimum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00235",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Transport",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00236",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Speed",
+      "Error",
+      "Bandwidth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00237",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Network",
+      "Physical layer",
+      "Transport"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00238",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same LAN",
+      "Same WAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00239",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Data link layer",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00240",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Actual data rate",
+      "Maximum",
+      "Minimum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00241",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Speed",
+      "Bandwidth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00242",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Physical layer",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00243",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Port",
+      "Logical",
+      "IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00244",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Network layer",
+      "Data link"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00245",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Physical layer",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00246",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Average",
+      "Maximum",
+      "Actual data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00247",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Same LAN",
+      "Different protocols",
+      "Same WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00248",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "64 bits",
+      "128 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00249",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Data rate",
+      "Distance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00250",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Error",
+      "Delay",
+      "Bandwidth"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00251",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Bandwidth",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00252",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Distance",
+      "Data rate",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00253",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same LAN",
+      "Same protocol",
+      "Same WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00254",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Network",
+      "Transport",
+      "Data link",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00255",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Different protocols",
+      "Same protocol",
+      "Same LAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00256",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "LAN and WAN",
+      "Computers",
+      "Two LANs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00257",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Network",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00258",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Error",
+      "Data rate",
+      "Delay",
+      "Distance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00259",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "Computers",
+      "LAN and WAN",
+      "Two LANs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00260",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same LAN",
+      "Different protocols",
+      "Same protocol",
+      "Same WAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00261",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Actual data rate",
+      "Average",
+      "Minimum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00262",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Transport",
+      "Network",
+      "Data link"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00263",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Distance",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00264",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "Physical address",
+      "Logical",
+      "IP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00265",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Data link layer",
+      "Network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00266",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "Computers",
+      "Two WANs",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00267",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Physical",
+      "Network layer",
+      "Transport"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00268",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Physical",
+      "Network layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00269",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Physical",
+      "Network",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00270",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Physical",
+      "Network",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00271",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00272",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Same protocol",
+      "Different protocols",
+      "Same LAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00273",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Physical",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00274",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Network layer",
+      "Data link",
+      "Physical",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00275",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Error",
+      "Delay",
+      "Distance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00276",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Distance",
+      "Data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00277",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00278",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Network layer",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00279",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "128 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00280",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "128 bits",
+      "48 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00281",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Bandwidth",
+      "Speed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00282",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Speed",
+      "Bandwidth",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00283",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Port",
+      "Logical",
+      "IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00284",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Physical",
+      "Network",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00285",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "Two LANs",
+      "LAN and WAN",
+      "Computers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00286",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00287",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "128 bits",
+      "48 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00288",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Port",
+      "IP",
+      "Logical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00289",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "128 bits",
+      "32 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00290",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Error",
+      "Bandwidth",
+      "Delay",
+      "Speed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00291",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Distance",
+      "Error",
+      "Data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00292",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Minimum",
+      "Actual data rate",
+      "Maximum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00293",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Distance",
+      "Error",
+      "Data rate",
+      "Delay"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00294",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "48 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00295",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Maximum",
+      "Minimum",
+      "Average"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00296",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Distance",
+      "Data rate",
+      "Error",
+      "Delay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00297",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "Physical address",
+      "IP",
+      "Port"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00298",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Port",
+      "Logical",
+      "IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00299",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Network layer",
+      "Data link"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00300",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Actual data rate",
+      "Maximum",
+      "Minimum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00301",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Physical",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00302",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Data link layer",
+      "Physical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00303",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "LAN and WAN",
+      "Two WANs",
+      "Two LANs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00304",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Data link layer",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00305",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Transport",
+      "Data link",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00306",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Actual data rate",
+      "Minimum",
+      "Average"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00307",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Transport",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00308",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same LAN",
+      "Same WAN",
+      "Same protocol",
+      "Different protocols"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00309",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Data link layer",
+      "Network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00310",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "Computers",
+      "Two LANs",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00311",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Physical",
+      "Network layer",
+      "Transport",
+      "Data link"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00312",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same WAN",
+      "Same protocol",
+      "Same LAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00313",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "32 bits",
+      "128 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00314",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Port",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00315",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Delay",
+      "Error",
+      "Speed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00316",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Physical layer",
+      "Network",
+      "Data link"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00317",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Data link",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00318",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Bandwidth",
+      "Error",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00319",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Network",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00320",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Transport",
+      "Physical",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00321",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Network",
+      "Transport",
+      "Data link",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00322",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "32 bits",
+      "128 bits",
+      "48 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00323",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Port",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00324",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Delay",
+      "Error",
+      "Bandwidth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00325",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Average",
+      "Minimum",
+      "Maximum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00326",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Maximum",
+      "Average",
+      "Minimum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00327",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "LAN and WAN",
+      "Two LANs",
+      "Two WANs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00328",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Data rate",
+      "Distance",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00329",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Physical",
+      "Transport",
+      "Network layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00330",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Transport",
+      "Data link",
+      "Physical",
+      "Network layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00331",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Network",
+      "Transport",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00332",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Data link layer",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00333",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "Port",
+      "IP",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00334",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Port",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00335",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Physical",
+      "Data link layer",
+      "Transport"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00336",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Error",
+      "Distance",
+      "Data rate",
+      "Delay"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00337",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Distance",
+      "Data rate",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00338",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Logical",
+      "Physical address",
+      "Port"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00339",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "LAN and WAN",
+      "Two WANs",
+      "Two LANs",
+      "Computers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00340",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Minimum",
+      "Actual data rate",
+      "Maximum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00341",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "LAN and WAN",
+      "Two LANs",
+      "Two WANs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00342",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "IP",
+      "Logical",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00343",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Network layer",
+      "Physical",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00344",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "IP",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00345",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "IP",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00346",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Network",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00347",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Port",
+      "Logical",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00348",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Delay",
+      "Speed",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00349",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Network layer",
+      "Physical",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00350",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Transport",
+      "Physical",
+      "Network layer",
+      "Data link"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00351",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "32 bits",
+      "48 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00352",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Bandwidth",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00353",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Different protocols",
+      "Same protocol",
+      "Same LAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00354",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00355",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Transport",
+      "Physical",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00356",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Data link layer",
+      "Network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00357",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Error",
+      "Distance",
+      "Data rate",
+      "Delay"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00358",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Data link layer",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00359",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Network",
+      "Transport",
+      "Data link"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00360",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Data link layer",
+      "Network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00361",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "Physical address",
+      "Logical",
+      "IP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00362",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Actual data rate",
+      "Average"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00363",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Minimum",
+      "Average",
+      "Maximum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00364",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "IP",
+      "Port",
+      "Physical address",
+      "Logical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00365",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Same LAN",
+      "Different protocols",
+      "Same WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00366",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Average",
+      "Actual data rate",
+      "Minimum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00367",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same LAN",
+      "Different protocols",
+      "Same WAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00368",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "Port",
+      "Physical address",
+      "IP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00369",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "Two WANs",
+      "Computers",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00370",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "Two WANs",
+      "Computers",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00371",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "Logical",
+      "Physical address",
+      "IP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00372",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Actual data rate",
+      "Minimum",
+      "Maximum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00373",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Distance",
+      "Error",
+      "Data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00374",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same LAN",
+      "Same WAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00375",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Delay",
+      "Speed",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00376",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Network",
+      "Transport",
+      "Data link"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00377",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Error",
+      "Distance",
+      "Data rate",
+      "Delay"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00378",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "48 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00379",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Distance",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00380",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Data link layer",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00381",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Data link",
+      "Network",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00382",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same WAN",
+      "Same LAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00383",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Maximum",
+      "Minimum",
+      "Average"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00384",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "IP",
+      "Port",
+      "Logical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00385",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Same LAN",
+      "Different protocols",
+      "Same WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00386",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Delay",
+      "Speed",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00387",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same LAN",
+      "Same WAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00388",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00389",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Delay",
+      "Distance",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00390",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Transport",
+      "Network",
+      "Physical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00391",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "128 bits",
+      "32 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00392",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Minimum",
+      "Average",
+      "Actual data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00393",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "LAN and WAN",
+      "Two LANs",
+      "Computers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00394",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Network layer",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00395",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Same WAN",
+      "Different protocols",
+      "Same LAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00396",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Two LANs",
+      "LAN and WAN",
+      "Two WANs",
+      "Computers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00397",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Same LAN",
+      "Same WAN",
+      "Different protocols",
+      "Same protocol"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00398",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Average",
+      "Actual data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00399",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "hard",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Minimum",
+      "Maximum",
+      "Average"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00400",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Transport",
+      "Physical",
+      "Data link",
+      "Network layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00401",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Same protocol",
+      "Different protocols",
+      "Same LAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00402",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "32 bits",
+      "64 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00403",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Network",
+      "Physical layer",
+      "Transport"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00404",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Transport",
+      "Data link",
+      "Physical",
+      "Network layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00405",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Speed",
+      "Bandwidth",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00406",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Network layer",
+      "Physical",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00407",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Physical layer",
+      "Data link"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00408",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Delay",
+      "Error",
+      "Speed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00409",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Data link",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00410",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Error",
+      "Data rate",
+      "Distance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00411",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Logical",
+      "Port",
+      "IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00412",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Error",
+      "Data rate",
+      "Delay",
+      "Distance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00413",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same WAN",
+      "Same protocol",
+      "Same LAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00414",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Transport",
+      "Data link",
+      "Network layer",
+      "Physical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00415",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "IP",
+      "Port",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00416",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "32 bits",
+      "128 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00417",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Average",
+      "Minimum",
+      "Maximum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00418",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Data link layer",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00419",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00420",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Different protocols",
+      "Same protocol",
+      "Same LAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00421",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Network",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00422",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "32 bits",
+      "128 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00423",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "medium",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same WAN",
+      "Same protocol",
+      "Same LAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00424",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Delay",
+      "Error",
+      "Bandwidth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00425",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Data link layer",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00426",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Average",
+      "Actual data rate",
+      "Maximum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00427",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "IP",
+      "Port",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00428",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "IP",
+      "Port",
+      "Physical address"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00429",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "Bandwidth is?",
+    "options": [
+      "Distance",
+      "Data rate",
+      "Error",
+      "Delay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00430",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "64 bits",
+      "128 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00431",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Same LAN",
+      "Same WAN",
+      "Different protocols"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00432",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Data link layer",
+      "Physical",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00433",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "Latency is?",
+    "options": [
+      "Error",
+      "Speed",
+      "Bandwidth",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00434",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "128 bits",
+      "48 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00435",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "hard",
+    "question": "Bandwidth is?",
+    "options": [
+      "Data rate",
+      "Delay",
+      "Distance",
+      "Error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00436",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Same protocol",
+      "Same LAN",
+      "Different protocols"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00437",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "LAN and WAN",
+      "Two LANs",
+      "Computers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00438",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "MAC address is also called?",
+    "options": [
+      "Logical",
+      "IP",
+      "Physical address",
+      "Port"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00439",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "question": "Bandwidth is?",
+    "options": [
+      "Delay",
+      "Distance",
+      "Data rate",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00440",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "128 bits",
+      "48 bits"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00441",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Port",
+      "Logical",
+      "Physical address",
+      "IP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00442",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network layer",
+      "Physical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00443",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Different protocols",
+      "Same LAN",
+      "Same WAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00444",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "32 bits",
+      "48 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00445",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Maximum",
+      "Actual data rate",
+      "Average",
+      "Minimum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00446",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Minimum",
+      "Actual data rate",
+      "Maximum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00447",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "32 bits",
+      "128 bits",
+      "48 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00448",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "48 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00449",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Network",
+      "Transport",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00450",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Actual data rate",
+      "Minimum",
+      "Maximum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00451",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "easy",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Network layer",
+      "Physical",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00452",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "hard",
+    "question": "Bridge connects?",
+    "options": [
+      "Computers",
+      "Two LANs",
+      "LAN and WAN",
+      "Two WANs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00453",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same LAN",
+      "Same WAN",
+      "Different protocols",
+      "Same protocol"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-dns-00454",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Bandwidth",
+      "Error",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00455",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Physical layer",
+      "Data link"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00456",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Speed",
+      "Delay",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00457",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Logical",
+      "IP",
+      "Port"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00458",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Maximum",
+      "Minimum",
+      "Average"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00459",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "Switch operates at?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Network",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00460",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Physical",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00461",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Minimum",
+      "Maximum",
+      "Average"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00462",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "64 bits",
+      "32 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00463",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Network",
+      "Data link",
+      "Transport",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00464",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Actual data rate",
+      "Average",
+      "Maximum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00465",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Speed",
+      "Error",
+      "Bandwidth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00466",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "48 bits",
+      "128 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-osi-00467",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Delay",
+      "Error",
+      "Bandwidth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00468",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Switch operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Data link layer",
+      "Physical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00469",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Different protocols",
+      "Same protocol",
+      "Same LAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00470",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Different protocols",
+      "Same LAN",
+      "Same protocol",
+      "Same WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00471",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Physical layer",
+      "Data link",
+      "Network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00472",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Error",
+      "Delay",
+      "Speed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00473",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "64 bits",
+      "48 bits",
+      "32 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00474",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "32 bits",
+      "128 bits",
+      "48 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00475",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "48 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00476",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "easy",
+    "question": "Hub operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-icm-00477",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Data link",
+      "Transport",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00478",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Switch operates at?",
+    "options": [
+      "Network",
+      "Physical",
+      "Transport",
+      "Data link layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Data link layer",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00479",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "easy",
+    "question": "Throughput is?",
+    "options": [
+      "Average",
+      "Maximum",
+      "Actual data rate",
+      "Minimum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00480",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Different protocols",
+      "Same LAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00481",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Delay",
+      "Bandwidth",
+      "Error",
+      "Speed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-udp-00482",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "UDP",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Actual data rate",
+      "Maximum",
+      "Average",
+      "Minimum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00483",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "easy",
+    "question": "Gateway connects?",
+    "options": [
+      "Same WAN",
+      "Different protocols",
+      "Same LAN",
+      "Same protocol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00484",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Gateway connects?",
+    "options": [
+      "Same protocol",
+      "Same WAN",
+      "Different protocols",
+      "Same LAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Different protocols",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00485",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "IP",
+      "Logical",
+      "Port"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00486",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Error",
+      "Bandwidth",
+      "Speed",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00487",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "medium",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "Logical",
+      "Port",
+      "IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-tcp-00488",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Error",
+      "Bandwidth",
+      "Speed",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00489",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "medium",
+    "question": "Bridge connects?",
+    "options": [
+      "Two WANs",
+      "Computers",
+      "Two LANs",
+      "LAN and WAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Two LANs",
+    "marks": 1
+  },
+  {
+    "id": "net-htt-00490",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Network",
+      "Physical layer",
+      "Data link",
+      "Transport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip-00491",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP",
+    "difficulty": "hard",
+    "question": "Router operates at?",
+    "options": [
+      "Data link",
+      "Transport",
+      "Network layer",
+      "Physical"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Network layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00492",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Speed",
+      "Error",
+      "Delay",
+      "Bandwidth"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-ftp-00493",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "FTP",
+    "difficulty": "medium",
+    "question": "Hub operates at?",
+    "options": [
+      "Physical layer",
+      "Transport",
+      "Data link",
+      "Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-ip -00494",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "medium",
+    "question": "Throughput is?",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Average",
+      "Actual data rate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Actual data rate",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00495",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Transport",
+      "Network",
+      "Physical layer",
+      "Data link"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00496",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "Latency is?",
+    "options": [
+      "Error",
+      "Delay",
+      "Bandwidth",
+      "Speed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00497",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "medium",
+    "question": "MAC address size?",
+    "options": [
+      "128 bits",
+      "48 bits",
+      "64 bits",
+      "32 bits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Answer: 48 bits",
+    "marks": 1
+  },
+  {
+    "id": "net-arp-00498",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "easy",
+    "question": "MAC address is also called?",
+    "options": [
+      "Physical address",
+      "IP",
+      "Port",
+      "Logical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Answer: Physical address",
+    "marks": 1
+  },
+  {
+    "id": "net-clo-00499",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Cloud Computing",
+    "difficulty": "hard",
+    "question": "Latency is?",
+    "options": [
+      "Bandwidth",
+      "Error",
+      "Speed",
+      "Delay"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Delay",
+    "marks": 1
+  },
+  {
+    "id": "net-cli-00500",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "Client-Server Computing",
+    "difficulty": "hard",
+    "question": "Hub operates at?",
+    "options": [
+      "Network",
+      "Data link",
+      "Transport",
+      "Physical layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Answer: Physical layer",
+    "marks": 1
+  }
+]

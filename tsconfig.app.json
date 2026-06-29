@@ -20,6 +20,7 @@
     "noUnusedParameters": false,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
 
     "ignoreDeprecations": "6.0",
     /* Path aliases */

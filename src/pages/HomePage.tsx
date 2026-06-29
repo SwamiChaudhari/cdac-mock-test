@@ -112,6 +112,9 @@ export default function HomePage({ questions }: Props) {
             <button onClick={() => navigate('/formula-sheet')} className="px-2 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition hidden sm:block">
               Formulas
             </button>
+            <button onClick={() => navigate('/topic-learning')} className="px-2 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-purple-600 hover:bg-purple-50 rounded-lg transition">
+              📚 1000 Cards
+            </button>
             <button onClick={() => navigate('/mistakes')} className="px-2 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition hidden sm:block">
               Mistakes
             </button>

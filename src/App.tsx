@@ -16,6 +16,7 @@ import AnalyticsPage from './pages/AnalyticsPage'
 import FlashcardReviewPage from './pages/FlashcardReviewPage'
 import FormulaSheetPage from './pages/FormulaSheetPage'
 import PreviousMistakesPage from './pages/PreviousMistakesPage'
+import TopicLearningPage from './pages/TopicLearningPage'
 
 function App() {
   const [questions, setQuestions] = useState<Question[]>([])
@@ -63,6 +64,7 @@ function App() {
         <Route path="/flashcards" element={<FlashcardReviewPage />} />
         <Route path="/formula-sheet" element={<FormulaSheetPage />} />
         <Route path="/mistakes" element={<PreviousMistakesPage />} />
+        <Route path="/topic-learning" element={<TopicLearningPage />} />
       </Routes>
     </BrowserRouter>
   )

@@ -1,0 +1,234 @@
+[
+  {
+    "id": "os_001",
+    "section": "B",
+    "subject": "Operating Systems",
+    "topic": "Process States",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "In the process state transition diagram, which state does a process enter when it is waiting for an I/O operation to complete?",
+    "options": [
+      "Waiting/Blocked state",
+      "Ready state",
+      "Running state",
+      "New state"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a running process requests I/O, it cannot proceed until I/O completes. It moves from Running to Waiting/Blocked state. When I/O completes, it moves to Ready state.",
+    "formula": "Process states: New → Ready → Running → Waiting (I/O) → Ready → Running → Terminated",
+    "concept": "A process in Waiting/Blocked state is paused until an external event (like I/O completion) occurs. It cannot use the CPU even if available.",
+    "hint": "I/O wait = process is blocked, not ready to run.",
+    "shortcut": "I/O request → Waiting/Blocked state",
+    "commonMistake": "Thinking the process stays in Running state during I/O. It moves to Waiting — the CPU is given to another process.",
+    "memoryTrick": "Process states: 'Newborn → Ready to run → Running → Waiting for I/O → Ready again → Running → Dead.' Think: 'Waiting = Waiting for something external.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "os_002",
+    "section": "B",
+    "subject": "Operating Systems",
+    "topic": "CPU Scheduling",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "Consider three processes arriving at time 0 with burst times: P1=6ms, P2=8ms, P3=7ms. Using SJF (Shortest Job First) scheduling, what is the average waiting time?",
+    "options": [
+      "6.33 ms",
+      "7 ms",
+      "5.67 ms",
+      "8 ms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SJF order: P1(6), P3(7), P2(8). Waiting times: P1=0, P3=6, P2=6+7=13. Average = (0+6+13)/3 = 19/3 = 6.33 ms.",
+    "formula": "SJF: Sort by burst time (shortest first). Waiting time = Sum of burst times of all previous processes.",
+    "concept": "SJF selects the process with the shortest burst time. It minimizes average waiting time but requires knowledge of burst times in advance.",
+    "hint": "Sort processes by burst time. First process waits 0, second waits for first's burst, third waits for first+second.",
+    "shortcut": "Order: P1(6), P3(7), P2(8). WT: 0, 6, 13. Avg = 19/3 = 6.33 ms",
+    "commonMistake": "Using FCFS order instead of sorting by burst time. SJF always picks the shortest job available.",
+    "memoryTrick": "SJF = 'Shortest Job First' = sort by burst time ascending. Think: 'Quick tasks first, long tasks wait.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    }
+  },
+  {
+    "id": "os_003",
+    "section": "B",
+    "subject": "Operating Systems",
+    "topic": "Deadlock",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "Which of the following is NOT a necessary condition for deadlock to occur?",
+    "options": [
+      "Starvation",
+      "Mutual Exclusion",
+      "Hold and Wait",
+      "No Preemption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The four necessary conditions for deadlock are: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. Starvation is a related but different problem where a process is indefinitely denied resources.",
+    "formula": "Deadlock 4 conditions: Mutual Exclusion + Hold and Wait + No Preemption + Circular Wait. All four must hold.",
+    "concept": "Coffman conditions for deadlock: all four must be present. Starvation is when a process waits indefinitely but is not part of a deadlock cycle.",
+    "hint": "Remember the 4 conditions: Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait.",
+    "shortcut": "Deadlock = M+H+N+C. Starvation is NOT one of them.",
+    "commonMistake": "Confusing starvation with deadlock. Starvation is unfair scheduling; deadlock is circular waiting.",
+    "memoryTrick": "Deadlock 4 conditions: 'My Hands Never Clash' = Mutual, Hold, No preemption, Circular. Starvation is NOT in this list.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    }
+  },
+  {
+    "id": "os_004",
+    "section": "B",
+    "subject": "Operating Systems",
+    "topic": "Paging",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "In a paged memory system, if the logical address space is 32 bits and page size is 4 KB, how many bits are used for the page number and how many for the offset?",
+    "options": [
+      "Page number: 20 bits, Offset: 12 bits",
+      "Page number: 12 bits, Offset: 20 bits",
+      "Page number: 16 bits, Offset: 16 bits",
+      "Page number: 22 bits, Offset: 10 bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Page size = 4 KB = 2^12 bytes, so offset = 12 bits. Page number bits = 32 - 12 = 20 bits. Total pages = 2^20 = 1 million pages.",
+    "formula": "Offset bits = log₂(Page size). Page number bits = Address bits - Offset bits. 4KB = 2^12, so offset = 12 bits.",
+    "concept": "Logical address = Page Number + Offset. Offset is determined by page size. Remaining bits are for page number.",
+    "hint": "4 KB = 4096 bytes = 2^12. So offset needs 12 bits. Remaining 20 bits for page number.",
+    "shortcut": "Offset = log₂(4096) = 12 bits. Page number = 32 - 12 = 20 bits.",
+    "commonMistake": "Using 4 KB = 4000 bytes (decimal) instead of 4096 (binary). In CS, K = 1024, not 1000.",
+    "memoryTrick": "Page size 4KB = 2^12 → offset = 12 bits. Think: '4K = 4×1024 = 4096 = 2^12. The exponent IS the offset bit count.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    }
+  },
+  {
+    "id": "os_005",
+    "section": "B",
+    "subject": "Operating Systems",
+    "topic": "Virtual Memory",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "What is the primary purpose of virtual memory in an operating system?",
+    "options": [
+      "To allow programs to use more memory than physically available in RAM",
+      "To increase CPU speed",
+      "To reduce the size of executable files",
+      "To improve disk storage capacity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Virtual memory allows programs to address more memory than physically available by using disk storage as an extension of RAM. It uses paging/swapping to move data between RAM and disk.",
+    "formula": "Virtual Memory = RAM + Disk (swap space). Programs see a large contiguous address space.",
+    "concept": "Virtual memory creates an illusion of large, contiguous memory by mapping virtual addresses to physical frames, with disk as backup storage.",
+    "hint": "Virtual memory = using disk as extra memory. Programs think they have more RAM than actually exists.",
+    "shortcut": "Virtual memory = More memory than physical RAM (using disk)",
+    "commonMistake": "Thinking virtual memory increases actual RAM. It only extends the ADDRESSABLE space using disk.",
+    "memoryTrick": "Virtual memory = 'Virtual reality for memory.' Programs think they have a huge memory, but it's partly an illusion (disk).",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "os_006",
+    "section": "B",
+    "subject": "Operating Systems",
+    "topic": "Process vs Program",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "Which of the following best describes the difference between a process and a program?",
+    "options": [
+      "A program is a passive entity (code on disk), a process is an active entity (program in execution)",
+      "A process is stored on disk, a program runs in memory",
+      "They are the same thing",
+      "A program can have multiple processes but a process cannot have multiple programs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A program is a passive entity — an executable file stored on disk. A process is an active entity — a program in execution with its own memory space, registers, and state.",
+    "formula": "Program = Static code on disk. Process = Program + PCB + Memory + State (active execution).",
+    "concept": "A program becomes a process when it is loaded into memory and starts execution. One program can have multiple process instances.",
+    "hint": "Program = recipe (passive). Process = cooking the recipe (active).",
+    "shortcut": "Program = passive (disk), Process = active (memory + execution)",
+    "commonMistake": "Using 'process' and 'program' interchangeably. They are fundamentally different concepts.",
+    "memoryTrick": "Program = 'Recipe in a book' (passive). Process = 'Cooking the recipe' (active). Think: 'A program waits, a process runs.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "os_007",
+    "section": "B",
+    "subject": "Operating Systems",
+    "topic": "CPU Scheduling",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "In Round Robin scheduling with time quantum = 4ms, consider processes: P1 (burst=8), P2 (burst=5), P3 (burst=3), all arriving at time 0. What is the turnaround time of P2?",
+    "options": [
+      "16 ms",
+      "12 ms",
+      "15 ms",
+      "11 ms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Execution: 0-4:P1(rem 4), 4-8:P2(rem 1), 8-11:P3(done at 11), 11-15:P1(done at 15), 15-16:P2(done at 16). P2 completion = 16. Turnaround = 16 - 0 = 16 ms.",
+    "formula": "Round Robin: Each process gets time quantum in circular order. Turnaround = Completion time - Arrival time.",
+    "concept": "Round Robin gives each process a fixed time quantum in cyclic order. Processes that need more time go back to the end of the queue.",
+    "hint": "Trace execution: P1(4), P2(4), P3(3, done), P1(4, done), P2(1, done). Find when P2 finishes.",
+    "shortcut": "P2 runs at 4-8 and 15-16. Completion = 16. Turnaround = 16 ms.",
+    "commonMistake": "Forgetting that P2 needs two time slices (5ms total, quantum=4ms).",
+    "memoryTrick": "Round Robin = 'Take turns, fair share.' Each process gets quantum time, then goes to back of queue.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "os_008",
+    "section": "B",
+    "subject": "Operating Systems",
+    "topic": "Thrashing",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "What is thrashing in the context of virtual memory management?",
+    "options": [
+      "Excessive page faults causing the system to spend more time paging than executing",
+      "A deadlock between multiple processes",
+      "A process consuming all CPU time",
+      "Corruption of page tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thrashing occurs when the system spends more time handling page faults (swapping pages in/out) than executing processes. This happens when there are too many processes competing for limited physical memory.",
+    "formula": "Thrashing: High page fault rate → Low CPU utilization → OS admits more processes → Worse thrashing (vicious cycle).",
+    "concept": "Thrashing is a severe performance degradation caused by excessive paging. The system is busy swapping pages instead of doing useful work.",
+    "hint": "Thrashing = too much paging, not enough actual work.",
+    "shortcut": "Thrashing = Excessive paging → System slowdown",
+    "commonMistake": "Confusing thrashing with deadlock. Thrashing is about excessive paging, not circular waiting.",
+    "memoryTrick": "Thrashing = 'Thrashing around in water' — lots of activity (paging) but going nowhere (no real work done).",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  }
+]

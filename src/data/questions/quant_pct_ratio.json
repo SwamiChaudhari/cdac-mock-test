@@ -1,0 +1,524 @@
+[
+  {
+    "id": "qt_pct_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "In a school election with 2,400 eligible voters, 60% of the voters cast their votes. The winning candidate received 55% of the total votes cast. How many votes did the winning candidate receive?",
+    "options": [
+      "792",
+      "810",
+      "720",
+      "864"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total votes cast = 60% of 2,400 = 0.60 × 2400 = 1,440. Winning candidate's votes = 55% of 1,440 = 0.55 × 1440 = 792.",
+    "formula": "Votes for winner = Total eligible × Turnout% × Winner%",
+    "concept": "Successive percentage calculation: when a percentage is applied on another percentage, multiply them sequentially. First find the subset, then find the portion of that subset.",
+    "hint": "First find how many people actually voted, then find what percentage of those votes went to the winner.",
+    "shortcut": "Direct: 2400 × 0.60 × 0.55 = 2400 × 0.33 = 792",
+    "commonMistake": "Calculating 55% of total eligible voters (2400) instead of votes cast (1440). This gives 1320 which is wrong.",
+    "memoryTrick": "Think of it as a FILTER: first filter who voted (60%), then filter who won among voters (55%). Multiply the filters: 0.6 × 0.55 = 0.33, so 33% of total.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pct_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "A shopkeeper marks an article 40% above cost price but gives a discount of 20% on the marked price. If the cost price is Rs. 500, what is the selling price and profit percentage?",
+    "options": [
+      "Rs. 560, 12% profit",
+      "Rs. 540, 8% profit",
+      "Rs. 580, 16% profit",
+      "Rs. 520, 4% profit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Marked Price = CP + 40% of CP = 500 + 200 = Rs. 700. Discount = 20% of 700 = 140. SP = 700 - 140 = Rs. 560. Profit = 560 - 500 = 60. Profit% = (60/500) × 100 = 12%.",
+    "formula": "Successive change: Net% = a + b + ab/100 = 40 + (-20) + (40×-20)/100 = 12%",
+    "concept": "When markup and discount are both applied, use the successive percentage formula. The net effect is not simply markup minus discount.",
+    "hint": "Use the successive percentage formula: a = 40% (markup), b = -20% (discount).",
+    "shortcut": "Net% = 40 - 20 + (40 × -20)/100 = 12%. SP = 500 × 1.12 = Rs. 560",
+    "commonMistake": "Adding 40% and -20% to get 20% profit. This ignores the compounding effect. The correct net is 12%.",
+    "memoryTrick": "Successive change formula: a + b + ab/100. Think 'ABCD' — Always Both Combine Directly.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    }
+  },
+  {
+    "id": "qt_pct_003",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "trap",
+    "question": "The population of a town increases by 10% in the first year and decreases by 10% in the second year. If the initial population was 50,000, what is the population after 2 years?",
+    "options": [
+      "49,500",
+      "50,000",
+      "55,000",
+      "45,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "After Year 1: 50,000 × 1.10 = 55,000. After Year 2: 55,000 × 0.90 = 49,500. Net change = 10 + (-10) + (10 × -10)/100 = -1%. Population = 50,000 × 0.99 = 49,500.",
+    "formula": "Net% = a + b + ab/100. When a = +10, b = -10: Net = -1%",
+    "concept": "When a value increases and decreases by the same percentage, there is always a net decrease of p²/100 %.",
+    "hint": "When same % increase and decrease happen, the net result is always a loss.",
+    "shortcut": "Direct formula: Net loss% = (10)²/100 = 1%. Population = 50,000 × 0.99 = 49,500",
+    "commonMistake": "Thinking +10% and -10% cancel out to give 0% change. They don't — the decrease applies to a larger base.",
+    "memoryTrick": "Same % up then down = ALWAYS a loss. Think: 'Up the hill, down the valley — you end up lower.' Loss% = p²/100.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pct_004",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "In an examination, 35% students failed in Hindi, 45% failed in English, and 20% failed in both subjects. What percentage of students passed in both subjects?",
+    "options": [
+      "40%",
+      "60%",
+      "55%",
+      "45%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Failed in at least one = H + E - Both = 35 + 45 - 20 = 60%. Passed in both = 100% - 60% = 40%.",
+    "formula": "Pass% = 100% - (A + B - Both) where A and B are fail percentages",
+    "concept": "Set theory application using inclusion-exclusion principle. Pass in both = Total - Fail in at least one.",
+    "hint": "Use inclusion-exclusion: find students who failed at least one subject, then subtract from 100%.",
+    "shortcut": "Fail at least one = 35 + 45 - 20 = 60%. Pass both = 100 - 60 = 40%",
+    "commonMistake": "Subtracting both failures from 100: 100 - 35 - 45 = 20%. This double-counts the intersection.",
+    "memoryTrick": "Venn diagram: 'Failed in at least one' = Left circle + Right circle - Overlap. Pass in both = Outside both.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "qt_pct_005",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "trap",
+    "question": "If the price of petrol increases by 25%, by what percentage should a person reduce their consumption to keep the total expenditure unchanged?",
+    "options": [
+      "20%",
+      "25%",
+      "16.67%",
+      "30%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Expenditure = Price × Consumption. To keep expenditure constant: P1 × C1 = P2 × C2. If P2 = 1.25 × P1, then C2 = C1/1.25 = 0.8 × C1. Reduction = 20%.",
+    "formula": "If price increases by p%, consumption should decrease by [p/(100+p)] × 100%",
+    "concept": "Inverse proportion between price and consumption when expenditure is constant. If price goes up by factor k, consumption must go down by factor 1/k.",
+    "hint": "Use the formula: Required reduction% = p/(100+p) × 100 where p is the price increase percentage.",
+    "shortcut": "Reduction% = 25/(100+25) × 100 = 25/125 × 100 = 20%",
+    "commonMistake": "Reducing consumption by the same 25%. This would reduce expenditure, not keep it constant.",
+    "memoryTrick": "Price UP by p% → Consumption DOWN by p/(100+p)%. The reduction is always LESS than the price increase.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pct_006",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "A student needs 40% marks to pass an exam. The student scored 200 marks and failed by 40 marks. What are the maximum marks of the exam?",
+    "options": [
+      "600",
+      "500",
+      "480",
+      "640"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Passing marks = Student's marks + Marks failed by = 200 + 40 = 240. Passing marks = 40% of Maximum. So 240 = 0.40 × Max. Max = 240/0.40 = 600.",
+    "formula": "Maximum marks = (Marks obtained + Marks failed by) / Passing percentage",
+    "concept": "When a student fails by X marks, the passing marks = obtained marks + X. Then use the passing percentage to find maximum marks.",
+    "hint": "First find the passing marks by adding the marks failed by to the marks obtained.",
+    "shortcut": "Pass marks = 200 + 40 = 240. Max = 240/0.4 = 600",
+    "commonMistake": "Using 200 as 40% of max (giving 500) instead of recognizing that 200 is BELOW passing marks.",
+    "memoryTrick": "'Failed by X' means you need X MORE to pass. So Pass = Got + Shortfall. Then Max = Pass / Pass%.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pct_007",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "In a basket of 100 fruits, 30% are apples, 40% are oranges, and the rest are bananas. If 10% of the apples and 5% of the oranges are rotten, how many fresh fruits are there in total?",
+    "options": [
+      "95",
+      "93",
+      "97",
+      "91"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Apples = 30, Oranges = 40, Bananas = 30. Rotten apples = 10% of 30 = 3. Rotten oranges = 5% of 40 = 2. Total rotten = 5. Fresh = 100 - 5 = 95.",
+    "formula": "Fresh = Total - (Rotten apples + Rotten oranges). Rotten = Count × Rotten%",
+    "concept": "Multi-step percentage problem: find counts of each category, apply sub-percentages to find rotten items, subtract from total.",
+    "hint": "Find the count of each fruit type first, then calculate how many are rotten in each category.",
+    "shortcut": "Fresh = 100 - (30×0.1 + 40×0.05) = 100 - (3+2) = 95",
+    "commonMistake": "Applying the rotten percentages to the total (100) instead of to each fruit category separately.",
+    "memoryTrick": "Break it down: Total → Categories → Sub-percentages → Subtract. Think 'Divide and conquer, then remove the bad ones.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_pct_008",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "A's salary is 40% of B's salary, and B's salary is 25% of C's salary. What percentage of C's salary is A's salary?",
+    "options": [
+      "10%",
+      "16%",
+      "65%",
+      "25%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A = 0.40 × B and B = 0.25 × C. Therefore A = 0.40 × 0.25 × C = 0.10 × C = 10% of C's salary.",
+    "formula": "A% of C = (A% of B) × (B% of C) = 0.40 × 0.25 = 0.10 = 10%",
+    "concept": "When percentages are chained (A is % of B, B is % of C), multiply the percentage factors to find the direct relationship.",
+    "hint": "Convert both percentages to decimals and multiply them together.",
+    "shortcut": "A/C = 0.40 × 0.25 = 0.10 = 10%",
+    "commonMistake": "Adding the percentages (40 + 25 = 65%) or averaging them. These are multiplicative relationships.",
+    "memoryTrick": "Chain percentages = MULTIPLY them. Think of it as a chain link: 40% link to 25% = 0.4 × 0.25 = 0.1 = 10%",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_pct_009",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "The price of sugar decreases by 20%. By what percentage should a family increase their consumption of sugar so that the expenditure on sugar increases by 8%?",
+    "options": [
+      "35%",
+      "28%",
+      "30%",
+      "32%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Expenditure = Price × Consumption. New Expenditure = 1.08E, New Price = 0.80P. So 1.08E = 0.80P × New C. Since E = P × C, we get 1.08PC = 0.80P × New C. New C = 1.08/0.80 × C = 1.35C. Increase = 35%.",
+    "formula": "New Consumption factor = (1 + Expenditure% change) / (1 + Price% change) = 1.08/0.80 = 1.35",
+    "concept": "When both price and expenditure change, use: Expenditure = Price × Consumption. Solve for the new consumption factor.",
+    "hint": "Set up: New Expenditure = New Price × New Consumption. Express everything relative to original values.",
+    "shortcut": "New C factor = 1.08/0.80 = 1.35. Increase = 35%",
+    "commonMistake": "Simply adding 20% + 8% = 28%. This ignores the multiplicative relationship between the three variables.",
+    "memoryTrick": "Expenditure = Price × Consumption. If Price goes DOWN by 20% (×0.8) and Expenditure goes UP by 8% (×1.08), then Consumption = 1.08/0.8 = 1.35 = 35% up.",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "qt_pct_010",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
+    "question": "A number is first increased by 20% and then increased by 30%. What single percentage increase would give the same result?",
+    "options": [
+      "56%",
+      "50%",
+      "60%",
+      "52%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let the number be 100. After 20% increase: 120. After 30% increase: 120 × 1.30 = 156. Net increase = 56%. Using formula: Net% = 20 + 30 + (20 × 30)/100 = 50 + 6 = 56%.",
+    "formula": "Successive increase: Net% = a + b + ab/100 = 20 + 30 + 600/100 = 56%",
+    "concept": "When two percentage increases are applied successively, the net increase is more than their sum because the second increase applies to an already-increased value.",
+    "hint": "Use the successive percentage formula: a + b + ab/100.",
+    "shortcut": "Net% = 20 + 30 + (20×30)/100 = 50 + 6 = 56%",
+    "commonMistake": "Simply adding 20% + 30% = 50%. This ignores the compounding effect where the second 30% applies to 120, not 100.",
+    "memoryTrick": "Successive increases always give MORE than the sum. The extra amount is ab/100. Think: 'The second increase rides on the shoulders of the first.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_rp_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "If A : B = 3 : 4 and B : C = 6 : 5, find the ratio A : B : C.",
+    "options": [
+      "9 : 12 : 10",
+      "3 : 4 : 5",
+      "18 : 24 : 20",
+      "6 : 8 : 5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "To combine ratios, make B the same in both. A:B = 3:4 = 9:12 (multiply by 3). B:C = 6:5 = 12:10 (multiply by 2). Therefore A:B:C = 9:12:10.",
+    "formula": "Make the common term (B) equal in both ratios by finding LCM of its values (LCM of 4 and 6 = 12)",
+    "concept": "When combining two ratios with a common term, scale both ratios so the common term has the same value in both. Use LCM to find the scaling factor.",
+    "hint": "Find the LCM of the two values of B (4 and 6), which is 12. Scale both ratios to make B = 12.",
+    "shortcut": "A:B = 3:4 → ×3 → 9:12. B:C = 6:5 → ×2 → 12:10. Combined: 9:12:10",
+    "commonMistake": "Simply writing A:B:C = 3:4:5 by ignoring that B has different values in the two ratios.",
+    "memoryTrick": "Think of B as a 'bridge' between A and C. The bridge must be the SAME width on both sides. LCM makes the bridge equal.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_rp_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "Rs. 840 is divided among A, B, and C in the ratio 3 : 4 : 5. How much does B receive?",
+    "options": [
+      "Rs. 280",
+      "Rs. 210",
+      "Rs. 350",
+      "Rs. 240"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total parts = 3 + 4 + 5 = 12. B's share = (4/12) × 840 = (1/3) × 840 = Rs. 280.",
+    "formula": "Share = (Individual ratio part / Sum of all ratio parts) × Total amount",
+    "concept": "When dividing an amount in a given ratio, each person's share equals their ratio part divided by the sum of all parts, multiplied by the total amount.",
+    "hint": "Add all ratio parts to get total parts, then multiply total amount by (B's part / total parts).",
+    "shortcut": "B's share = 4/12 × 840 = 1/3 × 840 = 280",
+    "commonMistake": "Multiplying 840 by 4 directly (getting 3360) instead of by the fraction 4/12.",
+    "memoryTrick": "Ratio division: 'Your part out of total parts, times the whole pie.' Think: 4 slices out of 12 slices of Rs. 840.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "qt_rp_003",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "The ratio of boys to girls in a school is 5 : 4. If 20 more boys and 10 more girls join, the ratio becomes 7 : 5. How many boys were there originally?",
+    "options": [
+      "50",
+      "40",
+      "60",
+      "45"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let boys = 5x, girls = 4x. New ratio: (5x + 20)/(4x + 10) = 7/5. Cross multiply: 5(5x + 20) = 7(4x + 10). 25x + 100 = 28x + 70. 3x = 30. x = 10. Original boys = 5 × 10 = 50.",
+    "formula": "Set up equation: (ax + b)/(cx + d) = e/f, solve for x",
+    "concept": "When a ratio changes after adding/subtracting quantities, set up an equation using the new ratio and solve for the unknown multiplier.",
+    "hint": "Let the original numbers be 5x and 4x. Set up the equation with the new ratio and solve for x.",
+    "shortcut": "Cross multiply: 5(5x+20) = 7(4x+10) → 25x+100 = 28x+70 → 3x = 30 → x=10 → Boys = 50",
+    "commonMistake": "Setting up the equation incorrectly by not cross-multiplying properly.",
+    "memoryTrick": "Ratio change problems: Let original = ax and bx. New = (ax+c)/(bx+d) = e/f. Cross multiply and solve.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_rp_004",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "If 12 workers can complete a work in 18 days, how many workers are needed to complete the same work in 8 days?",
+    "options": [
+      "27 workers",
+      "24 workers",
+      "20 workers",
+      "30 workers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is inverse proportion: more workers means fewer days. Workers × Days = Constant. 12 × 18 = W × 8. W = (12 × 18)/8 = 216/8 = 27 workers.",
+    "formula": "Inverse proportion: W1 × D1 = W2 × D2. W2 = (W1 × D1)/D2",
+    "concept": "When the amount of work is constant, the number of workers and the number of days are inversely proportional.",
+    "hint": "Workers and days are inversely proportional. More workers means fewer days needed.",
+    "shortcut": "W2 = 12 × 18/8 = 27 workers",
+    "commonMistake": "Using direct proportion: 12/18 = W/8, giving W = 5.33. This is wrong because workers and days are INVERSELY related.",
+    "memoryTrick": "Workers × Days = Work (constant). Think: 'More hands, less time.' If days go down, workers must go UP.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "qt_rp_005",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
+    "question": "A mixture contains milk and water in the ratio 5 : 3. If 20 liters of water is added to the mixture, the ratio becomes 5 : 7. What was the original quantity of milk?",
+    "options": [
+      "25 liters",
+      "30 liters",
+      "20 liters",
+      "15 liters"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let milk = 5x, water = 3x. After adding 20L water: 5x/(3x + 20) = 5/7. Cross multiply: 7 × 5x = 5(3x + 20). 35x = 15x + 100. 20x = 100. x = 5. Milk = 5 × 5 = 25 liters.",
+    "formula": "Milk stays constant (only water added). New ratio: Milk/(Water + Added) = New ratio",
+    "concept": "When only one component is added to a mixture, the other component stays constant. Use this to set up the equation.",
+    "hint": "Milk quantity doesn't change. Only water increases by 20L. Set up the equation keeping milk constant.",
+    "shortcut": "5x/(3x+20) = 5/7 → 35x = 15x + 100 → 20x = 100 → x=5 → Milk = 25L",
+    "commonMistake": "Assuming both milk and water change. Only water is added, so milk stays at 5x.",
+    "memoryTrick": "When adding only water: Milk is the 'anchor' — it doesn't change. Water is the 'variable' — it grows.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_rp_006",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "Three partners A, B, and C invest Rs. 12,000, Rs. 18,000, and Rs. 24,000 respectively in a business. If the annual profit is Rs. 27,000, what is B's share of the profit?",
+    "options": [
+      "Rs. 9,000",
+      "Rs. 6,000",
+      "Rs. 12,000",
+      "Rs. 8,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Profit is shared in the ratio of investments: A:B:C = 12000:18000:24000 = 2:3:4. Total parts = 2+3+4 = 9. B's share = (3/9) × 27000 = (1/3) × 27000 = Rs. 9,000.",
+    "formula": "Partner's share = (Partner's investment ratio / Total ratio) × Total profit",
+    "concept": "In a partnership where all invest for the same time period, profit is divided in the ratio of capital invested.",
+    "hint": "Simplify the investment ratio by dividing by the GCD (6000), then find B's share.",
+    "shortcut": "Ratio = 12:18:24 = 2:3:4. B's share = 3/9 × 27000 = 9000",
+    "commonMistake": "Dividing profit equally (9000 each) instead of in the investment ratio.",
+    "memoryTrick": "Same time period → Profit ratio = Investment ratio. Think: 'More money in = More profit out, proportionally.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "qt_rp_007",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "A's salary is 20% more than B's salary, and B's salary is 25% less than C's salary. By what percentage is A's salary more or less than C's salary?",
+    "options": [
+      "10% less",
+      "10% more",
+      "5% less",
+      "Equal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let C's salary = 100. B's salary = 100 - 25% = 75. A's salary = 75 + 20% of 75 = 75 + 15 = 90. A's salary is 90 when C's is 100, so A's salary is 10% less than C's.",
+    "formula": "A = B × 1.20, B = C × 0.75. Therefore A = C × 0.75 × 1.20 = C × 0.90 = 90% of C",
+    "concept": "When comparing through an intermediate person, multiply the percentage factors. A is 20% more than B means A = 1.2B.",
+    "hint": "Assume C = 100. Calculate B (25% less than C), then A (20% more than B). Compare A with C.",
+    "shortcut": "A/C = 1.20 × 0.75 = 0.90. A is 90% of C = 10% less",
+    "commonMistake": "Adding/subtracting percentages directly: 20% more - 25% less = 5% less. Wrong because percentages apply to different bases.",
+    "memoryTrick": "Chain percentages: 'More than' = multiply by (1 + p/100), 'Less than' = multiply by (1 - p/100). Chain: 1.2 × 0.75 = 0.9.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_rp_008",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "Two numbers are in the ratio 7 : 9. If 8 is added to each number, the ratio becomes 9 : 11. Find the sum of the original numbers.",
+    "options": [
+      "64",
+      "72",
+      "56",
+      "80"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let numbers be 7x and 9x. (7x + 8)/(9x + 8) = 9/11. Cross multiply: 11(7x + 8) = 9(9x + 8). 77x + 88 = 81x + 72. 4x = 16. x = 4. Numbers: 28 and 36. Sum = 28 + 36 = 64.",
+    "formula": "Set (ax + c)/(bx + c) = e/f, cross multiply: f(ax + c) = e(bx + c), solve for x",
+    "concept": "When the same quantity is added to both terms of a ratio, set up an equation with the new ratio and solve for the multiplier.",
+    "hint": "Let the numbers be 7x and 9x. After adding 8 to each, set up the new ratio equation.",
+    "shortcut": "11(7x+8) = 9(9x+8) → 77x+88 = 81x+72 → 4x = 16 → x=4 → Sum = 16x = 64",
+    "commonMistake": "Setting up the ratio as (7x-8)/(9x-8) by mistake, or cross-multiplying incorrectly.",
+    "memoryTrick": "Same number added to both ratio terms: the difference between terms stays constant (9x - 7x = 2x always).",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "id": "qt_tsd_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "A car travels 360 km in 6 hours. What is its average speed in km/h?",
+    "options": [
+      "60 km/h",
+      "50 km/h",
+      "70 km/h",
+      "65 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Speed = Distance / Time = 360 km / 6 hours = 60 km/h.",
+    "formula": "Speed = Distance / Time",
+    "concept": "Average speed is total distance divided by total time taken.",
+    "hint": "Divide total distance by total time.",
+    "shortcut": "Speed = 360/6 = 60 km/h",
+    "commonMistake": "Dividing time by distance: 6/360 = 0.0167. Speed is always distance per unit time.",
+    "memoryTristake": "Speed = D/T. Think: 'Distance over Time = Speed.' D comes before T in the alphabet, D/T.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "memoryTrick": "Speed = D/T. Think: 'Distance over Time = Speed.' D comes before T in the alphabet, D/T."
+  },
+  {
+    "id": "qt_tsd_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "A train 200 meters long is running at 72 km/h. How long will it take to cross a platform 300 meters long?",
+    "options": [
+      "25 seconds",
+      "30 seconds",
+      "20 seconds",
+      "35 seconds"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Speed = 72 km/h = 72 × 5/18 = 20 m/s. Total distance = Train length + Platform length = 200 + 300 = 500 m. Time = Distance/Speed = 500/20 = 25 seconds.",
+    "formula": "Time = (Train length + Platform length) / Speed. Convert km/h to m/s by multiplying by 5/18.",
+    "concept": "When a train crosses a platform, it must travel its own length PLUS the platform length. Convert speed to m/s for meter-based distances.",
+    "hint": "Total distance = train length + platform length. Convert speed from km/h to m/s (× 5/18).",
+    "shortcut": "Speed = 72 × 5/18 = 20 m/s. Distance = 500 m. Time = 500/20 = 25 sec",
+    "commonMistake": "Using only platform length (300m) instead of total distance (500m). The train's entire length must clear the platform.",
+    "memoryTrick": "Train crossing platform: Distance = Train + Platform. Think: 'The train's tail must clear the platform's end.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tsd_003",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "Two trains start from stations A and B simultaneously towards each other. Speed of train from A is 40 km/h and from B is 50 km/h. If the distance between stations is 360 km, after how many hours will they meet?",
+    "options": [
+      "4 hours",
+      "5 hours",
+      "3.5 hours",
+      "4.5 hours"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Relative speed (towards each other) = 40 + 50 = 90 km/h. Time to meet = Distance / Relative speed = 360/90 = 4 hours.",
+    "formula": "Time to meet = Distance / (Speed1 + Speed2) when moving towards each other",
+    "concept": "When two objects move toward each other, their relative speed is the sum of their individual speeds.",
+    "hint": "Add the speeds (they're moving toward each other). Divide total distance by combined speed.",
+    "shortcut": "Time = 360/(40+50) = 360/90 = 4 hours",
+    "commonMistake": "Subtracting speeds: 50 - 40 = 10 km/h. This would be for same-direction movement, not toward each other.",
+    "memoryTrick": "Toward each other: ADD speeds. Same direction: SUBTRACT speeds. Think: 'Coming together = faster closing = add.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tsd_004",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "A man rows upstream at 8 km/h and downstream at 12 km/h. What is the speed of the man in still water and the speed of the stream?",
+    "options": [
+      "Man: 10 km/h, Stream: 2 km/h",
+      "Man: 12 km/h, Stream: 4 km/h",
+      "Man: 9 km/h, Stream: 3 km/h",
+      "Man: 11 km/h, Stream: 1 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let man's speed = x, stream speed = y. Upstream = x - y = 8. Downstream = x + y = 12. Adding: 2x = 20, x = 10. Subtracting: 2y = 4, y = 2.",
+    "formula": "Man's speed = (Downstream + Upstream)/2 = (12+8)/2 = 10. Stream speed = (Downstream - Upstream)/2 = (12-8)/2 = 2",
+    "concept": "Upstream speed = Man's speed - Stream speed. Downstream speed = Man's speed + Stream speed. Solve the two equations.",
+    "hint": "Add upstream and downstream speeds to get twice the man's speed. Subtract to get twice the stream speed.",
+    "shortcut": "Man = (12+8)/2 = 10 km/h. Stream = (12-8)/2 = 2 km/h",
+    "commonMistake": "Taking upstream as man's speed (8 km/h) and downstream as stream's contribution. Both speeds involve both factors.",
+    "memoryTrick": "Boats & Streams: Man = (Down+Up)/2, Stream = (Down-Up)/2. Think: 'Average the two to find the rower, half the difference for the current.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tsd_005",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
+    "question": "A train takes 10 seconds to cross a pole and 20 seconds to cross a platform 300 meters long at the same speed. What is the length of the train?",
+    "options": [
+      "300 meters",
+      "250 meters",
+      "200 meters",
+      "350 meters"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let train length = L, speed = v. Crossing pole: L = v × 10. Crossing platform: L + 300 = v × 20. From first: v = L/10. Substitute: L + 300 = (L/10) × 20 = 2L. L = 300 meters.",
+    "formula": "Train length = Speed × Time (for pole). Train length + Platform = Speed × Time (for platform).",
+    "concept": "Crossing a pole: distance = train length. Crossing a platform: distance = train length + platform length. Same speed in both cases.",
+    "hint": "Set up two equations: one for crossing the pole, one for the platform. The speed is the same.",
+    "shortcut": "L = 10v, L+300 = 20v. Subtract: 300 = 10v, v = 30. L = 300 meters.",
+    "commonMistake": "Assuming the extra 10 seconds is for 300m, so speed = 30 m/s, then train = 30 × 10 = 300m. This happens to be correct but the reasoning might not always work.",
+    "memoryTrick": "Pole = train length only. Platform = train + platform. The DIFFERENCE in distances = platform length.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tsd_006",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "A person walks at 4 km/h and reaches his office 5 minutes late. If he walks at 5 km/h, he reaches 10 minutes early. What is the distance to his office?",
+    "options": [
+      "5 km",
+      "4 km",
+      "6 km",
+      "3 km"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let correct time = t hours. Distance = 4(t + 5/60) = 5(t - 10/60). 4(t + 1/12) = 5(t - 1/6). 4t + 1/3 = 5t - 5/6. t = 1/3 + 5/6 = 7/6 hours. Distance = 4(7/6 + 1/12) = 4(15/12) = 5 km.",
+    "formula": "Distance = Speed1 × (t + late time) = Speed2 × (t - early time). Solve for t, then find distance.",
+    "concept": "When different speeds lead to different arrival times, the distance is constant. Set up equations equating distances.",
+    "hint": "Let the correct time be t. Express distance in terms of t for both speeds. Equate and solve.",
+    "shortcut": "4(t+5/60) = 5(t-10/60) → 4t + 1/3 = 5t - 5/6 → t = 7/6 hrs → Distance = 4(7/6+1/12) = 5 km",
+    "commonMistake": "Not converting minutes to hours. 5 minutes = 5/60 hours, 10 minutes = 10/60 hours.",
+    "memoryTrick": "Late/Early problems: Distance is constant. Set Speed1 × Time1 = Speed2 × Time2. Think: 'Same road, different speeds, different times.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tsd_007",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "Two cars start from the same point. Car A starts at 60 km/h at 8:00 AM. Car B starts at 80 km/h at 9:00 AM in the same direction. At what time will Car B catch up with Car A?",
+    "options": [
+      "12:00 noon",
+      "11:00 AM",
+      "1:00 PM",
+      "10:30 AM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "By 9:00 AM, Car A has traveled 60 km. Relative speed = 80 - 60 = 20 km/h. Time to catch up = 60/20 = 3 hours. Car B catches up at 9:00 + 3 = 12:00 noon.",
+    "formula": "Head start distance = Speed of first × Head start time. Catch-up time = Head start distance / Relative speed.",
+    "concept": "When a faster object starts later, find the head start distance, then divide by relative speed (difference of speeds) to find catch-up time.",
+    "hint": "Find how far Car A traveled in 1 hour head start. Then find how fast Car B gains on Car A.",
+    "shortcut": "Head start = 60 km. Relative speed = 20 km/h. Time = 60/20 = 3 hrs. Catch up at 12:00 noon.",
+    "commonMistake": "Adding speeds (60+80=140) instead of subtracting. Same direction means relative speed is the DIFFERENCE.",
+    "memoryTrick": "Same direction chase: Relative speed = Faster - Slower. Think: 'The gap closes at the rate of the speed difference.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tsd_008",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "A train crosses a pole in 15 seconds and a platform 150 meters long in 30 seconds. What is the speed of the train?",
+    "options": [
+      "36 km/h",
+      "40 km/h",
+      "45 km/h",
+      "30 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let train length = L, speed = v m/s. Crossing pole: L = v × 15. Crossing platform: L + 150 = v × 30. Substitute: 15v + 150 = 30v. 15v = 150. v = 10 m/s. Speed in km/h = 10 × 18/5 = 36 km/h.",
+    "formula": "Train length = Speed × Time(pole). Train length + Platform = Speed × Time(platform).",
+    "concept": "The extra time to cross a platform (vs a pole) is due to the platform length. Extra distance = platform length.",
+    "hint": "The difference in distances (platform length) is covered in the difference of times.",
+    "shortcut": "Extra time = 15 sec for 150m. Speed = 150/15 = 10 m/s = 36 km/h.",
+    "commonMistake": "Using only platform time: speed = 150/30 = 5 m/s. This ignores the train's own length.",
+    "memoryTrick": "Extra time = Extra distance / Speed. Platform adds 150m, takes 15 extra seconds. Speed = 150/15 = 10 m/s.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  }
+]

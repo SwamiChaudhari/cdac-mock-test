@@ -1,0 +1,292 @@
+[
+  {
+    "id": "qt_tw_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "A can complete a piece of work in 10 days. B can complete the same work in 15 days. In how many days will they complete the work together?",
+    "options": [
+      "6 days",
+      "8 days",
+      "5 days",
+      "7.5 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A's 1 day work = 1/10. B's 1 day work = 1/15. Together per day = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. Days needed = 6.",
+    "formula": "Combined days = 1/(1/A + 1/B) = AB/(A+B) = (10×15)/(10+15) = 150/25 = 6",
+    "concept": "When two people work together, add their work rates (work per day). The reciprocal of combined rate gives total days.",
+    "hint": "Find work done per day by each, add them, then take reciprocal.",
+    "shortcut": "Combined days = (10 × 15)/(10 + 15) = 150/25 = 6 days",
+    "commonMistake": "Averaging the days: (10+15)/2 = 12.5. This is wrong because work rate is inverse of time.",
+    "memoryTrick": "Time & Work: Combined = AB/(A+B). Think: 'Product over Sum.' 10×15=150, 10+15=25, 150/25=6.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tw_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "A can do a work in 16 days. A works for 4 days and then B completes the remaining work in 9 days. How long will B alone take to complete the entire work?",
+    "options": [
+      "12 days",
+      "15 days",
+      "18 days",
+      "10 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A's 1 day work = 1/16. Work done by A in 4 days = 4/16 = 1/4. Remaining work = 3/4. B does 3/4 work in 9 days. B's 1 day work = (3/4)/9 = 3/36 = 1/12. B alone takes 12 days.",
+    "formula": "B's days = Days B worked / Fraction of work B completed = 9 / (3/4) = 12",
+    "concept": "When A works for some days and B finishes the rest, find the fraction of work remaining and relate it to B's rate.",
+    "hint": "Find how much work A did in 4 days. The rest is what B did in 9 days. Find B's rate.",
+    "shortcut": "A does 4/16 = 1/4. Remaining = 3/4. B's rate = (3/4)/9 = 1/12. B takes 12 days.",
+    "commonMistake": "Subtracting days: 16 - 4 - 9 = 3 days for B. This makes no sense because work rates don't subtract linearly.",
+    "memoryTrick": "Partial work: Find fraction done, fraction remaining, then rate = remaining work / days taken.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tw_003",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "A is twice as efficient as B. Together they complete a work in 18 days. How many days will A alone take to complete the work?",
+    "options": [
+      "27 days",
+      "36 days",
+      "24 days",
+      "30 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If A is twice as efficient, A takes half the time. Let B's days = x, A's days = x/2. Combined rate = 2/x + 1/x = 3/x. Combined days = x/3 = 18. x = 54. A's days = 54/2 = 27.",
+    "formula": "If A is n times as efficient as B, A takes 1/n of B's time. Combined rate = (n+1)/B's days.",
+    "concept": "Efficiency is inversely proportional to time taken. If A is twice as efficient, A takes half the time.",
+    "hint": "Let B's time = x. A's time = x/2 (since A is twice as efficient). Set up combined work equation.",
+    "shortcut": "A = 2B efficiency. Combined rate = 3/B_rate. Days = B_days/3 = 18. B_days = 54. A_days = 27.",
+    "commonMistake": "Thinking A takes 2x B's time instead of x/2. Efficiency UP means Time DOWN.",
+    "memoryTrick": "Efficiency and Time are INVERSE. 'Twice as fast = Half the time.' Think: 'Speed doubles, time halves.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tw_004",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "Pipe A can fill a tank in 12 hours and pipe B can fill it in 15 hours. A third pipe C can empty the tank in 10 hours. If all three pipes are opened together, how long will it take to fill the tank?",
+    "options": [
+      "20 hours",
+      "15 hours",
+      "12 hours",
+      "18 hours"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A's rate = 1/12, B's rate = 1/15, C's rate = -1/10 (emptying). Combined rate = 1/12 + 1/15 - 1/10 = 5/60 + 4/60 - 6/60 = 3/60 = 1/20. Time = 20 hours.",
+    "formula": "Combined rate = Fill rate A + Fill rate B - Empty rate C = 1/12 + 1/15 - 1/10 = 1/20",
+    "concept": "When filling and emptying pipes work together, add filling rates and subtract emptying rates.",
+    "hint": "Add the filling rates of A and B, then subtract the emptying rate of C.",
+    "shortcut": "LCM of 12,15,10 = 60. Rate = 5+4-6 = 3/60 = 1/20. Time = 20 hours.",
+    "commonMistake": "Adding all rates including C: 1/12 + 1/15 + 1/10 = 15/60 = 1/4. This gives 4 hours, which is wrong because C empties.",
+    "memoryTrick": "Pipes: Fill = positive, Empty = negative. Think: 'Inflow minus outflow = Net fill rate.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_tw_005",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
+    "question": "A and B together can complete a work in 12 days. B and C together can complete it in 15 days. A and C together can complete it in 20 days. How many days will A alone take to complete the work?",
+    "options": [
+      "30 days",
+      "25 days",
+      "20 days",
+      "35 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A+B = 1/12, B+C = 1/15, A+C = 1/20. Adding all: 2(A+B+C) = 1/12 + 1/15 + 1/20 = 5/60 + 4/60 + 3/60 = 12/60 = 1/5. So A+B+C = 1/10. A = (A+B+C) - (B+C) = 1/10 - 1/15 = 3/30 - 2/30 = 1/30. A alone = 30 days.",
+    "formula": "A = (A+B+C) - (B+C) where A+B+C = [(A+B)+(B+C)+(A+C)]/2",
+    "concept": "When given three pairwise combinations, add all three to get 2(A+B+C), then subtract the appropriate pair to find individual rates.",
+    "hint": "Add all three pairwise rates to get 2(A+B+C). Then subtract B+C to get A's rate.",
+    "shortcut": "2(A+B+C) = 1/12+1/15+1/20 = 1/5. A+B+C = 1/10. A = 1/10-1/15 = 1/30. A = 30 days.",
+    "commonMistake": "Trying to solve with two equations and three unknowns. You need all three pairwise rates.",
+    "memoryTrick": "Three pairs: Add all three → 2(A+B+C). Think: 'Each person appears twice in the sum of all pairs.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    }
+  },
+  {
+    "id": "qt_tw_006",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "10 men can complete a work in 15 days. 15 women can complete the same work in 20 days. If 5 men and 10 women work together, how many days will they take to complete the work?",
+    "options": [
+      "18 days",
+      "15 days",
+      "20 days",
+      "12 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "10 men × 15 days = 150 man-days. 1 man-day = 1/150 work. 15 women × 20 days = 300 woman-days. 1 woman-day = 1/300 work. 5 men + 10 women per day = 5/150 + 10/300 = 1/30 + 1/30 = 2/30 = 1/15. Days = 15.",
+    "formula": "Work = Men × Days (man-days). Combined rate = Men/MD + Women/WD",
+    "concept": "Convert to man-days and woman-days to find individual work rates, then combine.",
+    "hint": "Find total work in man-days and woman-days. Calculate combined daily rate of 5 men and 10 women.",
+    "shortcut": "Man rate = 1/150, Woman rate = 1/300. Combined = 5/150 + 10/300 = 1/30 + 1/30 = 1/15. Days = 15.",
+    "commonMistake": "Assuming men and women have the same work rate. They don't — 10 men take 15 days while 15 women take 20 days.",
+    "memoryTrick": "Different groups: Convert to a common unit (man-days, woman-days), then combine rates.",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_tw_007",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "A can complete a work in 20 days. He works for 5 days and then B joins. Together they complete the remaining work in 6 days. How long would B alone take to complete the entire work?",
+    "options": [
+      "40/3 days",
+      "15 days",
+      "12 days",
+      "18 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A's rate = 1/20. Work done by A in 5 days = 5/20 = 1/4. Remaining = 3/4. A+B together do 3/4 in 6 days. Their combined rate = (3/4)/6 = 3/24 = 1/8. B's rate = 1/8 - 1/20 = 5/40 - 2/40 = 3/40. B alone = 40/3 days.",
+    "formula": "B's rate = Combined rate - A's rate = (Remaining work / Days together) - 1/A's days",
+    "concept": "When A works alone first, then with B, find the remaining work and the combined rate to isolate B's rate.",
+    "hint": "Find work done by A in 5 days. Remaining work is done by A+B in 6 days. Find B's rate.",
+    "shortcut": "A does 5/20 = 1/4. Remaining 3/4 in 6 days → combined rate = 1/8. B = 1/8 - 1/20 = 3/40. B = 40/3 days.",
+    "commonMistake": "Forgetting that A also works during the 6 days with B. The combined rate includes A's contribution.",
+    "memoryTrick": "A works alone THEN with B: Subtract A's solo work first, then find B from the combined rate.",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_tw_008",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "A pipe can fill a cistern in 8 hours. Due to a leak at the bottom, it takes 10 hours to fill. How long will the leak take to empty the full cistern?",
+    "options": [
+      "40 hours",
+      "36 hours",
+      "30 hours",
+      "45 hours"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pipe's rate = 1/8. With leak: 1/10. Leak's rate = 1/8 - 1/10 = 5/40 - 4/40 = 1/40. Leak alone empties in 40 hours.",
+    "formula": "Leak rate = Fill rate without leak - Fill rate with leak = 1/8 - 1/10 = 1/40",
+    "concept": "A leak reduces the effective filling rate. The difference between the normal rate and the reduced rate is the leak's emptying rate.",
+    "hint": "Subtract the effective rate (with leak) from the normal rate to get the leak's rate.",
+    "shortcut": "Leak rate = 1/8 - 1/10 = 1/40. Leak empties full tank in 40 hours.",
+    "commonMistake": "Adding the rates: 1/8 + 1/10 = 9/40. This would mean the leak helps fill, which is wrong.",
+    "memoryTrick": "Leak slows filling: Leak rate = Normal rate - Actual rate. Think: 'The leak steals some of the fill power.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "qt_tw_009",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
+    "question": "A and B can do a piece of work in 18 days. B and C can do it in 24 days. A and C can do it in 36 days. If A, B, and C work together, in how many days will they complete double the work?",
+    "options": [
+      "32 days",
+      "24 days",
+      "36 days",
+      "28 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A+B = 1/18, B+C = 1/24, A+C = 1/36. 2(A+B+C) = 1/18 + 1/24 + 1/36 = 4/72 + 3/72 + 2/72 = 9/72 = 1/8. A+B+C = 1/16. For 1 work: 16 days. For double work: 32 days.",
+    "formula": "A+B+C = [(A+B)+(B+C)+(A+C)]/2. Days for double work = 2 × Days for single work.",
+    "concept": "Same as finding individual rates, but the question asks for double the work. Multiply the single-work days by 2.",
+    "hint": "Find combined rate of A+B+C. Then multiply days by 2 for double work.",
+    "shortcut": "2(A+B+C) = 1/18+1/24+1/36 = 1/8. A+B+C = 1/16. Double work = 32 days.",
+    "commonMistake": "Finding 16 days for single work and stopping there. The question asks for DOUBLE the work = 32 days.",
+    "memoryTrick": "Double the work = Double the time (at same rate). Don't forget to multiply by 2 at the end!",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "qt_tw_010",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "If 3 men or 5 women can complete a work in 43 days, in how many days will 3 men and 5 women together complete double the work?",
+    "options": [
+      "43 days",
+      "86 days",
+      "64.5 days",
+      "35 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "3 men = 5 women. Work = 3 men × 43 days = 129 man-days. 3 men + 5 women = 3 men + 3 men = 6 men. Days for 1 work = 129/6 = 21.5 days. Days for double work = 43 days.",
+    "formula": "3M = 5W. Combined = 3M + 5W = 6M. Days = (3×43)/6 × 2 = 43",
+    "concept": "When 'm men or n women' can do work in D days, m men = n women. Combined group = m + n converted to one unit.",
+    "hint": "3 men = 5 women, so 3 men + 5 women = 6 men. Find total work in man-days.",
+    "shortcut": "Work = 3M × 43 = 129 M-days. 3M+5W = 6M. Days for double = 2×129/6 = 43",
+    "commonMistake": "Adding 3+5=8 workers directly without converting. Men and women have different capacities.",
+    "memoryTrick": "'Or' means equivalence. Convert to one unit, then solve. Think: '3 men = 5 women, so together they're 6 men.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  }
+]

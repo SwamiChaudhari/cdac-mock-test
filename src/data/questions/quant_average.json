@@ -1,0 +1,234 @@
+[
+  {
+    "id": "qt_avg_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "The average of 5 numbers is 42. If one number is excluded, the average becomes 40. What is the excluded number?",
+    "options": [
+      "50",
+      "48",
+      "46",
+      "52"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sum of 5 numbers = 5 × 42 = 210. Sum of 4 numbers = 4 × 40 = 160. Excluded number = 210 - 160 = 50.",
+    "formula": "Excluded value = (n × old avg) - ((n-1) × new avg)",
+    "concept": "When a value is removed from a set, the sum decreases by that value. Use the relationship: Sum = Count × Average.",
+    "hint": "Find total sum before and after exclusion. The difference is the excluded number.",
+    "shortcut": "Excluded = 5×42 - 4×40 = 210 - 160 = 50",
+    "commonMistake": "Subtracting averages directly: 42 - 40 = 2. This ignores the count of numbers.",
+    "memoryTrick": "Average × Count = Sum. When one leaves, the sum drops by that person's value. Think: 'Total before - Total after = Who left.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_avg_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "The average weight of 8 persons increases by 2.5 kg when a new person replaces one of them weighing 65 kg. What is the weight of the new person?",
+    "options": [
+      "85 kg",
+      "80 kg",
+      "90 kg",
+      "75 kg"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Increase in total weight = 8 × 2.5 = 20 kg. New person's weight = Replaced person's weight + Increase = 65 + 20 = 85 kg.",
+    "formula": "New person's weight = Old person's weight + (n × increase in average)",
+    "concept": "When a person is replaced and the average changes, the total change = n × change in average. The new person's weight accounts for both the replaced person's weight and the total increase.",
+    "hint": "Total increase in weight = number of persons × increase in average. Add this to the replaced person's weight.",
+    "shortcut": "New weight = 65 + (8 × 2.5) = 65 + 20 = 85 kg",
+    "commonMistake": "Multiplying 2.5 by 7 instead of 8. All 8 persons' average increased, so total increase is 8 × 2.5.",
+    "memoryTrick": "Replacement: New = Old + (n × avg change). Think: 'The new person carries the old person's weight PLUS the boost for everyone.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_avg_003",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "A batsman has a certain average in 10 innings. In the 11th innings, he scores 108 runs and his average increases by 6 runs. What is his new average?",
+    "options": [
+      "48",
+      "42",
+      "54",
+      "50"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let old average = x. Total after 10 innings = 10x. After 11th innings: (10x + 108)/11 = x + 6. 10x + 108 = 11x + 66. x = 42. New average = 42 + 6 = 48.",
+    "formula": "New average = Old average + Increase. Set up: (n × old + new score)/(n+1) = old + increase",
+    "concept": "When a new score changes the average, set up an equation relating old total, new score, and new average.",
+    "hint": "Let old average = x. Express the new average equation and solve for x.",
+    "shortcut": "10x + 108 = 11(x+6) → 10x + 108 = 11x + 66 → x = 42 → New avg = 48",
+    "commonMistake": "Dividing 108 by 11 and adding 6. This doesn't account for the fact that the increase applies to ALL innings.",
+    "memoryTrick": "New score boosts ALL innings' average. The 108 runs covers the old average for 11 innings (11×42=462) PLUS the 6-run increase for 11 innings (66). 462+66=528, but total is 10×42+108=528. ✓",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_avg_004",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "The average of 11 results is 50. The average of the first 6 results is 49 and the average of the last 6 results is 52. What is the 6th result?",
+    "options": [
+      "56",
+      "54",
+      "58",
+      "52"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sum of all 11 = 11 × 50 = 550. Sum of first 6 = 6 × 49 = 294. Sum of last 6 = 6 × 52 = 312. The 6th result is counted in both groups. 6th result = 294 + 312 - 550 = 56.",
+    "formula": "Overlapping value = Sum of group A + Sum of group B - Sum of total",
+    "concept": "When two groups overlap at one element, that element is counted twice. Subtract the total sum from the sum of both groups to find the overlapping value.",
+    "hint": "The 6th result is included in both the first 6 and last 6. Add both group sums and subtract total sum.",
+    "shortcut": "6th = 294 + 312 - 550 = 56",
+    "commonMistake": "Averaging 49 and 52 to get 50.5. This ignores the overlap and the different group sizes.",
+    "memoryTrick": "Overlapping groups: The middle element is counted twice. Think: 'First half + Second half = Total + Middle element.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    }
+  },
+  {
+    "id": "qt_avg_005",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "A student finds the average of 10 two-digit numbers. If the digits of one number are interchanged, the average increases by 3.6. What is the difference between the two digits?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let the original number be 10a + b. Interchanged: 10b + a. Difference = 9(a - b). This difference is distributed over 10 numbers, increasing average by 3.6. So 9(a-b)/10 = 3.6. 9(a-b) = 36. a - b = 4.",
+    "formula": "When digits are interchanged, difference = 9 × (digit difference). Average change = 9 × d / n",
+    "concept": "Interchanging digits of a two-digit number changes it by 9 times the digit difference. This change is distributed over all numbers in the set.",
+    "hint": "The difference between a number and its digit-interchanged version is always a multiple of 9.",
+    "shortcut": "9d/10 = 3.6 → 9d = 36 → d = 4",
+    "commonMistake": "Thinking the difference is simply 3.6 × 10 = 36, then dividing by 10 instead of 9.",
+    "memoryTrick": "Digit interchange: difference is always 9 × (digit diff). Think: 'Flip the digits, the gap is a multiple of 9.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_avg_006",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
+    "question": "A man travels from point A to point B at 40 km/h and returns from B to A at 60 km/h. What is his average speed for the entire journey?",
+    "options": [
+      "48 km/h",
+      "50 km/h",
+      "45 km/h",
+      "52 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Average speed = Total distance / Total time. Let distance one way = d. Total distance = 2d. Time A→B = d/40, Time B→A = d/60. Total time = d/40 + d/60 = (3d + 2d)/120 = 5d/120 = d/24. Average speed = 2d/(d/24) = 48 km/h. Formula: 2v1v2/(v1+v2) = 2×40×60/(40+60) = 4800/100 = 48.",
+    "formula": "Average speed (equal distances) = 2v1v2/(v1+v2) = 2×40×60/100 = 48 km/h",
+    "concept": "Average speed is NOT the arithmetic mean of speeds when distances are equal. It is the harmonic mean: 2v1v2/(v1+v2).",
+    "hint": "Do NOT simply average 40 and 60. Use the harmonic mean formula for equal-distance round trips.",
+    "shortcut": "Avg speed = 2×40×60/(40+60) = 4800/100 = 48 km/h",
+    "commonMistake": "Taking arithmetic mean: (40+60)/2 = 50 km/h. This is wrong because more time is spent at the slower speed.",
+    "memoryTrick": "Equal distance, different speeds: Average speed is LESS than arithmetic mean. Formula: 2v1v2/(v1+v2). Think: 'You spend more time going slow, so average leans toward the slower speed.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    }
+  },
+  {
+    "id": "qt_avg_007",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "The average age of a family of 5 members is 28 years. If the youngest member is 4 years old, what is the average age of the remaining 4 members?",
+    "options": [
+      "34 years",
+      "32 years",
+      "36 years",
+      "30 years"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total age of 5 members = 5 × 28 = 140 years. Age of youngest = 4. Total of remaining 4 = 140 - 4 = 136. Average of remaining 4 = 136/4 = 34 years.",
+    "formula": "Average of remaining = (Total sum - Excluded value) / (n - 1)",
+    "concept": "When excluding one member from an average, subtract their value from the total sum and divide by the remaining count.",
+    "hint": "Find total age, subtract youngest member's age, divide by 4.",
+    "shortcut": "Avg = (5×28 - 4)/4 = (140-4)/4 = 136/4 = 34 years",
+    "commonMistake": "Subtracting 4 from the average: 28 - 4 = 24. This is wrong because the 4 years affects the total, not just the average.",
+    "memoryTrick": "Remove one from average: (n × avg - value)/(n-1). Think: 'Take their weight off the scale, then re-balance.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_avg_008",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "The average salary of all workers in a factory is Rs. 8,000. The average salary of 7 technicians is Rs. 12,000 and the average salary of the rest is Rs. 6,000. What is the total number of workers?",
+    "options": [
+      "21",
+      "18",
+      "24",
+      "15"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let total workers = n. Total salary = 8000n. Also: Total = 7 × 12000 + (n-7) × 6000 = 84000 + 6000n - 42000 = 42000 + 6000n. So 8000n = 42000 + 6000n. 2000n = 42000. n = 21.",
+    "formula": "Total = Group1 count × Group1 avg + Group2 count × Group2 avg. Set equal to Total count × Overall avg.",
+    "concept": "When two subgroups have different averages, use the weighted average formula to find the total count.",
+    "hint": "Set up: Total salary from both groups = Total salary from overall average. Solve for n.",
+    "shortcut": "8000n = 7(12000) + (n-7)(6000) → 8000n = 84000 + 6000n - 42000 → 2000n = 42000 → n = 21",
+    "commonMistake": "Taking simple average of 12000 and 6000 = 9000 and comparing to 8000. This ignores the different group sizes.",
+    "memoryTrick": "Weighted average: The overall average is pulled toward the larger group. Here 8000 is closer to 6000, so there are more non-technicians.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  }
+]

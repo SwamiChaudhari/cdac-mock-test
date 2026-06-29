@@ -1,0 +1,235 @@
+[
+  {
+    "id": "nw_001",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "OSI Model",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "At which layer of the OSI model does routing and forwarding of packets occur?",
+    "options": [
+      "Network Layer (Layer 3)",
+      "Data Link Layer (Layer 2)",
+      "Transport Layer (Layer 4)",
+      "Physical Layer (Layer 1)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Network Layer (Layer 3) handles routing — determining the best path for packets from source to destination. IP operates at this layer.",
+    "formula": "OSI Layer 3 = Network Layer = Routing, IP addressing, Packet forwarding",
+    "concept": "Network Layer provides logical addressing (IP) and routing. It determines how packets travel from source to destination across multiple networks.",
+    "hint": "Routing = deciding which path to take. This happens at the Network Layer.",
+    "shortcut": "Routing = Network Layer (Layer 3)",
+    "commonMistake": "Confusing Network Layer with Data Link Layer. Data Link handles local delivery (MAC), Network handles routing across networks.",
+    "memoryTristake": "OSI: 'Please Do Not Throw Sausage Pizza Away' (bottom to top). Layer 3 = Network = Routing. Think: 'Network = Navigation = Routing.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    },
+    "memoryTrick": "OSI: 'Please Do Not Throw Sausage Pizza Away' (bottom to top). Layer 3 = Network = Routing. Think: 'Network = Navigation = Routing.'"
+  },
+  {
+    "id": "nw_002",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP vs UDP",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "Which of the following is a key difference between TCP and UDP?",
+    "options": [
+      "TCP is connection-oriented and reliable, UDP is connectionless and unreliable",
+      "TCP is faster than UDP",
+      "TCP does not guarantee delivery, UDP guarantees delivery",
+      "TCP operates at Network Layer, UDP at Transport Layer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP is connection-oriented (establishes connection via 3-way handshake), reliable (acknowledgments, retransmissions), and ordered. UDP is connectionless, unreliable (no guarantees), and faster.",
+    "formula": "TCP = Connection-oriented + Reliable + Ordered + Slower. UDP = Connectionless + Unreliable + Unordered + Faster.",
+    "concept": "TCP provides reliable, ordered delivery with flow/congestion control. UDP provides minimal overhead with no delivery guarantees.",
+    "hint": "TCP = reliable but slower. UDP = fast but unreliable.",
+    "shortcut": "TCP = Reliable + Connection. UDP = Fast + Connectionless.",
+    "commonMistake": "Thinking UDP is reliable because it's used for streaming. UDP does NOT guarantee delivery — packets can be lost.",
+    "memoryTrick": "TCP = 'Telephone Call' (dial, connect, talk). UDP = 'Postcard' (send and forget). Think: 'TCP cares, UDP doesn't.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    }
+  },
+  {
+    "id": "nw_003",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "What is the primary function of DNS (Domain Name System)?",
+    "options": [
+      "To translate domain names to IP addresses",
+      "To encrypt data during transmission",
+      "To route packets between networks",
+      "To assign IP addresses dynamically"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS translates human-readable domain names (like www.google.com) to IP addresses (like 142.250.80.46). It acts as the phonebook of the internet.",
+    "formula": "DNS: Domain Name → IP Address. Reverse DNS: IP Address → Domain Name.",
+    "concept": "DNS is a hierarchical naming system that maps domain names to IP addresses, enabling users to access websites using names instead of numbers.",
+    "hint": "DNS = Domain Name System = Name-to-address translation.",
+    "shortcut": "DNS = Name → IP address",
+    "commonMistake": "Confusing DNS with DHCP. DNS translates names to IPs. DHCP assigns IPs dynamically to devices.",
+    "memoryTrick": "DNS = 'Directory Name Service' like a phone book. You look up a NAME, get a NUMBER (IP). Think: 'DNS = Domain Name → Street address.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "nw_004",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "IP Addressing",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "An IP address 192.168.1.100 belongs to which class of IP addresses?",
+    "options": [
+      "Class C",
+      "Class A",
+      "Class B",
+      "Class D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Class C addresses have first octet from 192-223. 192.168.1.100 starts with 192, so it's Class C. Class A: 1-126, Class B: 128-191, Class C: 192-223.",
+    "formula": "Class A: 1-126, Class B: 128-191, Class C: 192-223, Class D: 224-239 (Multicast), Class E: 240-255",
+    "concept": "IP address classes are determined by the first octet. Class C (192-223) is commonly used for small networks and private addressing (192.168.x.x).",
+    "hint": "First octet = 192. Check which class range includes 192.",
+    "shortcut": "192 → Class C (192-223)",
+    "commonMistake": "Thinking 192 is Class B because it's close to 191. Class B ends at 191, Class C starts at 192.",
+    "memoryTrick": "IP Classes: A(1-126) B(128-191) C(192-223). Think: 'A is Alone (1), B is Between (128), C is Common (192).' 192.168.x.x = Class C = home networks.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "nw_005",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "HTTP & HTTPS",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "What is the default port number for HTTPS?",
+    "options": [
+      "443",
+      "80",
+      "8080",
+      "22"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPS (HTTP Secure) uses port 443 by default. HTTP uses port 80. HTTPS encrypts data using SSL/TLS for secure communication.",
+    "formula": "HTTP: Port 80. HTTPS: Port 443. FTP: Port 21. SSH: Port 22. DNS: Port 53.",
+    "concept": "Port numbers identify specific services. HTTPS on port 443 provides encrypted HTTP communication using SSL/TLS.",
+    "hint": "HTTPS = HTTP + Security. The 'S' adds encryption on a different port.",
+    "shortcut": "HTTPS = Port 443. HTTP = Port 80.",
+    "commonMistake": "Using port 80 for HTTPS. Port 80 is for plain HTTP. HTTPS always uses 443.",
+    "memoryTrick": "Port numbers: HTTP=80 (H is 8th letter, 0), HTTPS=443 (Secure = 4-4-3). Think: 'Secure web = 443, regular web = 80.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "nw_006",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ARP",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "What does ARP (Address Resolution Protocol) do in a network?",
+    "options": [
+      "Maps IP address to MAC address",
+      "Maps MAC address to IP address",
+      "Routes packets between networks",
+      "Resolves domain names to IP addresses"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ARP maps a known IP address to the corresponding MAC (hardware) address on the local network. It broadcasts an ARP request to find the MAC for a given IP.",
+    "formula": "ARP: IP Address → MAC Address. RARP: MAC Address → IP Address (reverse).",
+    "concept": "ARP operates at the Network Layer (Layer 3) but resolves addresses for Data Link Layer (Layer 2) delivery. It's essential for local network communication.",
+    "hint": "ARP = Address Resolution Protocol. It finds the hardware address (MAC) for a given IP.",
+    "shortcut": "ARP = IP → MAC. RARP = MAC → IP.",
+    "commonMistake": "Confusing ARP with RARP. ARP: IP to MAC. RARP: MAC to IP. Also confusing ARP with DNS (name to IP).",
+    "memoryTrick": "ARP = 'Address Resolution' = IP to MAC. Think: 'ARP asks: Who has this IP? Tell me your MAC!' RARP is the reverse.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "nw_007",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "TCP/IP Model",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "How many layers does the TCP/IP model have compared to the OSI model?",
+    "options": [
+      "TCP/IP has 4 layers, OSI has 7 layers",
+      "TCP/IP has 5 layers, OSI has 7 layers",
+      "TCP/IP has 7 layers, OSI has 4 layers",
+      "Both have 7 layers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The TCP/IP model has 4 layers: Application, Transport, Internet, Network Access. The OSI model has 7 layers: Application, Presentation, Session, Transport, Network, Data Link, Physical.",
+    "formula": "TCP/IP: 4 layers (Application, Transport, Internet, Network Access). OSI: 7 layers.",
+    "concept": "TCP/IP is the practical implementation model used on the internet. OSI is the theoretical reference model. TCP/IP combines some OSI layers.",
+    "hint": "TCP/IP = 4 layers. OSI = 7 layers. TCP/IP is simpler.",
+    "shortcut": "TCP/IP = 4, OSI = 7",
+    "commonMistake": "Thinking both models have the same number of layers. TCP/IP is more compact (4 vs 7).",
+    "memoryTrick": "TCP/IP = 4 layers (ATIN: Application, Transport, Internet, Network). OSI = 7 layers. Think: 'TCP/IP is leaner, OSI is more detailed.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "nw_008",
+    "section": "B",
+    "subject": "Networking",
+    "topic": "ICMP",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "Which protocol is used by the 'ping' command to test network connectivity?",
+    "options": [
+      "ICMP",
+      "TCP",
+      "UDP",
+      "ARP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The ping command uses ICMP (Internet Control Message Protocol) Echo Request and Echo Reply messages to test connectivity between hosts.",
+    "formula": "Ping: ICMP Echo Request → Host → ICMP Echo Reply. Measures round-trip time.",
+    "concept": "ICMP is a Network Layer protocol used for error reporting and diagnostic functions. Ping uses ICMP to check if a host is reachable.",
+    "hint": "Ping = ICMP. It sends echo requests and waits for replies.",
+    "shortcut": "Ping uses ICMP protocol",
+    "commonMistake": "Thinking ping uses TCP or UDP. Ping operates at the Network Layer using ICMP, not Transport Layer.",
+    "memoryTrick": "Ping = ICMP = 'Ping pong' (request and reply). Think: 'Ping sends an ICMP ball, the host pings it back.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  }
+]

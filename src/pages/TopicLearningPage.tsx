@@ -352,21 +352,35 @@ export default function TopicLearningPage() {
 
             {view === 'questions' && (
               <div className="space-y-4">
-                <h3 className="text-sm font-semibold text-purple-400">📝 Top Questions on {card.topicName}</h3>
+                <h3 className="text-sm font-semibold text-purple-400">📝 Top 5 High-Probability CDAC Questions</h3>
                 {card.topQuestions.map((q, qi) => (
                   <div key={qi} className={`p-4 rounded-lg ${darkMode ? 'bg-white/5' : 'bg-gray-50'}`}>
-                    <p className="text-sm font-medium mb-3">Q{qi + 1}. {q.q}</p>
+                    {/* Question Header */}
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-xs font-bold text-purple-400">Q{qi + 1}.</span>
+                      <span className={`text-xs px-1.5 py-0.5 rounded ${
+                        q.difficulty === 'easy' ? 'bg-green-500/20 text-green-300' :
+                        q.difficulty === 'medium' ? 'bg-yellow-500/20 text-yellow-300' :
+                        'bg-red-500/20 text-red-300'
+                      }`}>{q.difficulty}</span>
+                      <span className={`text-xs px-1.5 py-0.5 rounded ${darkMode ? 'bg-white/10' : 'bg-gray-200'}`}>
+                        {q.examFrequency}
+                      </span>
+                    </div>
+                    <p className="text-sm font-medium mb-3">{q.question}</p>
+
+                    {/* Options */}
                     <div className="space-y-2">
-                      {q.opts.map((opt, oi) => (
+                      {q.options.map((opt, oi) => (
                         <button
                           key={oi}
-                          onClick={() => setSelectedAnswer(oi)}
+                          onClick={() => { setSelectedAnswer(oi); setRevealedAnswer(qi); }}
                           className={`w-full text-left text-xs p-2 rounded-lg transition-all ${
                             selectedAnswer === oi
-                              ? oi === q.ans
+                              ? oi === q.correctAnswer
                                 ? 'bg-green-500/20 border border-green-500 text-green-300'
                                 : 'bg-red-500/20 border border-red-500 text-red-300'
-                              : revealedAnswer === qi && oi === q.ans
+                              : revealedAnswer === qi && oi === q.correctAnswer
                                 ? 'bg-green-500/20 border border-green-500 text-green-300'
                                 : darkMode ? 'bg-white/5 hover:bg-white/10 border border-transparent' : 'bg-white hover:bg-gray-100 border border-gray-200'
                           }`}
@@ -375,21 +389,41 @@ export default function TopicLearningPage() {
                         </button>
                       ))}
                     </div>
-                    {selectedAnswer !== null && (
-                      <div className={`mt-3 p-2 rounded text-xs ${
-                        selectedAnswer === q.ans ? 'bg-green-500/10 text-green-300' : 'bg-red-500/10 text-red-300'
-                      }`}>
-                        {selectedAnswer === q.ans ? '✅ Correct!' : `❌ Wrong. Answer: ${String.fromCharCode(65 + q.ans)}`}
+
+                    {/* Result & Explanation */}
+                    {selectedAnswer !== null && revealedAnswer === qi && (
+                      <div className="mt-3 space-y-2">
+                        <div className={`p-2 rounded text-xs ${
+                          selectedAnswer === q.correctAnswer ? 'bg-green-500/10 text-green-300' : 'bg-red-500/10 text-red-300'
+                        }`}>
+                          {selectedAnswer === q.correctAnswer ? '✅ Correct!' : `❌ Wrong. Correct: ${String.fromCharCode(65 + q.correctAnswer)}`}
+                        </div>
+                        <div className={`p-2 rounded text-xs ${darkMode ? 'bg-blue-500/10 text-blue-300' : 'bg-blue-50'}`}>
+                          <strong>📖 Explanation:</strong> {q.detailedExplanation}
+                        </div>
+                        <div className={`p-2 rounded text-xs ${darkMode ? 'bg-cyan-500/10 text-cyan-300' : 'bg-cyan-50'}`}>
+                          <strong>⚡ Shortcut:</strong> {q.shortcutMethod}
+                        </div>
+                        <div className={`p-2 rounded text-xs ${darkMode ? 'bg-red-500/10 text-red-300' : 'bg-red-50'}`}>
+                          <strong>⚠️ Trap:</strong> {q.commonTrap}
+                        </div>
+                        <div className={`p-2 rounded text-xs border-l-4 border-yellow-500 ${darkMode ? 'bg-yellow-500/10' : 'bg-yellow-50'}`}>
+                          <strong>🧠 Memory:</strong> {q.memoryTrick}
+                        </div>
                       </div>
                     )}
-                    <button
-                      onClick={() => setRevealedAnswer(qi)}
-                      className="mt-2 text-xs text-purple-400 hover:text-purple-300"
-                    >
-                      💡 Hint
-                    </button>
-                    {revealedAnswer === qi && (
-                      <p className="mt-1 text-xs text-yellow-300">{q.hint}</p>
+
+                    {/* Hint button (before answering) */}
+                    {selectedAnswer === null && (
+                      <button
+                        onClick={() => setRevealedAnswer(qi)}
+                        className="mt-2 text-xs text-purple-400 hover:text-purple-300"
+                      >
+                        💡 Hint
+                      </button>
+                    )}
+                    {selectedAnswer === null && revealedAnswer === qi && (
+                      <p className="mt-1 text-xs text-yellow-300">💡 {q.hint}</p>
                     )}
                   </div>
                 ))}

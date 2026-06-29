@@ -14,10 +14,17 @@ export interface TopicCard {
   memoryTrick: string
   commonMistakes: string[]
   topQuestions: {
-    q: string
-    opts: string[]
-    ans: number
+    question: string
+    options: string[]
+    correctAnswer: number
+    difficulty: 'easy' | 'medium' | 'hard'
+    examFrequency: string
+    conceptTested: string
     hint: string
+    detailedExplanation: string
+    shortcutMethod: string
+    commonTrap: string
+    memoryTrick: string
   }[]
   quickRevision: string[]
   masteryCheck: {
@@ -31,9 +38,9 @@ export interface TopicCard {
 export interface TopicProgress {
   cardId: string
   completed: boolean
-  confidence: 0 | 1 | 2 | 3 | 4 // 0=not rated, 1=confused, 2=somewhat, 3=understand, 4=mastered
+  confidence: 0 | 1 | 2 | 3 | 4
   bookmarked: boolean
-  timeSpent: number // seconds
+  timeSpent: number
   revised: boolean
   lastVisited: number
 }

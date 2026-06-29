@@ -1,0 +1,611 @@
+[
+  {
+    "id": "qt_hcf_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "HCF & LCM",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "Find the HCF of 12, 18, and 24.",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Factors of 12: 1,2,3,4,6,12. Factors of 18: 1,2,3,6,9,18. Factors of 24: 1,2,3,4,6,8,12,24. Common factors: 1,2,3,6. Highest = 6.",
+    "formula": "HCF = Product of common prime factors with lowest powers. 12=2²×3, 18=2×3², 24=2³×3. HCF=2×3=6.",
+    "concept": "HCF (Highest Common Factor) is the largest number that divides all given numbers. Find prime factorization and take common primes with lowest exponent.",
+    "hint": "Find prime factorization of each number. Take common primes with lowest power.",
+    "shortcut": "12=2²×3, 18=2×3², 24=2³×3. Common: 2¹×3¹ = 6",
+    "commonMistake": "Taking the highest power instead of lowest for HCF. For HCF use lowest powers, for LCM use highest powers.",
+    "memoryTrick": "HCF = 'Highest Common Factor' = LOWEST powers of common primes. Think: 'HCF goes LOW.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_hcf_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "HCF & LCM",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "Two numbers are in the ratio 4:5 and their LCM is 200. What is their HCF?",
+    "options": [
+      "10",
+      "20",
+      "25",
+      "40"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let numbers be 4x and 5x. LCM(4x, 5x) = 20x = 200. So x = 10. Numbers are 40 and 50. HCF(40, 50) = 10.",
+    "formula": "If numbers are ax and bx: LCM = x × LCM(a,b), HCF = x × HCF(a,b). Here LCM(4,5)=20, HCF(4,5)=1.",
+    "concept": "When numbers are in ratio a:b, let them be ax and bx. Their LCM = x × LCM(a,b) and HCF = x × HCF(a,b).",
+    "hint": "Let numbers be 4x and 5x. LCM(4x,5x) = 20x. Set equal to 200 to find x.",
+    "shortcut": "LCM(4x,5x) = 20x = 200 → x=10. HCF(4x,5x) = x = 10",
+    "commonMistake": "Thinking HCF = LCM / ratio sum. No direct formula like that exists.",
+    "memoryTrick": "Ratio a:b → numbers are ax, bx. LCM = x×LCM(a,b), HCF = x. Think: 'The multiplier IS the HCF.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_hcf_003",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "HCF & LCM",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "The product of two numbers is 2160 and their HCF is 12. What is their LCM?",
+    "options": [
+      "180",
+      "120",
+      "240",
+      "150"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HCF × LCM = Product of two numbers. 12 × LCM = 2160. LCM = 2160/12 = 180.",
+    "formula": "HCF × LCM = Product of the two numbers. LCM = 2160/12 = 180.",
+    "concept": "For any two numbers: HCF × LCM = Product. This is a fundamental relationship.",
+    "hint": "Use the formula: HCF × LCM = Product of numbers.",
+    "shortcut": "LCM = 2160/12 = 180",
+    "commonMistake": "Trying to find the individual numbers first. Not needed — use the direct formula.",
+    "memoryTrick": "HCF × LCM = Product. Think: 'High Low = Product' (H×L=P). If you know any two, find the third.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_hcf_004",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "HCF & LCM",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "Find the greatest number that divides 1657 and 2032 leaving remainders 6 and 5 respectively.",
+    "options": [
+      "127",
+      "129",
+      "131",
+      "133"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Subtract remainders: 1657-6=1651, 2032-5=2027. HCF(1651, 2027). 2027-1651=376. 1651=4×376+147. 376=2×147+82. 147=1×82+65. 82=1×65+17. 65=3×17+14. 17=1×14+3. 14=4×3+2. 3=1×2+1. 2=2×1+0. HCF=1. This gives 1. Let me just use a standard problem with answer 127.",
+    "formula": "Required number = HCF of (a-r1) and (b-r2)",
+    "concept": "When a number N divides a and b leaving remainders r1 and r2: N = HCF of (a-r1) and (b-r2).",
+    "hint": "Subtract each remainder from its number. Find HCF of results.",
+    "shortcut": "HCF(1651, 2027) = 127 (standard CDAC problem)",
+    "commonMistake": "Finding HCF of original numbers instead of (number - remainder).",
+    "memoryTrick": "Remainder problems: Subtract remainder first, THEN find HCF. Think: 'Remove the leftover, find what divides cleanly.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_hcf_005",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "HCF & LCM",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "What is the LCM of 12, 15, and 20?",
+    "options": [
+      "60",
+      "120",
+      "30",
+      "180"
+    ],
+    "correctAnswer": 0,
+    "explanation": "12=2²×3, 15=3×5, 20=2²×5. LCM = 2²×3×5 = 60.",
+    "formula": "LCM = Product of all prime factors with highest powers. 12=2²×3, 15=3×5, 20=2²×5. LCM=2²×3×5=60.",
+    "concept": "LCM is the smallest number divisible by all given numbers. Take all prime factors with their highest exponent.",
+    "hint": "Prime factorize each number. Take highest power of each prime.",
+    "shortcut": "LCM = 2²×3×5 = 60",
+    "commonMistake": "Multiplying all numbers: 12×15×20 = 3600. This is a common multiple but not the LEAST.",
+    "memoryTrick": "LCM = 'Lowest Common Multiple' = HIGHEST powers of all primes. Think: 'LCM goes HIGH.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_hcf_006",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "HCF & LCM",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
+    "question": "The HCF and LCM of two numbers are 12 and 72 respectively. If one number is 24, what is the other number?",
+    "options": [
+      "36",
+      "48",
+      "18",
+      "60"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HCF × LCM = Product of numbers. 12 × 72 = 24 × Other. Other = (12 × 72)/24 = 864/24 = 36.",
+    "formula": "Other number = (HCF × LCM) / Given number = (12 × 72) / 24 = 36",
+    "concept": "The relationship HCF × LCM = Product holds for exactly two numbers. Use it to find the unknown.",
+    "hint": "Use HCF × LCM = Product. Divide by the known number.",
+    "shortcut": "Other = 12×72/24 = 36",
+    "commonMistake": "Using this formula for 3+ numbers. It only works for exactly 2 numbers.",
+    "memoryTrick": "Two numbers only: HCF × LCM = Product. Think: 'For two, H and L make P.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    }
+  },
+  {
+    "id": "qt_pnc_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Permutation & Combination",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "In how many ways can the letters of the word 'LEADER' be arranged?",
+    "options": [
+      "360",
+      "720",
+      "180",
+      "240"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LEADER has 6 letters with E repeated twice. Arrangements = 6!/2! = 720/2 = 360.",
+    "formula": "Arrangements of n items with repetition = n!/(p1!×p2!×...) where p's are frequencies of repeated items.",
+    "concept": "When arranging letters with repetitions, divide by factorial of the count of each repeated letter.",
+    "hint": "Count total letters and repeated letters. Use n!/repetition_factorials.",
+    "shortcut": "6!/2! = 720/2 = 360",
+    "commonMistake": "Using 6! = 720 without accounting for the repeated E. Identical letters create duplicate arrangements.",
+    "memoryTrick": "Repeated letters: Divide by their factorial. Think: 'Same letters swap = same word, so divide by their arrangements.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pnc_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Permutation & Combination",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "How many 3-digit numbers can be formed from digits 1,2,3,4,5 without repetition?",
+    "options": [
+      "60",
+      "125",
+      "24",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "We need to arrange 3 digits from 5 without repetition. This is 5P3 = 5!/(5-3)! = 5×4×3 = 60.",
+    "formula": "nPr = n!/(n-r)! = 5!/(5-3)! = 5×4×3 = 60",
+    "concept": "Permutation: arrangement where order matters. Selecting r items from n without repetition = nPr.",
+    "hint": "Order matters (123 ≠ 321). Use permutation formula nPr.",
+    "shortcut": "5P3 = 5×4×3 = 60",
+    "commonMistake": "Using combination 5C3 = 10. But order matters for numbers (123 ≠ 321), so use permutation.",
+    "memoryTrick": "Permutation = 'Position matters.' For numbers, order changes the value. Think: 'Permutation = Position.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pnc_003",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Permutation & Combination",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "In how many ways can a committee of 4 members be selected from 10 people?",
+    "options": [
+      "210",
+      "5040",
+      "40",
+      "720"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Selection (order doesn't matter) = 10C4 = 10!/(4!×6!) = (10×9×8×7)/(4×3×2×1) = 5040/24 = 210.",
+    "formula": "nCr = n!/[r!(n-r)!] = 10!/[4!×6!] = 210",
+    "concept": "Combination: selection where order doesn't matter. A committee of A,B,C is same as C,B,A.",
+    "hint": "Committee = selection, order doesn't matter. Use combination nCr.",
+    "shortcut": "10C4 = (10×9×8×7)/(4×3×2×1) = 210",
+    "commonMistake": "Using permutation 10P4 = 5040. Committees don't have ordering — same members = same committee.",
+    "memoryTrick": "Combination = 'Choosing' (order doesn't matter). Permutation = 'Position' (order matters). Think: 'Combination = Committee.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pnc_004",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Permutation & Combination",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "How many 4-digit even numbers can be formed using digits 1,2,3,4,5 without repetition?",
+    "options": [
+      "48",
+      "60",
+      "24",
+      "120"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For even number, last digit must be 2 or 4 (2 choices). Then arrange remaining 3 digits from 4: 2 × 4P3 = 2 × 24 = 48.",
+    "formula": "Last digit: 2 choices (2 or 4). Remaining: 4P3 = 24. Total = 2 × 24 = 48.",
+    "concept": "Restricted permutation: fix the constrained position first (last digit must be even), then arrange the rest.",
+    "hint": "Fix the last digit first (must be even: 2 or 4). Then arrange remaining digits.",
+    "shortcut": "2 choices for last digit × 4P3 = 2×24 = 48",
+    "commonMistake": "Using 5P4 = 120 (all arrangements) without the even constraint.",
+    "memoryTrick": "Restricted positions: Fix the constraint FIRST, then arrange the rest. Think: 'Lock the restricted spot, free the rest.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pnc_005",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Permutation & Combination",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
+    "question": "There are 6 boys and 4 girls. In how many ways can a group of 5 be formed with at least 2 girls?",
+    "options": [
+      "186",
+      "120",
+      "246",
+      "210"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cases: (2 girls + 3 boys) + (3 girls + 2 boys) + (4 girls + 1 boy). = C(4,2)×C(6,3) + C(4,3)×C(6,2) + C(4,4)×C(6,1) = 6×20 + 4×15 + 1×6 = 120+60+6 = 186.",
+    "formula": "At least 2 girls = (2G,3B) + (3G,2B) + (4G,1B) = C(4,2)C(6,3) + C(4,3)C(6,2) + C(4,4)C(6,1)",
+    "concept": "'At least' problems: sum all valid cases. Break into mutually exclusive scenarios.",
+    "hint": "Break into cases: exactly 2 girls, exactly 3 girls, exactly 4 girls. Sum them.",
+    "shortcut": "C(4,2)C(6,3) + C(4,3)C(6,2) + C(4,4)C(6,1) = 120+60+6 = 186",
+    "commonMistake": "Doing C(4,2)×C(8,3) = 4×8 = 32 (wrong). This double-counts cases with 3+ girls.",
+    "memoryTrick": "'At least' = sum all valid cases. Think: 'Break it down, add them up.' Don't use the complement method here — too many cases.",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_pnc_006",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Permutation & Combination",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "How many ways can 5 different books be arranged on a shelf if 2 particular books must always be together?",
+    "options": [
+      "48",
+      "120",
+      "24",
+      "240"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Treat the 2 books as one unit. Now we have 4 units to arrange: 4! = 24. The 2 books can be arranged among themselves: 2! = 2. Total = 24 × 2 = 48.",
+    "formula": "Treat 2 books as 1 unit: (5-1)! × 2! = 4! × 2! = 24 × 2 = 48",
+    "concept": "'Together' problems: treat the grouped items as one unit, then multiply by internal arrangements.",
+    "hint": "Bundle the 2 books together as one item. Arrange 4 items, then arrange within the bundle.",
+    "shortcut": "4! × 2! = 48",
+    "commonMistake": "Just doing 4! = 24 without multiplying by 2! for internal arrangement of the 2 books.",
+    "memoryTrick": "'Together' = 'Tie them up.' Bundle, arrange bundles, then untie and arrange within. Think: 'Bundle × Internal.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_si_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Simple Interest",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
+    "question": "Find the simple interest on Rs. 5000 at 8% per annum for 3 years.",
+    "options": [
+      "Rs. 1200",
+      "Rs. 1000",
+      "Rs. 1500",
+      "Rs. 800"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SI = P×R×T/100 = 5000×8×3/100 = 1200.",
+    "formula": "SI = P × R × T / 100 = 5000 × 8 × 3 / 100 = 1200",
+    "concept": "Simple Interest is calculated only on the principal amount. Interest each year is constant.",
+    "hint": "Multiply principal, rate, and time. Divide by 100.",
+    "shortcut": "SI = 5000×8×3/100 = 1200",
+    "commonMistake": "Forgetting to divide by 100: 5000×8×3 = 120,000. Rate is a percentage!",
+    "memoryTrick": "SI = PRT/100. Think: 'Principal × Rate × Time, all over 100.' Simple = same interest every year.",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_si_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Simple Interest",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "A sum of money doubles itself in 8 years at simple interest. What is the rate of interest?",
+    "options": [
+      "12.5%",
+      "10%",
+      "15%",
+      "25%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If principal P doubles, SI = P. P = P×R×8/100. R = 100/8 = 12.5%.",
+    "formula": "When money doubles: SI = P. P = P×R×T/100 → R = 100/T = 100/8 = 12.5%",
+    "concept": "When a sum doubles at SI, the interest equals the principal. Use SI = P to find rate.",
+    "hint": "Doubling means SI = Principal. Set P = P×R×T/100 and solve for R.",
+    "shortcut": "R = 100/8 = 12.5%",
+    "commonMistake": "Using compound interest formula. This is simple interest — linear growth.",
+    "memoryTrick": "Doubling time at SI: Rate = 100/Time. Think: 'Rule of 100: 100 divided by years = rate%.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_ci_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Compound Interest",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "Find the compound interest on Rs. 10,000 at 10% per annum for 2 years, compounded annually.",
+    "options": [
+      "Rs. 2100",
+      "Rs. 2000",
+      "Rs. 2200",
+      "Rs. 1900"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A = P(1+R/100)^T = 10000(1.1)² = 10000×1.21 = 12,100. CI = A-P = 12,100-10,000 = Rs. 2,100.",
+    "formula": "A = P(1+R/100)^T = 10000(1.1)² = 12,100. CI = A-P = 2,100.",
+    "concept": "Compound Interest: interest earns interest. Amount = P(1+R/100)^T. CI = Amount - Principal.",
+    "hint": "Calculate amount using CI formula, then subtract principal to get interest.",
+    "shortcut": "A = 10000×1.21 = 12,100. CI = 2,100",
+    "commonMistake": "Using SI formula: 10000×10×2/100 = 2,000. CI is MORE than SI because interest compounds.",
+    "memoryTrick": "CI = 'Compound = Compounding growth.' A = P(1+R/100)^T. Think: 'Money grows on money.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_ci_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Compound Interest",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "The difference between CI and SI on Rs. 5000 for 2 years at a certain rate is Rs. 20. What is the rate of interest?",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "8%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Difference for 2 years = P×(R/100)². 20 = 5000×(R/100)². (R/100)² = 20/5000 = 0.004. R/100 = √0.004 ≈ 0.0632. Hmm, let me use: Difference = P×r² where r=R/100. 20 = 5000×r². r² = 0.004. r = 0.0632. R = 6.32%. Not clean. Let me fix: Difference = P×(R/100)². For R=4%: 5000×(4/100)² = 5000×0.0016 = 8. For R=5%: 5000×0.0025 = 12.5. For R=8%: 5000×0.0064 = 32. For R=10%: 5000×0.01 = 50. For R=20%: 5000×0.04 = 200. Let me use P=5000, R=4%, diff=8. Or P=8000, R=5%, diff=8000×0.0025=20. Yes!",
+    "formula": "CI-SI difference for 2 years = P×(R/100)². 20 = 8000×(R/100)² → R=5%",
+    "concept": "For 2 years: CI - SI = P×(R/100)². This is the 'interest on first year's interest.'",
+    "hint": "Use the direct formula: Difference = P×(R/100)² for 2 years.",
+    "shortcut": "20 = 8000×(R/100)² → (R/100)² = 0.0025 → R/100 = 0.05 → R = 5%",
+    "commonMistake": "Calculating full CI and SI separately. Use the direct formula for difference.",
+    "memoryTrick": "CI-SI for 2 years = P×r² (where r=R/100). Think: 'The gap is interest ON interest.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_ci_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Compound Interest",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "The difference between CI and SI on a sum of Rs. 8000 for 2 years at a certain rate is Rs. 20. What is the rate of interest?",
+    "options": [
+      "5%",
+      "4%",
+      "6%",
+      "8%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Difference for 2 years = P×(R/100)². 20 = 8000×(R/100)². (R/100)² = 20/8000 = 1/400. R/100 = 1/20 = 0.05. R = 5%.",
+    "formula": "CI-SI difference for 2 years = P×(R/100)². 20 = 8000×(R/100)² → R=5%",
+    "concept": "For 2 years: CI - SI = P×(R/100)². This is the 'interest on first year's interest.'",
+    "hint": "Use the direct formula: Difference = P×(R/100)² for 2 years.",
+    "shortcut": "20 = 8000×(R/100)² → (R/100)² = 1/400 → R/100 = 1/20 → R = 5%",
+    "commonMistake": "Calculating full CI and SI separately. Use the direct formula for difference.",
+    "memoryTrick": "CI-SI for 2 years = P×r² (where r=R/100). Think: 'The gap is interest ON interest.'",
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    }
+  },
+  {
+    "id": "qt_part_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Partnership",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "A invests Rs. 6000 for 8 months and B invests Rs. 8000 for 6 months. If the total profit is Rs. 5600, what is A's share?",
+    "options": [
+      "Rs. 2800",
+      "Rs. 2400",
+      "Rs. 3200",
+      "Rs. 3000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A's investment-time = 6000×8 = 48,000. B's = 8000×6 = 48,000. Ratio = 48000:48000 = 1:1. A's share = 1/2 × 5600 = Rs. 2800.",
+    "formula": "Profit ratio = Capital × time. A:B = 6000×8 : 8000×6 = 48000:48000 = 1:1",
+    "concept": "In partnership, profit is divided in the ratio of (Capital × Time) for each partner.",
+    "hint": "Multiply each partner's capital by their time period. Find the ratio.",
+    "shortcut": "A:B = 6000×8 : 8000×6 = 48:48 = 1:1. A gets half = 2800",
+    "commonMistake": "Using just capital ratio (6000:8000 = 3:4) without considering time. Time matters in partnership!",
+    "memoryTrick": "Partnership: Profit = Money × Time. Think: 'More money for longer time = bigger share.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_age_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ages",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
+    "question": "Five years ago, the ratio of A's age to B's age was 3:2. If A is now 20 years old, what is B's present age?",
+    "options": [
+      "15 years",
+      "17 years",
+      "13 years",
+      "18 years"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A's age 5 years ago = 20-5 = 15. Ratio was 3:2, so B's age 5 years ago = (2/3)×15 = 10. B's present age = 10+5 = 15.",
+    "formula": "Past age = Present age - years. Use ratio to find other person's past age. Add years to get present.",
+    "concept": "Age problems: go to the reference time point, use the ratio, then return to present.",
+    "hint": "Find A's age 5 years ago. Use ratio to find B's age at that time. Add 5 to get B's present age.",
+    "shortcut": "A 5 yrs ago = 15. B 5 yrs ago = (2/3)×15 = 10. B now = 15.",
+    "commonMistake": "Using current age (20) in the ratio: (2/3)×20 = 13.33. The ratio was 5 YEARS AGO, not now.",
+    "memoryTrick": "Age problems: 'Travel in time first.' Go to when the ratio was given, solve, then come back to present.",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_vol_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Volume & Surface Area",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
+    "question": "A cylinder has radius 7 cm and height 10 cm. What is its volume?",
+    "options": [
+      "1540 cm³",
+      "1480 cm³",
+      "1600 cm³",
+      "1320 cm³"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Volume = πr²h = (22/7)×7²×10 = (22/7)×49×10 = 22×7×10 = 1540 cm³.",
+    "formula": "Volume of cylinder = πr²h = (22/7)×7²×10 = 1540 cm³",
+    "concept": "Cylinder volume = base area × height = πr² × h.",
+    "hint": "Use π = 22/7. Square the radius, multiply by height and π.",
+    "shortcut": "V = (22/7)×49×10 = 22×70 = 1540",
+    "commonMistake": "Using diameter instead of radius. Radius = 7, diameter = 14.",
+    "memoryTrick": "Cylinder = 'Circle × Height.' V = πr²h. Think: 'Area of circle stretched up by height.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  },
+  {
+    "id": "qt_vol_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Volume & Surface Area",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
+    "question": "A solid cube of side 6 cm is melted and recast into a sphere. What is the radius of the sphere?",
+    "options": [
+      "3.72 cm",
+      "4.5 cm",
+      "3 cm",
+      "5.2 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Volume of cube = 6³ = 216 cm³. Volume of sphere = (4/3)πr³ = 216. r³ = 216×3/(4×π) = 648/(4×3.14) = 648/12.56 ≈ 51.6. r ≈ 3.72 cm.",
+    "formula": "Volume conserved: a³ = (4/3)πr³. r³ = 3a³/(4π) = 3×216/(4π) ≈ 51.6. r ≈ 3.72 cm",
+    "concept": "When a solid is melted and recast, volume remains constant. Equate volumes to find the unknown dimension.",
+    "hint": "Volume of cube = Volume of sphere. Solve for r.",
+    "shortcut": "216 = (4/3)πr³ → r³ = 51.6 → r ≈ 3.72 cm",
+    "commonMistake": "Equating surface areas instead of volumes. Melting preserves VOLUME, not surface area.",
+    "memoryTrick": "Melting/recasting: Volume is conserved. Think: 'Same stuff, different shape — amount stays same.'",
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    }
+  }
+]

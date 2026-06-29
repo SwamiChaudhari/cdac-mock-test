@@ -27,6 +27,10 @@ const questionModules = {
   osTier3: () => import('./questions/os_tier3.json'),
   networkingTier3: () => import('./questions/networking_tier3.json'),
   compfundTier1: () => import('./questions/compfund_tier1.json'),
+  quantRemaining: () => import('./questions/quant_remaining.json'),
+  dbmsTier2: () => import('./questions/dbms_tier2.json'),
+  bigdataTier2: () => import('./questions/bigdata_ai_tier2.json'),
+  englishGrammar: () => import('./questions/english_grammar.json'),
 }
 
 let cachedQuestions: Question[] | null = null
@@ -59,6 +63,10 @@ export async function loadAllQuestions(): Promise<Question[]> {
     questionModules.osTier3(),
     questionModules.networkingTier3(),
     questionModules.compfundTier1(),
+    questionModules.quantRemaining(),
+    questionModules.dbmsTier2(),
+    questionModules.bigdataTier2(),
+    questionModules.englishGrammar(),
   ])
 
   // Deduplicate on load: use normalized question text as key

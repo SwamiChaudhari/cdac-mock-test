@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { useTestStore } from '../stores/testStore'
 import { useGamificationStore } from '../stores/gamificationStore'
 import { calculateResults, formatTime } from '../utils'
+import LearningMetadataPanel from '../components/LearningMetadataPanel'
 
 export default function ResultPage() {
   const navigate = useNavigate()

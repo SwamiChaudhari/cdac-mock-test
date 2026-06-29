@@ -9,6 +9,19 @@ export interface Question {
   correctAnswer: 0 | 1 | 2 | 3
   explanation: string
   marks: number
+  // Learning metadata (new high-yield questions)
+  formula?: string
+  concept?: string
+  hint?: string
+  shortcut?: string
+  commonMistake?: string
+  memoryTrick?: string
+  examImportance?: {
+    frequency: string
+    probability: string
+    score: number
+  }
+  level?: string
 }
 
 export interface TestAnswer {

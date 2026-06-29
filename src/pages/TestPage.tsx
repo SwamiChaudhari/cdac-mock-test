@@ -4,7 +4,9 @@ import { useTestStore } from '../stores/testStore'
 import { useGamificationStore } from '../stores/gamificationStore'
 import { useQuestionTracker } from '../stores/questionTracker'
 import { useHistoryStore } from '../stores/historyStore'
+import { useAdaptiveLearning } from '../stores/adaptiveLearning'
 import { formatTime, getQuestionStatus, calculateResults } from '../utils'
+import LearningMetadataPanel from '../components/LearningMetadataPanel'
 import type { QuestionStatus, TestResult } from '../types'
 
 export default function TestPage() {
@@ -13,9 +15,11 @@ export default function TestPage() {
   const { addResult, addMistake } = useGamificationStore()
   const { recordSessionComplete } = useQuestionTracker()
   const { saveTest } = useHistoryStore()
+  const { recordAttempt } = useAdaptiveLearning()
   const [timeLeft, setTimeLeft] = useState(0)
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false)
   const [showNavigator, setShowNavigator] = useState(false)
+  const [showMetadata, setShowMetadata] = useState(true)
 
   useEffect(() => {
     if (!session) {
@@ -239,6 +243,19 @@ export default function TestPage() {
                   )
                 })}
               </div>
+
+              {/* Learning Metadata Panel */}
+              {showMetadata && (
+                <div className="mb-4">
+                  <button
+                    onClick={() => setShowMetadata(!showMetadata)}
+                    className="text-[10px] text-purple-500 font-medium mb-1 hover:text-purple-700"
+                  >
+                    {showMetadata ? '▼ Hide Learning Aids' : '▶ Show Learning Aids (Formula, Hints, Memory Tricks)'}
+                  </button>
+                  <LearningMetadataPanel question={currentQuestion} showFullExplanation={false} />
+                </div>
+              )}
 
               {/* Action Buttons */}
               <div className="flex flex-wrap gap-2 sm:gap-3">

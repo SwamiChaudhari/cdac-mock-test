@@ -14,6 +14,8 @@ import TestReviewPage from './pages/TestReviewPage'
 import LearningModePage from './pages/LearningModePage'
 import AnalyticsPage from './pages/AnalyticsPage'
 import FlashcardReviewPage from './pages/FlashcardReviewPage'
+import FormulaSheetPage from './pages/FormulaSheetPage'
+import PreviousMistakesPage from './pages/PreviousMistakesPage'
 
 function App() {
   const [questions, setQuestions] = useState<Question[]>([])
@@ -59,6 +61,8 @@ function App() {
         <Route path="/learning" element={<LearningModePage />} />
         <Route path="/analytics" element={<AnalyticsPage />} />
         <Route path="/flashcards" element={<FlashcardReviewPage />} />
+        <Route path="/formula-sheet" element={<FormulaSheetPage />} />
+        <Route path="/mistakes" element={<PreviousMistakesPage />} />
       </Routes>
     </BrowserRouter>
   )

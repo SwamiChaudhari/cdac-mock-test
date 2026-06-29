@@ -14,6 +14,19 @@ const questionModules = {
   networking: () => import('./networking.json'),
   dbms: () => import('./dbms.json'),
   bigdata: () => import('./bigdata_ai.json'),
+  // New high-yield question banks with learning metadata
+  quantPctRatio: () => import('./questions/quant_pct_ratio.json'),
+  quantProfitLoss: () => import('./questions/quant_profit_loss.json'),
+  quantAverage: () => import('./questions/quant_average.json'),
+  quantTimeWork: () => import('./questions/quant_time_work.json'),
+  quantTsd: () => import('./questions/quant_tsd.json'),
+  quantProbability: () => import('./questions/quant_probability.json'),
+  cProgrammingTier2: () => import('./questions/c_programming_tier2.json'),
+  dsTier2: () => import('./questions/ds_tier2.json'),
+  oopTier2: () => import('./questions/oop_tier2.json'),
+  osTier3: () => import('./questions/os_tier3.json'),
+  networkingTier3: () => import('./questions/networking_tier3.json'),
+  compfundTier1: () => import('./questions/compfund_tier1.json'),
 }
 
 let cachedQuestions: Question[] | null = null
@@ -33,6 +46,19 @@ export async function loadAllQuestions(): Promise<Question[]> {
     questionModules.networking(),
     questionModules.dbms(),
     questionModules.bigdata(),
+    // New high-yield banks
+    questionModules.quantPctRatio(),
+    questionModules.quantProfitLoss(),
+    questionModules.quantAverage(),
+    questionModules.quantTimeWork(),
+    questionModules.quantTsd(),
+    questionModules.quantProbability(),
+    questionModules.cProgrammingTier2(),
+    questionModules.dsTier2(),
+    questionModules.oopTier2(),
+    questionModules.osTier3(),
+    questionModules.networkingTier3(),
+    questionModules.compfundTier1(),
   ])
 
   // Deduplicate on load: use normalized question text as key

@@ -6,7 +6,19 @@ import type { Question } from '../utils/questionBank'
 import { loadAllQuestions } from '../data'
 
 function loadCards(): Promise<TopicCard[]> {
-  return import('../data/topicCards/cards.json').then(m => m.default as unknown as TopicCard[])
+  return Promise.all([
+    import('../data/topicCards/split/cards-0.json'),
+    import('../data/topicCards/split/cards-1.json'),
+    import('../data/topicCards/split/cards-2.json'),
+    import('../data/topicCards/split/cards-3.json'),
+    import('../data/topicCards/split/cards-4.json'),
+  ]).then(modules => {
+    const all: TopicCard[] = []
+    for (const m of modules) {
+      all.push(...(m.default as unknown as TopicCard[]))
+    }
+    return all
+  })
 }
 
 type CardView = 'learn' | 'questions' | 'mastery'

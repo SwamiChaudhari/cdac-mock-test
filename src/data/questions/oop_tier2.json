@@ -1,9 +1,20 @@
 [
   {
-    "id": "oop_001", "section": "B", "subject": "OOP C++", "topic": "Class & Object",
-    "difficulty": "medium", "marks": 1, "level": "exam_style",
+    "id": "oop_001",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Class & Object",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
     "question": "In C++, which of the following statements about classes is correct?",
-    "options": ["A class is a blueprint for creating objects", "A class is an instance of an object", "A class can only have public members", "A class cannot have member functions"], "correctAnswer": 0,
+    "options": [
+      "A class is a blueprint for creating objects",
+      "A class is an instance of an object",
+      "A class can only have public members",
+      "A class cannot have member functions"
+    ],
+    "correctAnswer": 0,
     "explanation": "A class is a user-defined data type that serves as a blueprint for creating objects. It encapsulates data (attributes) and functions (methods) that operate on that data.",
     "formula": "Class = Blueprint/template. Object = Instance of class. Class defines structure, object holds actual data.",
     "concept": "A class defines the structure (data members and member functions) but doesn't allocate memory. Objects are instances of the class that hold actual values.",
@@ -11,13 +22,32 @@
     "shortcut": "Class = Blueprint, Object = Instance",
     "commonMistake": "Confusing class with object. Class is the template; object is the actual entity created from it.",
     "memoryTrick": "Class = 'Classification' (a category). Object = 'An actual thing' in that category. Think: 'Dog is a class, my pet Bruno is an object.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "oop_002", "section": "B", "subject": "OOP C++", "topic": "Constructor",
-    "difficulty": "hard", "marks": 1, "level": "exam_style",
+    "id": "oop_002",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Constructor",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "exam_style",
     "question": "What is the order of constructor and destructor calls when an object of a derived class is created and destroyed in C++?",
-    "options": ["Base constructor → Derived constructor → Derived destructor → Base destructor", "Derived constructor → Base constructor → Base destructor → Derived destructor", "Base constructor → Derived constructor → Base destructor → Derived destructor", "Derived constructor → Base constructor → Derived destructor → Base destructor"], "correctAnswer": 0,
+    "options": [
+      "Base constructor → Derived constructor → Derived destructor → Base destructor",
+      "Derived constructor → Base constructor → Base destructor → Derived destructor",
+      "Base constructor → Derived constructor → Base destructor → Derived destructor",
+      "Derived constructor → Base constructor → Derived destructor → Base destructor"
+    ],
+    "correctAnswer": 0,
     "explanation": "Constructors: Base class constructor is called first (to initialize base members), then Derived class constructor. Destructors: REVERSE order — Derived destructor first, then Base destructor.",
     "formula": "Construction: Base → Derived (like building foundation then walls). Destruction: Derived → Base (like demolishing walls then foundation).",
     "concept": "In inheritance, the base class must be constructed before the derived class (parent before child). Destruction happens in reverse (child before parent).",
@@ -25,13 +55,32 @@
     "shortcut": "Constructor: Base → Derived. Destructor: Derived → Base. (REVERSE)",
     "commonMistake": "Thinking destructors also follow base-first order. Destructors are ALWAYS in reverse order of constructors.",
     "memoryTrick": "Build: Foundation first (Base), then walls (Derived). Demolish: Walls first (Derived), then foundation (Base). Think: 'Build up, tear down in reverse.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 10}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "oop_003", "section": "B", "subject": "OOP C++", "topic": "Virtual Function",
-    "difficulty": "hard", "marks": 1, "level": "trap",
+    "id": "oop_003",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Virtual Function",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
     "question": "What is the output of the following C++ code?\n\nclass Base {\npublic:\n    virtual void show() { cout << \"Base\"; }\n};\nclass Derived : public Base {\npublic:\n    void show() { cout << \"Derived\"; }\n};\nint main() {\n    Base *p = new Derived();\n    p->show();\n    return 0;\n}",
-    "options": ["Derived", "Base", "Compilation error", "Runtime error"], "correctAnswer": 0,
+    "options": [
+      "Derived",
+      "Base",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
     "explanation": "Since show() is declared virtual in Base, the call is resolved at runtime based on the actual object type (Derived), not the pointer type (Base). This is runtime polymorphism. Output: 'Derived'.",
     "formula": "Virtual function: Runtime binding (late binding). Actual object type determines which function is called.",
     "concept": "Virtual functions enable runtime polymorphism. When a base class pointer points to a derived class object, calling a virtual function invokes the derived class version.",
@@ -39,13 +88,32 @@
     "shortcut": "Virtual + Base pointer to Derived object = Derived function is called",
     "commonMistake": "Thinking Base::show() is called because pointer is Base type. Virtual functions use the ACTUAL object type, not pointer type.",
     "memoryTrick": "Virtual = 'Virtual reality — what you SEE (object) matters, not what you HOLD (pointer).' Think: 'The real object decides.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 10}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "oop_004", "section": "B", "subject": "OOP C++", "topic": "Inheritance",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "oop_004",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "In C++, which type of inheritance allows a class to inherit from multiple base classes?",
-    "options": ["Multiple inheritance", "Single inheritance", "Hierarchical inheritance", "Multilevel inheritance"], "correctAnswer": 0,
+    "options": [
+      "Multiple inheritance",
+      "Single inheritance",
+      "Hierarchical inheritance",
+      "Multilevel inheritance"
+    ],
+    "correctAnswer": 0,
     "explanation": "Multiple inheritance allows a derived class to inherit from two or more base classes. Syntax: class Derived : public Base1, public Base2 { };",
     "formula": "Multiple inheritance: class D : public B1, public B2, ... { };",
     "concept": "Multiple inheritance: one derived class inherits from multiple base classes. Can lead to diamond problem, solved using virtual inheritance.",
@@ -53,13 +121,32 @@
     "shortcut": "Multiple inheritance = one child, multiple parents",
     "commonMistake": "Confusing multiple inheritance (many-to-one) with hierarchical inheritance (one-to-many).",
     "memoryTrick": "Multiple inheritance = 'Multiple parents, one child.' Think: 'A child can have traits from Mom AND Dad.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "oop_005", "section": "B", "subject": "OOP C++", "topic": "Abstract Class",
-    "difficulty": "hard", "marks": 1, "level": "exam_style",
+    "id": "oop_005",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Abstract Class",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "exam_style",
     "question": "Which of the following is TRUE about abstract classes in C++?",
-    "options": ["An abstract class must contain at least one pure virtual function", "An abstract class can be instantiated", "An abstract class cannot have any data members", "An abstract class cannot be used as a base class"], "correctAnswer": 0,
+    "options": [
+      "An abstract class must contain at least one pure virtual function",
+      "An abstract class can be instantiated",
+      "An abstract class cannot have any data members",
+      "An abstract class cannot be used as a base class"
+    ],
+    "correctAnswer": 0,
     "explanation": "An abstract class contains at least one pure virtual function (virtual void func() = 0;). It cannot be instantiated directly — only its concrete derived classes can be instantiated.",
     "formula": "Pure virtual function: virtual void func() = 0; Class with at least one = abstract class. Cannot create objects.",
     "concept": "Abstract classes serve as interfaces/base classes. They define a contract (pure virtual functions) that derived classes must implement.",
@@ -67,13 +154,32 @@
     "shortcut": "Abstract class = has pure virtual function. Cannot instantiate.",
     "commonMistake": "Thinking abstract classes cannot have any implementation. They CAN have regular member functions and data members.",
     "memoryTrick": "Abstract = 'Abstract painting' — incomplete, needs someone to complete it. Think: '= 0 means unfinished work, someone else must finish it.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 10}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "oop_006", "section": "B", "subject": "OOP C++", "topic": "Exception Handling",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "oop_006",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "In C++ exception handling, what happens if an exception is thrown but not caught by any catch block?",
-    "options": ["The program terminates abnormally (call to terminate())", "The exception is ignored", "The compiler reports an error", "The program continues execution normally"], "correctAnswer": 0,
+    "options": [
+      "The program terminates abnormally (call to terminate())",
+      "The exception is ignored",
+      "The compiler reports an error",
+      "The program continues execution normally"
+    ],
+    "correctAnswer": 0,
     "explanation": "If an exception is thrown and not caught, the standard function terminate() is called, which aborts the program. Unhandled exceptions always lead to program termination.",
     "formula": "Unhandled exception → terminate() → program abort. Always use try-catch to handle exceptions.",
     "concept": "C++ exception handling requires every thrown exception to be caught. Unhandled exceptions call terminate() and abort the program.",
@@ -81,13 +187,32 @@
     "shortcut": "Uncaught exception = program terminates",
     "commonMistake": "Thinking unhandled exceptions are ignored and execution continues. Never true — the program always terminates.",
     "memoryTrick": "Unhandled exception = 'Unhandled bomb → EXPLOSION (program dies).' Always defuse (catch) your exceptions!",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "oop_007", "section": "B", "subject": "OOP C++", "topic": "Function Overloading",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "oop_007",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Function Overloading",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "Which of the following is valid for function overloading in C++?",
-    "options": ["Two functions with same name but different number of parameters", "Two functions with same name and same parameters but different return types", "Two functions with same name in the same scope that are identical", "Two functions with different names but same parameters"], "correctAnswer": 0,
+    "options": [
+      "Two functions with same name but different number of parameters",
+      "Two functions with same name and same parameters but different return types",
+      "Two functions with same name in the same scope that are identical",
+      "Two functions with different names but same parameters"
+    ],
+    "correctAnswer": 0,
     "explanation": "Function overloading requires functions with the same name but different parameter lists (different number or types of parameters). Return type alone cannot differentiate overloaded functions.",
     "formula": "Function overloading: Same name + Different parameter list (type/count). Return type doesn't matter.",
     "concept": "Function overloading provides multiple definitions of a function with different parameter lists. The compiler selects the appropriate version based on arguments passed.",
@@ -95,13 +220,32 @@
     "shortcut": "Valid overload: different parameter count or types. NOT different return type only.",
     "commonMistake": "Thinking functions with same name, same parameters, but different return types can be overloaded. They CANNOT — compiler can't distinguish them.",
     "memoryTrick": "Overloading = 'Same job title, different skills.' The name is same, the INPUT (parameters) must differ. Return type is the OUTPUT — doesn't help distinguish.",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "oop_008", "section": "B", "subject": "OOP C++", "topic": "Destructor",
-    "difficulty": "hard", "marks": 1, "level": "trap",
+    "id": "oop_008",
+    "section": "B",
+    "subject": "OOP C++",
+    "topic": "Destructor",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
     "question": "What happens if a base class destructor is NOT declared virtual and a derived class object is deleted through a base class pointer?",
-    "options": ["Only the base class destructor is called (memory leak possible)", "Both destructors are called normally", "Compilation error", "Runtime error always occurs"], "correctAnswer": 0,
+    "options": [
+      "Only the base class destructor is called (memory leak possible)",
+      "Both destructors are called normally",
+      "Compilation error",
+      "Runtime error always occurs"
+    ],
+    "correctAnswer": 0,
     "explanation": "Without a virtual destructor, the compiler uses static binding for the destructor call. Only Base destructor is called, skipping Derived destructor. This can cause memory leaks if Derived allocated resources.",
     "formula": "Non-virtual destructor + Base pointer to Derived = Only Base destructor called. Virtual destructor ensures both are called.",
     "concept": "Deleting a derived object through a base pointer without a virtual destructor is undefined behavior in C++. Only the base destructor runs, potentially leaking derived class resources.",
@@ -109,6 +253,14 @@
     "shortcut": "Non-virtual destructor through base pointer = memory leak (derived destructor skipped)",
     "commonMistake": "Thinking both destructors are always called. Without virtual, only base destructor runs — this is a common memory leak bug!",
     "memoryTrick": "Base class pointer deleting Derived object: 'Non-virtual destructor = Amnesia — forgets to clean up Derived stuff.' Always make base destructor virtual!",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 10}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   }
 ]

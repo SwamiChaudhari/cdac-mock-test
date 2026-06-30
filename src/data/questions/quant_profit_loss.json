@@ -1,9 +1,20 @@
 [
   {
-    "id": "qt_pl_001", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "easy", "marks": 1, "level": "beginner",
+    "id": "qt_pl_001",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
     "question": "An article is bought for Rs. 600 and sold for Rs. 750. What is the profit percentage?",
-    "options": ["25%", "20%", "30%", "15%"], "correctAnswer": 0,
+    "options": [
+      "25%",
+      "20%",
+      "30%",
+      "15%"
+    ],
+    "correctAnswer": 0,
     "explanation": "Profit = SP - CP = 750 - 600 = Rs. 150. Profit% = (Profit/CP) × 100 = (150/600) × 100 = 25%.",
     "formula": "Profit% = (SP - CP)/CP × 100",
     "concept": "Profit percentage is always calculated on the Cost Price (CP), not the Selling Price. Profit = SP - CP.",
@@ -11,13 +22,32 @@
     "shortcut": "Profit% = (750-600)/600 × 100 = 150/600 × 100 = 25%",
     "commonMistake": "Calculating profit% on SP instead of CP: (150/750) × 100 = 20%. Profit% is ALWAYS on CP.",
     "memoryTrick": "Profit% is on CP — think 'I profited on what I PAID, not what I SOLD for.' Paid = CP = Base.",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "qt_pl_002", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "qt_pl_002",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "A trader buys an article for Rs. 800 and sells it at a loss of 15%. What is the selling price?",
-    "options": ["Rs. 680", "Rs. 720", "Rs. 700", "Rs. 640"], "correctAnswer": 0,
+    "options": [
+      "Rs. 680",
+      "Rs. 720",
+      "Rs. 700",
+      "Rs. 640"
+    ],
+    "correctAnswer": 0,
     "explanation": "Loss = 15% of CP = 0.15 × 800 = Rs. 120. SP = CP - Loss = 800 - 120 = Rs. 680.",
     "formula": "SP = CP × (100 - Loss%)/100 = 800 × 85/100 = 680",
     "concept": "When there is a loss, SP = CP × (100 - Loss%)/100. The selling price is less than cost price.",
@@ -25,13 +55,32 @@
     "shortcut": "SP = 800 × 0.85 = Rs. 680",
     "commonMistake": "Adding 15% instead of subtracting: 800 × 1.15 = 920. This would be a profit, not a loss.",
     "memoryTrick": "Loss means SP < CP. Think: 'L for Loss, L for Less.' SP = CP minus the loss amount.",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "qt_pl_003", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "medium", "marks": 1, "level": "exam_style",
+    "id": "qt_pl_003",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
     "question": "A shopkeeper buys 20 articles for Rs. 30 each and sells them at a profit of 25%. What is the selling price of each article?",
-    "options": ["Rs. 37.50", "Rs. 35", "Rs. 40", "Rs. 32.50"], "correctAnswer": 0,
+    "options": [
+      "Rs. 37.50",
+      "Rs. 35",
+      "Rs. 40",
+      "Rs. 32.50"
+    ],
+    "correctAnswer": 0,
     "explanation": "CP per article = Rs. 30. Profit = 25% of 30 = Rs. 7.50. SP per article = 30 + 7.50 = Rs. 37.50.",
     "formula": "SP per unit = CP per unit × (100 + Profit%)/100 = 30 × 1.25 = 37.50",
     "concept": "Profit percentage applies per unit. Calculate SP per article by multiplying CP by (100+Profit%)/100.",
@@ -39,13 +88,32 @@
     "shortcut": "SP = 30 × 1.25 = Rs. 37.50",
     "commonMistake": "Calculating total CP first (20 × 30 = 600), then finding 25% profit on total, and dividing by 20. This gives the same answer but is unnecessarily complex.",
     "memoryTrick": "Profit % is proportional — it works the same whether per unit or total. Per unit is simpler: just multiply.",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "qt_pl_004", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "hard", "marks": 1, "level": "advanced",
+    "id": "qt_pl_004",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
     "question": "A shopkeeper uses a faulty scale that shows 900 grams for every 1 kg. If he sells at cost price, what is his actual profit percentage?",
-    "options": ["11.11%", "10%", "12.5%", "9.09%"], "correctAnswer": 0,
+    "options": [
+      "11.11%",
+      "10%",
+      "12.5%",
+      "9.09%"
+    ],
+    "correctAnswer": 0,
     "explanation": "He sells 900g but charges for 1000g. Cost of 900g = Rs. 900 (if 1000g costs Rs. 1000). He sells it for Rs. 1000. Profit = 1000 - 900 = 100. Profit% = (100/900) × 100 = 11.11%.",
     "formula": "Profit% = [Error / (True Value - Error)] × 100 = [100/(1000-100)] × 100 = 11.11%",
     "concept": "When a seller uses a faulty weight/scale and sells at cost price, the profit comes from giving less quantity than charged for.",
@@ -53,13 +121,32 @@
     "shortcut": "Profit% = (100/900) × 100 = 100/9 = 11.11%",
     "commonMistake": "Taking profit% on 1000g instead of 900g: 10%. The base is what he ACTUALLY gives (900g), not what he charges for.",
     "memoryTrick": "Faulty weight profit: Profit% = Error/(Actual given) × 100. Think: 'He cheats by 100g on every 900g given.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 10}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "qt_pl_005", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "hard", "marks": 1, "level": "trap",
+    "id": "qt_pl_005",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
     "question": "A man sells two articles at the same selling price. On one he gains 20% and on the other he loses 20%. What is the overall profit or loss percentage?",
-    "options": ["4% loss", "No profit no loss", "4% profit", "10% loss"], "correctAnswer": 0,
+    "options": [
+      "4% loss",
+      "No profit no loss",
+      "4% profit",
+      "10% loss"
+    ],
+    "correctAnswer": 0,
     "explanation": "Let SP of each = Rs. 100. CP of first = 100/1.20 = 83.33. CP of second = 100/0.80 = 125. Total CP = 208.33. Total SP = 200. Loss = 8.33. Loss% = (8.33/208.33) × 100 = 4%. Formula: Net% = -(p²/100) = -(400/100) = -4%.",
     "formula": "When SP is same and profit% = loss% = p, Net loss% = p²/100 = 20²/100 = 4%",
     "concept": "When two items are sold at the same SP with equal profit and loss percentages, there is ALWAYS a net loss of p²/100 %.",
@@ -67,13 +154,32 @@
     "shortcut": "Net loss% = 20²/100 = 400/100 = 4% loss",
     "commonMistake": "Thinking profit and loss cancel out (0% net). They don't because the CPs are different for the same SP.",
     "memoryTrick": "Same SP, same % gain and loss = ALWAYS a LOSS. Formula: p²/100. Think: 'Equal gain and loss on same price = guaranteed loss.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 10}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 10
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "qt_pl_006", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "qt_pl_006",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "An article is sold at a profit of 20%. If both the cost price and selling price are reduced by Rs. 100, the profit becomes 25%. Find the original cost price.",
-    "options": ["Rs. 500", "Rs. 400", "Rs. 600", "Rs. 450"], "correctAnswer": 0,
+    "options": [
+      "Rs. 500",
+      "Rs. 400",
+      "Rs. 600",
+      "Rs. 450"
+    ],
+    "correctAnswer": 0,
     "explanation": "Let CP = x. SP = 1.2x. New CP = x - 100, New SP = 1.2x - 100. New profit% = 25%. So (1.2x - 100) = 1.25(x - 100). 1.2x - 100 = 1.25x - 125. 0.05x = 25. x = 500.",
     "formula": "Set up: New SP = New CP × (1 + New Profit%). Solve for original CP.",
     "concept": "When CP and SP both change by the same amount, the profit percentage changes because the base (CP) changes.",
@@ -81,13 +187,32 @@
     "shortcut": "1.2x - 100 = 1.25(x-100) → 1.2x - 100 = 1.25x - 125 → 25 = 0.05x → x = 500",
     "commonMistake": "Assuming the profit amount stays the same. It doesn't — the profit percentage changes because the base changes.",
     "memoryTrick": "Same amount subtracted from CP and SP: profit% INCREASES because the same profit is now a larger % of a smaller CP.",
-    "examImportance": {"frequency": "medium", "probability": "likely", "score": 8}
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 8
+    },
+    "appearanceCount": 6,
+    "frequencyScore": 8,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   },
   {
-    "id": "qt_pl_007", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "hard", "marks": 1, "level": "advanced",
+    "id": "qt_pl_007",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "advanced",
     "question": "A dealer professes to sell goods at cost price but uses a weight of 800 grams instead of 1 kg. What is his profit percentage?",
-    "options": ["25%", "20%", "30%", "15%"], "correctAnswer": 0,
+    "options": [
+      "25%",
+      "20%",
+      "30%",
+      "15%"
+    ],
+    "correctAnswer": 0,
     "explanation": "He charges for 1000g but gives 800g. Cost of 800g = Rs. 800. He sells for Rs. 1000. Profit = 200. Profit% = (200/800) × 100 = 25%.",
     "formula": "Profit% = [Error / (True Value - Error)] × 100 = [200/(1000-200)] × 100 = 25%",
     "concept": "When a seller uses a false weight and sells at cost price, profit% = (Error in weight / Actual weight given) × 100.",
@@ -95,13 +220,32 @@
     "shortcut": "Profit% = (200/800) × 100 = 25%",
     "commonMistake": "Taking profit% on 1000g: (200/1000) × 100 = 20%. The base is what he ACTUALLY gives (800g).",
     "memoryTrick": "False weight profit: Profit% = Error/Actual × 100. He gives 200g less per 800g = 200/800 = 25% profit.",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "qt_pl_008", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "medium", "marks": 1, "level": "exam_style",
+    "id": "qt_pl_008",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
     "question": "If the cost price of 20 articles is equal to the selling price of 16 articles, what is the profit percentage?",
-    "options": ["25%", "20%", "30%", "15%"], "correctAnswer": 0,
+    "options": [
+      "25%",
+      "20%",
+      "30%",
+      "15%"
+    ],
+    "correctAnswer": 0,
     "explanation": "Let CP of 1 article = Rs. 1. CP of 20 = Rs. 20 = SP of 16. SP of 1 article = 20/16 = Rs. 1.25. Profit per article = 0.25. Profit% = (0.25/1) × 100 = 25%.",
     "formula": "Profit% = [(CP of n articles - SP of m articles) / SP of m articles] × 100 = (20-16)/16 × 100 = 25%",
     "concept": "When CP of n items = SP of m items (n > m), profit% = (n - m)/m × 100.",
@@ -109,13 +253,32 @@
     "shortcut": "Profit% = (20-16)/16 × 100 = 4/16 × 100 = 25%",
     "commonMistake": "Calculating (20-16)/20 × 100 = 20%. The base should be SP (16), not CP (20).",
     "memoryTrick": "CP of n = SP of m: Profit% = (n-m)/m × 100. Think: 'You pay for 20 but sell the value of 16 — the 4 extra is profit on 16.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "qt_pl_009", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "hard", "marks": 1, "level": "trap",
+    "id": "qt_pl_009",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
     "question": "A shopkeeper marks his goods 50% above cost price and gives a discount of 20%. During a festival, he gives an additional discount of 10% on the already discounted price. What is his net profit percentage?",
-    "options": ["8%", "10%", "12%", "6%"], "correctAnswer": 0,
+    "options": [
+      "8%",
+      "10%",
+      "12%",
+      "6%"
+    ],
+    "correctAnswer": 0,
     "explanation": "Let CP = 100. MP = 150. First discount 20%: SP1 = 150 × 0.80 = 120. Second discount 10%: SP2 = 120 × 0.90 = 108. Net profit = 8%. Using successive formula: Net% = -20 + (-10) + (-20 × -10)/100 = -30 + 10 = -20% on MP. But MP is 150, so SP = 150 × 0.80 = 120. Then 120 × 0.90 = 108. Profit = 8%.",
     "formula": "Net discount = a + b + ab/100 (for successive discounts). Net effect on CP = Markup% + Net discount (as negative)",
     "concept": "Successive discounts are applied one after another, not added. The second discount applies to the already-reduced price.",
@@ -123,13 +286,32 @@
     "shortcut": "SP = 150 × 0.80 × 0.90 = 150 × 0.72 = 108. Profit = 8%",
     "commonMistake": "Adding discounts: 20% + 10% = 30% discount on MP. SP = 150 × 0.70 = 105. Profit = 5%. This is wrong because successive discounts don't add.",
     "memoryTrick": "Successive discounts: multiply the factors. 0.80 × 0.90 = 0.72 = 28% total discount, not 30%. Think: 'Each discount rides on the previous reduction.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "qt_pl_010", "section": "A", "subject": "Quantitative Aptitude", "topic": "Profit & Loss",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "qt_pl_010",
+    "section": "A",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "A man purchases an article for Rs. 360 and sells it at a profit of 15%. He then uses the entire amount to buy another article and sells it at a loss of 10%. What is his overall profit or loss?",
-    "options": ["Profit of Rs. 12.60", "Loss of Rs. 12.60", "Profit of Rs. 10", "No profit no loss"], "correctAnswer": 0,
+    "options": [
+      "Profit of Rs. 12.60",
+      "Loss of Rs. 12.60",
+      "Profit of Rs. 10",
+      "No profit no loss"
+    ],
+    "correctAnswer": 0,
     "explanation": "First SP = 360 × 1.15 = Rs. 414. Second CP = Rs. 414. Second SP = 414 × 0.90 = Rs. 372.60. Overall profit = 372.60 - 360 = Rs. 12.60.",
     "formula": "Overall = CP1 × (1 + p1/100) × (1 - p2/100) - CP1. Net% = p1 - p2 - p1×p2/100",
     "concept": "When the entire proceeds of one sale are reinvested, multiply the factors successively to find the final amount.",
@@ -137,6 +319,14 @@
     "shortcut": "Net% = 15 - 10 - (15×10)/100 = 15 - 10 - 1.5 = 3.5%. Profit = 360 × 0.035 = Rs. 12.60",
     "commonMistake": "Adding profit% and loss%: 15% - 10% = 5% profit. 5% of 360 = Rs. 18. This ignores the compounding effect.",
     "memoryTrick": "Successive profit/loss: Net% = a + b + ab/100 where a = +15, b = -10. Net = 15 - 10 - 1.5 = 3.5% profit.",
-    "examImportance": {"frequency": "medium", "probability": "likely", "score": 7}
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   }
 ]

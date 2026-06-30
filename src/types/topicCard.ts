@@ -13,6 +13,7 @@ export interface TopicCard {
   formula: string
   memoryTrick: string
   commonMistakes: string[]
+  dbTopic?: string
   topQuestions: {
     question: string
     options: string[]

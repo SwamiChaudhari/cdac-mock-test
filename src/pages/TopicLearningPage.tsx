@@ -1,13 +1,37 @@
-import { useEffect, useState, useCallback, useRef } from 'react'
+import { useEffect, useState, useCallback, useRef, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTopicLearningStore } from '../stores/topicLearningStore'
 import type { TopicCard } from '../types/topicCard'
+import type { Question } from '../utils/questionBank'
+import { loadAllQuestions } from '../data'
 
 function loadCards(): Promise<TopicCard[]> {
   return import('../data/topicCards/cards.json').then(m => m.default as unknown as TopicCard[])
 }
 
 type CardView = 'learn' | 'questions' | 'mastery'
+
+const DIFF_RANK: Record<string, number> = { easy: 1, medium: 2, hard: 3 }
+
+function pickTop5(questions: Question[], topic: string): Question[] {
+  const pool = questions.filter(q => q.topic === topic)
+  if (pool.length === 0) return []
+  const sorted = [...pool].sort((a, b) => {
+    const as = (a.frequencyScore || 0) * 10 + (a.probabilityRank || 0) * 5 + (a.appearanceCount || 0) * 3 + (DIFF_RANK[a.difficulty] || 0)
+    const bs = (b.frequencyScore || 0) * 10 + (b.probabilityRank || 0) * 5 + (b.appearanceCount || 0) * 3 + (DIFF_RANK[b.difficulty] || 0)
+    return bs - as
+  })
+  const picked: Question[] = []
+  const usedConcepts = new Set<string>()
+  for (const q of sorted) {
+    if (picked.length >= 5) break
+    const concept = (q.concept || q.question || '').toLowerCase().replace(/\s+/g, ' ').trim().slice(0, 40)
+    if (usedConcepts.has(concept)) continue
+    usedConcepts.add(concept)
+    picked.push(q)
+  }
+  return picked
+}
 
 export default function TopicLearningPage() {
   const navigate = useNavigate()
@@ -33,6 +57,7 @@ export default function TopicLearningPage() {
   const [showFormula, setShowFormula] = useState(false)
   const [filterSubject, setFilterSubject] = useState<string>('all')
   const [searchQuery, setSearchQuery] = useState('')
+  const [allQuestions, setAllQuestions] = useState<Question[]>([])
   const touchStartX = useRef(0)
   const cardRef = useRef<HTMLDivElement>(null)
 
@@ -41,6 +66,7 @@ export default function TopicLearningPage() {
       setTopicCards(cards)
       setCardsLoading(false)
     })
+    loadAllQuestions().then(qs => setAllQuestions(qs))
   }, [])
 
   // Filter cards
@@ -156,6 +182,12 @@ export default function TopicLearningPage() {
   const subjects = ['all', ...Array.from(new Set(topicCards.map((c: TopicCard) => c.subject)))]
   const totalCards = topicCards.length
   const progressPercent = totalCards > 0 ? Math.round((stats.totalCompleted / totalCards) * 100) : 0
+
+  const dbTop5 = useMemo(() => {
+    const topic = card?.dbTopic
+    if (!topic || allQuestions.length === 0) return []
+    return pickTop5(allQuestions, topic)
+  }, [card, allQuestions])
 
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white' : 'bg-gray-50 text-gray-900'}`}>
@@ -352,81 +384,120 @@ export default function TopicLearningPage() {
 
             {view === 'questions' && (
               <div className="space-y-4">
-                <h3 className="text-sm font-semibold text-purple-400">📝 Top 5 High-Probability CDAC Questions</h3>
-                {card.topQuestions.map((q, qi) => (
-                  <div key={qi} className={`p-4 rounded-lg ${darkMode ? 'bg-white/5' : 'bg-gray-50'}`}>
-                    {/* Question Header */}
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-xs font-bold text-purple-400">Q{qi + 1}.</span>
-                      <span className={`text-xs px-1.5 py-0.5 rounded ${
-                        q.difficulty === 'easy' ? 'bg-green-500/20 text-green-300' :
-                        q.difficulty === 'medium' ? 'bg-yellow-500/20 text-yellow-300' :
-                        'bg-red-500/20 text-red-300'
-                      }`}>{q.difficulty}</span>
-                      <span className={`text-xs px-1.5 py-0.5 rounded ${darkMode ? 'bg-white/10' : 'bg-gray-200'}`}>
-                        {q.examFrequency}
-                      </span>
-                    </div>
-                    <p className="text-sm font-medium mb-3">{q.question}</p>
+                {dbTop5.length > 0 ? (
+                  <>
+                    <h3 className="text-sm font-semibold text-purple-400"> Top {dbTop5.length} Verified CDAC-Style Questions (from bank)</h3>
+                    {dbTop5.map((q, qi) => (
+                      <div key={q.id || qi} className={`p-4 rounded-lg ${darkMode ? 'bg-white/5' : 'bg-gray-50'}`}>
+                        <div className="flex items-center gap-2 mb-2 flex-wrap">
+                          <span className="text-xs font-bold text-purple-400">Q{qi + 1}.</span>
+                          <span className={`text-xs px-1.5 py-0.5 rounded capitalize ${
+                            q.difficulty === 'easy' ? 'bg-green-500/20 text-green-300' :
+                            q.difficulty === 'medium' ? 'bg-yellow-500/20 text-yellow-300' :
+                            'bg-red-500/20 text-red-300'
+                          }`}>{q.difficulty}</span>
+                          <span className={`text-xs px-1.5 py-0.5 rounded ${darkMode ? 'bg-white/10' : 'bg-gray-200'}`}>
+                            Freq: {q.frequencyScore || 0}/10
+                          </span>
+                          <span className={`text-xs px-1.5 py-0.5 rounded ${(q.probabilityRank || 0) >= 2 ? 'bg-emerald-500/20 text-emerald-300' : darkMode ? 'bg-white/10' : 'bg-gray-200'}`}>
+                            Prob: {q.examImportance?.probability || ((q.probabilityRank || 0) >= 2 ? 'likely' : 'possible')}
+                          </span>
+                          {q.appearanceCount ? (
+                            <span className={`text-xs px-1.5 py-0.5 rounded ${darkMode ? 'bg-orange-500/20 text-orange-300' : 'bg-orange-100 text-orange-700'}`}>
+                              Appeared ~{q.appearanceCount}x
+                            </span>
+                          ) : null}
+                        </div>
+                        <p className="text-sm font-medium mb-3">{q.question}</p>
 
-                    {/* Options */}
-                    <div className="space-y-2">
-                      {q.options.map((opt, oi) => (
-                        <button
-                          key={oi}
-                          onClick={() => { setSelectedAnswer(oi); setRevealedAnswer(qi); }}
-                          className={`w-full text-left text-xs p-2 rounded-lg transition-all ${
-                            selectedAnswer === oi
-                              ? oi === q.correctAnswer
-                                ? 'bg-green-500/20 border border-green-500 text-green-300'
-                                : 'bg-red-500/20 border border-red-500 text-red-300'
-                              : revealedAnswer === qi && oi === q.correctAnswer
-                                ? 'bg-green-500/20 border border-green-500 text-green-300'
-                                : darkMode ? 'bg-white/5 hover:bg-white/10 border border-transparent' : 'bg-white hover:bg-gray-100 border border-gray-200'
-                          }`}
-                        >
-                          {String.fromCharCode(65 + oi)}. {opt}
-                        </button>
-                      ))}
-                    </div>
+                        <div className="space-y-2">
+                          {q.options.map((opt, oi) => (
+                            <button
+                              key={oi}
+                              onClick={() => { setSelectedAnswer(oi); setRevealedAnswer(qi); }}
+                              className={`w-full text-left text-xs p-2 rounded-lg transition-all ${
+                                selectedAnswer !== null && revealedAnswer === qi
+                                  ? oi === q.correctAnswer
+                                    ? 'bg-green-500/20 border border-green-500 text-green-300'
+                                    : oi === selectedAnswer
+                                      ? 'bg-red-500/20 border border-red-500 text-red-300'
+                                      : darkMode ? 'bg-white/5 border border-transparent' : 'bg-white border border-gray-200'
+                                  : darkMode ? 'bg-white/5 hover:bg-white/10 border border-transparent' : 'bg-white hover:bg-gray-100 border border-gray-200'
+                              }`}
+                            >
+                              {String.fromCharCode(65 + oi)}. {opt}
+                            </button>
+                          ))}
+                        </div>
 
-                    {/* Result & Explanation */}
-                    {selectedAnswer !== null && revealedAnswer === qi && (
-                      <div className="mt-3 space-y-2">
-                        <div className={`p-2 rounded text-xs ${
-                          selectedAnswer === q.correctAnswer ? 'bg-green-500/10 text-green-300' : 'bg-red-500/10 text-red-300'
-                        }`}>
-                          {selectedAnswer === q.correctAnswer ? '✅ Correct!' : `❌ Wrong. Correct: ${String.fromCharCode(65 + q.correctAnswer)}`}
-                        </div>
-                        <div className={`p-2 rounded text-xs ${darkMode ? 'bg-blue-500/10 text-blue-300' : 'bg-blue-50'}`}>
-                          <strong>📖 Explanation:</strong> {q.detailedExplanation}
-                        </div>
-                        <div className={`p-2 rounded text-xs ${darkMode ? 'bg-cyan-500/10 text-cyan-300' : 'bg-cyan-50'}`}>
-                          <strong>⚡ Shortcut:</strong> {q.shortcutMethod}
-                        </div>
-                        <div className={`p-2 rounded text-xs ${darkMode ? 'bg-red-500/10 text-red-300' : 'bg-red-50'}`}>
-                          <strong>⚠️ Trap:</strong> {q.commonTrap}
-                        </div>
-                        <div className={`p-2 rounded text-xs border-l-4 border-yellow-500 ${darkMode ? 'bg-yellow-500/10' : 'bg-yellow-50'}`}>
-                          <strong>🧠 Memory:</strong> {q.memoryTrick}
-                        </div>
+                        {selectedAnswer !== null && revealedAnswer === qi && (
+                          <div className="mt-3 space-y-2">
+                            <div className={`p-2 rounded text-xs ${
+                              selectedAnswer === q.correctAnswer ? 'bg-green-500/10 text-green-300' : 'bg-red-500/10 text-red-300'
+                            }`}>
+                              {selectedAnswer === q.correctAnswer ? '✅ Correct!' : `❌ Wrong. Correct: ${String.fromCharCode(65 + q.correctAnswer)}`}
+                            </div>
+                            {q.explanation ? (
+                              <div className={`p-2 rounded text-xs ${darkMode ? 'bg-blue-500/10 text-blue-300' : 'bg-blue-50'}`}>
+                                <strong>📖 Explanation:</strong> {q.explanation}
+                              </div>
+                            ) : null}
+                            {q.shortcut ? (
+                              <div className={`p-2 rounded text-xs ${darkMode ? 'bg-cyan-500/10 text-cyan-300' : 'bg-cyan-50'}`}>
+                                <strong>⚡ Shortcut:</strong> {q.shortcut}
+                              </div>
+                            ) : null}
+                            {q.commonMistake ? (
+                              <div className={`p-2 rounded text-xs ${darkMode ? 'bg-red-500/10 text-red-300' : 'bg-red-50'}`}>
+                                <strong>⚠️ Trap:</strong> {q.commonMistake}
+                              </div>
+                            ) : null}
+                            {q.memoryTrick ? (
+                              <div className={`p-2 rounded text-xs border-l-4 border-yellow-500 ${darkMode ? 'bg-yellow-500/10' : 'bg-yellow-50'}`}>
+                                <strong>🧠 Memory:</strong> {q.memoryTrick}
+                              </div>
+                            ) : null}
+                            {q.formula ? (
+                              <div className={`p-2 rounded text-xs font-mono ${darkMode ? 'bg-purple-500/10 text-purple-200' : 'bg-purple-50 text-purple-700'}`}>
+                                <strong> Formula:</strong> {q.formula}
+                              </div>
+                            ) : null}
+                            {q.concept ? (
+                              <div className={`p-2 rounded text-xs italic ${darkMode ? 'bg-white/5 text-gray-400' : 'bg-gray-50 text-gray-600'}`}>
+                                💡 Concept: {q.concept}
+                              </div>
+                            ) : null}
+                          </div>
+                        )}
+
+                        {selectedAnswer === null && q.hint && (
+                          <button
+                            onClick={() => setRevealedAnswer(qi)}
+                            className="mt-2 text-xs text-purple-400 hover:text-purple-300"
+                          >
+                            💡 Hint
+                          </button>
+                        )}
+                        {selectedAnswer === null && revealedAnswer === qi && q.hint && (
+                          <p className="mt-1 text-xs text-yellow-300">💡 {q.hint}</p>
+                        )}
                       </div>
-                    )}
-
-                    {/* Hint button (before answering) */}
-                    {selectedAnswer === null && (
-                      <button
-                        onClick={() => setRevealedAnswer(qi)}
-                        className="mt-2 text-xs text-purple-400 hover:text-purple-300"
-                      >
-                        💡 Hint
-                      </button>
-                    )}
-                    {selectedAnswer === null && revealedAnswer === qi && (
-                      <p className="mt-1 text-xs text-yellow-300">💡 {q.hint}</p>
-                    )}
+                    ))}
+                  </>
+                ) : (
+                  <div className={`p-6 rounded-lg text-center ${darkMode ? 'bg-white/5 text-gray-400' : 'bg-gray-50 text-gray-500'}`}>
+                    <div className="text-3xl mb-2">📭</div>
+                    <p className="text-sm font-medium">No verified questions in bank for this topic yet</p>
+                    <p className="text-xs mt-1">
+                      {card?.dbTopic
+                        ? `Topic "${card.dbTopic}" has 0 questions in the database.`
+                        : `Topic "${card?.topicName}" is not matched to the question bank yet.`}
+                    </p>
+                    <p className="text-xs mt-3 opacity-70">
+                      Questions are added topic by topic. Try topics like Time &amp; Work, Percentages, Profit &amp; Loss, Probability, Ratio &amp; Proportion.
+                    </p>
                   </div>
-                ))}
+                )}
               </div>
             )}
 

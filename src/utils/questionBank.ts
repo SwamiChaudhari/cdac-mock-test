@@ -24,6 +24,10 @@ export interface Question {
     probability: string;
     score: number;
   };
+  appearanceCount?: number;
+  frequencyScore?: number;
+  frequencyRank?: number;
+  probabilityRank?: number;
   level?: string;
   // Internal
   _priority?: 'HIGH' | 'MEDIUM' | 'LOW';

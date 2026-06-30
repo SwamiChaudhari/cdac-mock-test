@@ -1,9 +1,20 @@
 [
   {
-    "id": "ai_ml_001", "section": "B", "subject": "Big Data & AI", "topic": "Machine Learning",
-    "difficulty": "easy", "marks": 1, "level": "beginner",
+    "id": "ai_ml_001",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
     "question": "In supervised learning, the model is trained using which type of data?",
-    "options": ["Labeled data (input-output pairs)", "Unlabeled data", "Random noise", "Only input data without outputs"], "correctAnswer": 0,
+    "options": [
+      "Labeled data (input-output pairs)",
+      "Unlabeled data",
+      "Random noise",
+      "Only input data without outputs"
+    ],
+    "correctAnswer": 0,
     "explanation": "Supervised learning uses labeled data — each training example has an input and the correct output (label). The model learns the mapping from input to output.",
     "formula": "Supervised Learning: Input (X) → Model → Predicted Output (Ŷ). Training uses (X, Y) pairs to minimize error.",
     "concept": "Supervised = 'Supervised by a teacher.' The model learns from examples where the correct answer is provided.",
@@ -11,13 +22,32 @@
     "shortcut": "Supervised = Labeled data (X, Y pairs)",
     "commonMistake": "Confusing supervised with unsupervised. Unsupervised has NO labels — it finds patterns on its own.",
     "memoryTrick": "Supervised = 'Teacher supervises.' Student sees questions + answers. Think: 'Learning with an answer key.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "ai_ml_002", "section": "B", "subject": "Big Data & AI", "topic": "Machine Learning",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "ai_ml_002",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "Which type of machine learning algorithm groups similar data points together without using labeled data?",
-    "options": ["Clustering (Unsupervised)", "Classification (Supervised)", "Regression (Supervised)", "Reinforcement Learning"], "correctAnswer": 0,
+    "options": [
+      "Clustering (Unsupervised)",
+      "Classification (Supervised)",
+      "Regression (Supervised)",
+      "Reinforcement Learning"
+    ],
+    "correctAnswer": 0,
     "explanation": "Clustering is an unsupervised learning technique that groups similar data points based on features, without any predefined labels. K-means is a common clustering algorithm.",
     "formula": "Unsupervised: No labels. Clustering = Grouping similar items. Classification/Regression = Supervised (need labels).",
     "concept": "Unsupervised learning finds hidden patterns in data. Clustering groups similar items; association finds rules.",
@@ -25,13 +55,32 @@
     "shortcut": "Clustering = Unsupervised = No labels = Grouping",
     "commonMistake": "Thinking clustering is supervised. It's NOT — there are no labels telling the algorithm what group each item belongs to.",
     "memoryTrick": "Clustering = 'Club formation.' People with similar interests form clubs naturally (no one assigns them).",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "ai_ml_003", "section": "B", "subject": "Big Data & AI", "topic": "Machine Learning",
-    "difficulty": "medium", "marks": 1, "level": "exam_style",
+    "id": "ai_ml_003",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
     "question": "In a neural network, what does the hidden layer do?",
-    "options": ["Extracts and transforms features from input data", "Receives the final output", "Stores training data", "Displays results to the user"], "correctAnswer": 0,
+    "options": [
+      "Extracts and transforms features from input data",
+      "Receives the final output",
+      "Stores training data",
+      "Displays results to the user"
+    ],
+    "correctAnswer": 0,
     "explanation": "Hidden layers between input and output perform feature extraction and transformation. Each neuron applies weights, bias, and activation function to learn complex patterns.",
     "formula": "Neural Network: Input Layer → Hidden Layer(s) [feature extraction] → Output Layer. Each neuron: f(Σwᵢxᵢ + b).",
     "concept": "Hidden layers learn hierarchical features. Early layers detect simple patterns; deeper layers combine them into complex features.",
@@ -39,13 +88,32 @@
     "shortcut": "Hidden layers = Feature extraction and transformation",
     "commonMistake": "Thinking hidden layers store data. They PROCESS data — they don't store it.",
     "memoryTrick": "Hidden layers = 'Factory workers.' Raw material (input) → Workers transform it (hidden) → Finished product (output).",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "ai_ml_004", "section": "B", "subject": "Big Data & AI", "topic": "Deep Learning",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "ai_ml_004",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Deep Learning",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "What is the key difference between machine learning and deep learning?",
-    "options": ["Deep learning uses neural networks with many hidden layers", "Deep learning doesn't need data", "Deep learning only works with images", "Deep learning is slower than ML"], "correctAnswer": 0,
+    "options": [
+      "Deep learning uses neural networks with many hidden layers",
+      "Deep learning doesn't need data",
+      "Deep learning only works with images",
+      "Deep learning is slower than ML"
+    ],
+    "correctAnswer": 0,
     "explanation": "Deep learning is a subset of ML that uses neural networks with MANY hidden layers (deep architectures). It automatically learns hierarchical feature representations.",
     "formula": "Deep Learning = ML + Deep Neural Networks (many hidden layers). ML may use simpler algorithms (SVM, Decision Trees, etc.).",
     "concept": "Deep learning = deep neural networks. 'Deep' refers to the number of layers. Traditional ML often uses hand-crafted features.",
@@ -53,13 +121,32 @@
     "shortcut": "Deep Learning = Neural networks with many hidden layers",
     "commonMistake": "Thinking deep learning is completely different from ML. It's a SUBSET of ML.",
     "memoryTrick": "Deep Learning = 'Deep = Many layers.' Think: 'A deep ocean has many levels. A deep network has many layers.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "ai_nlp_001", "section": "B", "subject": "Big Data & AI", "topic": "NLP",
-    "difficulty": "easy", "marks": 1, "level": "beginner",
+    "id": "ai_nlp_001",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "NLP",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
     "question": "NLP (Natural Language Processing) primarily deals with:",
-    "options": ["Understanding and generating human language", "Processing numerical data", "Image recognition", "Network security"], "correctAnswer": 0,
+    "options": [
+      "Understanding and generating human language",
+      "Processing numerical data",
+      "Image recognition",
+      "Network security"
+    ],
+    "correctAnswer": 0,
     "explanation": "NLP enables computers to understand, interpret, and generate human language. Applications include translation, sentiment analysis, chatbots, and text summarization.",
     "formula": "NLP = Computer Science + Linguistics + AI. Goal: Bridge human-computer communication gap.",
     "concept": "NLP combines computational linguistics with machine learning to process text and speech data.",
@@ -67,13 +154,32 @@
     "shortcut": "NLP = Human language processing by computers",
     "commonMistake": "Confusing NLP with general AI. NLP is specifically about LANGUAGE, not all intelligence.",
     "memoryTrick": "NLP = 'Natural Language Processing' = Teaching computers to read and speak like humans.",
-    "examImportance": {"frequency": "medium", "probability": "likely", "score": 7}
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   },
   {
-    "id": "ai_cv_001", "section": "B", "subject": "Big Data & AI", "topic": "Computer Vision",
-    "difficulty": "easy", "marks": 1, "level": "beginner",
+    "id": "ai_cv_001",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Computer Vision",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
     "question": "Which technology is primarily used for image recognition and object detection?",
-    "options": ["Convolutional Neural Networks (CNN)", "Recurrent Neural Networks (RNN)", "Decision Trees", "K-Means Clustering"], "correctAnswer": 0,
+    "options": [
+      "Convolutional Neural Networks (CNN)",
+      "Recurrent Neural Networks (RNN)",
+      "Decision Trees",
+      "K-Means Clustering"
+    ],
+    "correctAnswer": 0,
     "explanation": "CNNs are specifically designed for image processing. They use convolutional filters to detect edges, shapes, and patterns hierarchically.",
     "formula": "CNN: Convolution (filter) → Pooling → Fully Connected → Output. Best for spatial data (images).",
     "concept": "CNNs exploit spatial locality through convolutional filters. Each filter detects a specific feature (edge, corner, texture).",
@@ -81,13 +187,32 @@
     "shortcut": "Image recognition = CNN (Convolutional Neural Network)",
     "commonMistake": "Using RNN for images. RNNs are for sequential data (text, time series). CNNs are for spatial data (images).",
     "memoryTrick": "CNN = 'Camera Neural Network.' For images. RNN = 'Recurrent' = for sequences (text, time).",
-    "examImportance": {"frequency": "medium", "probability": "likely", "score": 7}
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   },
   {
-    "id": "bd_5v_001", "section": "B", "subject": "Big Data & AI", "topic": "Big Data Concepts",
-    "difficulty": "easy", "marks": 1, "level": "beginner",
+    "id": "bd_5v_001",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
     "question": "Which of the following is NOT one of the 5 Vs of Big Data?",
-    "options": ["Viscosity", "Volume", "Velocity", "Variety"], "correctAnswer": 0,
+    "options": [
+      "Viscosity",
+      "Volume",
+      "Velocity",
+      "Variety"
+    ],
+    "correctAnswer": 0,
     "explanation": "The 5 Vs of Big Data are: Volume (size), Velocity (speed), Variety (types), Veracity (quality), and Value. Viscosity is not one of them.",
     "formula": "5 Vs: Volume + Velocity + Variety + Veracity + Value. Viscosity is NOT a Big Data V.",
     "concept": "The 5 Vs characterize big data: huge volume, high velocity, diverse variety, uncertain veracity, and extracted value.",
@@ -95,13 +220,32 @@
     "shortcut": "5 Vs: 3 V's + Veracity + Value. Viscosity is fake.",
     "commonMistake": "Thinking there are only 3 Vs. The original 3 (Volume, Velocity, Variety) were extended with Veracity and Value.",
     "memoryTrick": "5 Vs: 'Very Very Valuable Varied data at Very high speed.' Think: '5 Vs all start with V — except Viscosity!'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 6,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "bd_cap_001", "section": "B", "subject": "Big Data & AI", "topic": "Big Data Concepts",
-    "difficulty": "medium", "marks": 1, "level": "exam_style",
+    "id": "bd_cap_001",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
     "question": "According to CAP Theorem, a distributed database system can guarantee only how many of the following three properties: Consistency, Availability, Partition Tolerance?",
-    "options": ["Only 2 out of 3", "All 3", "Only 1", "None"], "correctAnswer": 0,
+    "options": [
+      "Only 2 out of 3",
+      "All 3",
+      "Only 1",
+      "None"
+    ],
+    "correctAnswer": 0,
     "explanation": "CAP Theorem states that a distributed system can provide at most 2 of 3 guarantees: Consistency (all nodes see same data), Availability (every request gets a response), Partition Tolerance (system works despite network failures).",
     "formula": "CAP: Pick 2 of 3. CP (Consistency + Partition) or AP (Availability + Partition). CA is rare (single node).",
     "concept": "In distributed systems, network partitions are inevitable. You must choose between consistency (CP) and availability (AP).",
@@ -109,13 +253,32 @@
     "shortcut": "CAP = 2 of 3. CP or AP (Partition tolerance is mandatory in distributed).",
     "commonMistake": "Thinking all 3 can be achieved. The theorem PROVES you can't have all three simultaneously.",
     "memoryTrick": "CAP = 'Can't Achieve all 3, Pick 2.' Think: 'You can't have your cake (C), eat it too (A), AND share it (P).'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "bd_hadoop_001", "section": "B", "subject": "Big Data & AI", "topic": "Big Data Concepts",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "bd_hadoop_001",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "In the Hadoop ecosystem, what is the function of HDFS?",
-    "options": ["Distributed storage of large data across clusters", "Real-time data processing", "Machine learning model training", "Data visualization"], "correctAnswer": 0,
+    "options": [
+      "Distributed storage of large data across clusters",
+      "Real-time data processing",
+      "Machine learning model training",
+      "Data visualization"
+    ],
+    "correctAnswer": 0,
     "explanation": "HDFS (Hadoop Distributed File System) is the storage layer of Hadoop. It splits large files into blocks (default 128MB) and distributes them across cluster nodes with replication.",
     "formula": "HDFS: Storage layer. Splits data into blocks, replicates (default 3x), distributes across nodes. Master: NameNode, Slave: DataNode.",
     "concept": "HDFS provides fault-tolerant, scalable storage. It's the foundation that MapReduce processes data from.",
@@ -123,13 +286,32 @@
     "shortcut": "HDFS = Distributed storage (not processing)",
     "commonMistake": "Confusing HDFS with MapReduce. HDFS = storage. MapReduce = processing. They work together.",
     "memoryTrick": "HDFS = 'Hard Drive For Storage.' It's where data LIVES. MapReduce is where data is PROCESSED.",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "bd_spark_001", "section": "B", "subject": "Big Data & AI", "topic": "Big Data Concepts",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "bd_spark_001",
+    "section": "B",
+    "subject": "Big Data & AI",
+    "topic": "Big Data Concepts",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "What is the main advantage of Apache Spark over Hadoop MapReduce?",
-    "options": ["In-memory processing makes it much faster", "Better storage capacity", "Easier to program", "Cheaper to deploy"], "correctAnswer": 0,
+    "options": [
+      "In-memory processing makes it much faster",
+      "Better storage capacity",
+      "Easier to program",
+      "Cheaper to deploy"
+    ],
+    "correctAnswer": 0,
     "explanation": "Spark keeps data in memory between operations, making it up to 100x faster than MapReduce which reads/writes to disk at each step. Spark uses RDDs (Resilient Distributed Datasets).",
     "formula": "Spark: In-memory computation. MapReduce: Disk-based (read → process → write → read → process). Spark avoids disk I/O.",
     "concept": "Spark's RDDs allow caching intermediate results in memory, crucial for iterative algorithms (ML) and interactive queries.",
@@ -137,6 +319,14 @@
     "shortcut": "Spark = Fast (in-memory). MapReduce = Slow (disk-based)",
     "commonMistake": "Thinking Spark replaces HDFS. Spark often USES HDFS for storage — it replaces the PROCESSING engine (MapReduce).",
     "memoryTrick": "Spark = 'Spark of speed' = in-memory = fast. MapReduce = 'Map to disk, Reduce from disk' = slow.",
-    "examImportance": {"frequency": "medium", "probability": "likely", "score": 7}
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   }
 ]

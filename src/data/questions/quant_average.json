@@ -26,7 +26,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 9
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "qt_avg_002",
@@ -55,7 +59,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 9
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "qt_avg_003",
@@ -84,7 +92,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 9
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "qt_avg_004",
@@ -113,7 +125,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 10
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "qt_avg_005",
@@ -142,7 +158,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 9
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "qt_avg_006",
@@ -171,7 +191,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 10
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "qt_avg_007",
@@ -200,7 +224,11 @@
       "frequency": "medium",
       "probability": "likely",
       "score": 7
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   },
   {
     "id": "qt_avg_008",
@@ -229,6 +257,10 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 8
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   }
 ]

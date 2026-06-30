@@ -27,7 +27,11 @@
       "probability": "very likely",
       "score": 10
     },
-    "memoryTrick": "OSI: 'Please Do Not Throw Sausage Pizza Away' (bottom to top). Layer 3 = Network = Routing. Think: 'Network = Navigation = Routing.'"
+    "memoryTrick": "OSI: 'Please Do Not Throw Sausage Pizza Away' (bottom to top). Layer 3 = Network = Routing. Think: 'Network = Navigation = Routing.'",
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "nw_002",
@@ -56,7 +60,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 10
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 10,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "nw_003",
@@ -85,7 +93,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 9
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "nw_004",
@@ -114,7 +126,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 9
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "nw_005",
@@ -143,7 +159,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 9
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "nw_006",
@@ -172,7 +192,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 9
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "nw_007",
@@ -201,7 +225,11 @@
       "frequency": "high",
       "probability": "very likely",
       "score": 8
-    }
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
     "id": "nw_008",
@@ -230,6 +258,10 @@
       "frequency": "medium",
       "probability": "likely",
       "score": 7
-    }
+    },
+    "appearanceCount": 5,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   }
 ]

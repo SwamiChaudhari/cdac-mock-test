@@ -1,9 +1,20 @@
 [
   {
-    "id": "eng_gram_001", "section": "A", "subject": "English", "topic": "Spotting Errors",
-    "difficulty": "medium", "marks": 1, "level": "exam_style",
+    "id": "eng_gram_001",
+    "section": "A",
+    "subject": "English",
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
     "question": "Identify the grammatical error in the sentence: 'Each of the students have completed their assignment on time.'",
-    "options": ["'have' should be 'has'", "'their' should be 'his or her'", "Both 'have' and 'their' are wrong", "No error"], "correctAnswer": 2,
+    "options": [
+      "'have' should be 'has'",
+      "'their' should be 'his or her'",
+      "Both 'have' and 'their' are wrong",
+      "No error"
+    ],
+    "correctAnswer": 2,
     "explanation": "'Each' is singular, so it takes singular verb 'has' and singular pronoun 'his or her'. Correct: 'Each of the students has completed his or her assignment on time.'",
     "formula": "Each/Every/Everyone + singular verb + singular pronoun. 'Each of the students' = singular subject.",
     "concept": "Words like 'each', 'every', 'everyone', 'nobody' are singular and require singular verbs and pronouns.",
@@ -11,13 +22,32 @@
     "shortcut": "Each = singular. Use 'has' not 'have', 'his/her' not 'their'.",
     "commonMistake": "Thinking 'students' (plural) determines the verb. But 'Each' is the subject, and it's singular.",
     "memoryTrick": "Each/Every = 'One at a time' = SINGULAR. Think: 'Each person has...' not 'Each person have...'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "eng_gram_002", "section": "A", "subject": "English", "topic": "Spotting Errors",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "eng_gram_002",
+    "section": "A",
+    "subject": "English",
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "Find the error: 'The committee are divided in their opinion on the matter.'",
-    "options": ["'are' should be 'is'", "'their' should be 'its'", "Both 'are' and 'their' are wrong", "No error"], "correctAnswer": 2,
+    "options": [
+      "'are' should be 'is'",
+      "'their' should be 'its'",
+      "Both 'are' and 'their' are wrong",
+      "No error"
+    ],
+    "correctAnswer": 2,
     "explanation": "When 'committee' acts as a single unit (which is the default), it takes singular verb 'is' and singular pronoun 'its'. Correct: 'The committee is divided in its opinion on the matter.'",
     "formula": "Collective nouns (committee, team, jury, government) = singular when acting as a unit. Use singular verb and pronoun.",
     "concept": "Collective nouns are singular when the group acts as one unit. They're plural only when members act individually.",
@@ -25,13 +55,32 @@
     "shortcut": "Collective noun (as unit) = singular = is/its",
     "commonMistake": "Always treating collective nouns as plural. They're singular unless members are acting individually.",
     "memoryTrick": "Collective nouns: 'One team = is, team members = are.' Think: 'The team is winning' (one unit) vs 'The team are arguing' (individuals).",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "eng_gram_003", "section": "A", "subject": "English", "topic": "Articles",
-    "difficulty": "medium", "marks": 1, "level": "exam_style",
+    "id": "eng_gram_003",
+    "section": "A",
+    "subject": "English",
+    "topic": "Articles",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "exam_style",
     "question": "Fill in the blank: 'She is ___ honest person and never tells ___ lie.'",
-    "options": ["an, a", "a, a", "an, the", "a, the"], "correctAnswer": 0,
+    "options": [
+      "an, a",
+      "a, a",
+      "an, the",
+      "a, the"
+    ],
+    "correctAnswer": 0,
     "explanation": "'An' before 'honest' because the 'h' is silent (vowel sound). 'A' before 'lie' because it starts with a consonant sound. Correct: 'an honest person', 'a lie'.",
     "formula": "Use 'an' before vowel SOUNDS (an hour, an MBA, an honest man). Use 'a' before consonant SOUNDS (a university, a European, a one-way).",
     "concept": "Articles depend on SOUND, not spelling. 'An' before vowel sounds, 'a' before consonant sounds.",
@@ -39,13 +88,32 @@
     "shortcut": "Sound rule: Vowel sound = 'an', Consonant sound = 'a'",
     "commonMistake": "Using 'a' before all words starting with h. 'Honest' has silent h, so use 'an'.",
     "memoryTrick": "Articles follow SOUND not spelling. Think: 'an hour' (silent h), 'a university' (you sound).",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "eng_gram_004", "section": "A", "subject": "English", "topic": "Prepositions",
-    "difficulty": "easy", "marks": 1, "level": "beginner",
+    "id": "eng_gram_004",
+    "section": "A",
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
     "question": "Fill in the blank: 'She is good ___ mathematics.'",
-    "options": ["at", "in", "on", "with"], "correctAnswer": 0,
+    "options": [
+      "at",
+      "in",
+      "on",
+      "with"
+    ],
+    "correctAnswer": 0,
     "explanation": "'Good at' is the correct preposition for skills/abilities. She is good at mathematics = she has skill in math.",
     "formula": "Good at (skill/ability). Good with (handling things/people). Good in (performance in a subject/area).",
     "concept": "Preposition 'at' follows 'good' when referring to a skill or ability.",
@@ -53,13 +121,32 @@
     "shortcut": "Good at = skill/ability",
     "commonMistake": "Using 'good in' for skills. 'Good in' is for performance in a broader area, not specific skills.",
     "memoryTrick": "Good AT a skill, Good WITH people/things, Good IN a field. Think: 'AT = A Talent.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 8}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 8
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 8,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "eng_gram_005", "section": "A", "subject": "English", "topic": "Sentence Completion",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "eng_gram_005",
+    "section": "A",
+    "subject": "English",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "Choose the correct sentence:",
-    "options": ["Neither the manager nor the employees were present", "Neither the manager nor the employees was present", "Neither the manager or the employees were present", "Neither the manager nor the employees is present"], "correctAnswer": 0,
+    "options": [
+      "Neither the manager nor the employees were present",
+      "Neither the manager nor the employees was present",
+      "Neither the manager or the employees were present",
+      "Neither the manager nor the employees is present"
+    ],
+    "correctAnswer": 0,
     "explanation": "With 'neither...nor', the verb agrees with the NEAREST subject. 'Employees' (plural) is nearest, so use 'were'. Correct: 'Neither the manager nor the employees were present.'",
     "formula": "Neither A nor B: Verb agrees with B (nearest subject). Either A or B: Verb agrees with B.",
     "concept": "Correlative conjunctions (neither...nor, either...or): verb agrees with the subject CLOSEST to it.",
@@ -67,13 +154,32 @@
     "shortcut": "Neither/Either: Verb matches NEAREST subject",
     "commonMistake": "Always using singular verb with 'neither...nor'. It depends on the nearest subject!",
     "memoryTrick": "Neither/Nor = 'Nearest Neighbor Rule.' The verb agrees with whoever is CLOSEST. Think: 'The neighbor decides.'",
-    "examImportance": {"frequency": "high", "probability": "very likely", "score": 9}
+    "examImportance": {
+      "frequency": "high",
+      "probability": "very likely",
+      "score": 9
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 9,
+    "frequencyRank": 3,
+    "probabilityRank": 3
   },
   {
-    "id": "eng_gram_006", "section": "A", "subject": "English", "topic": "Idioms & Phrases",
-    "difficulty": "easy", "marks": 1, "level": "beginner",
+    "id": "eng_gram_006",
+    "section": "A",
+    "subject": "English",
+    "topic": "Idioms & Phrases",
+    "difficulty": "easy",
+    "marks": 1,
+    "level": "beginner",
     "question": "What does the idiom 'Burning the midnight oil' mean?",
-    "options": ["Working late into the night", "Wasting resources", "Being angry", "Cooking late at night"], "correctAnswer": 0,
+    "options": [
+      "Working late into the night",
+      "Wasting resources",
+      "Being angry",
+      "Cooking late at night"
+    ],
+    "correctAnswer": 0,
     "explanation": "'Burning the midnight oil' means working or studying late into the night. It comes from the era of oil lamps.",
     "formula": "Idiom: Burning the midnight oil = Working/studying late at night",
     "concept": "Idioms are expressions whose meaning isn't deducible from the literal words. This one refers to late-night work.",
@@ -81,13 +187,32 @@
     "shortcut": "Burning midnight oil = Working late",
     "commonMistake": "Taking it literally as cooking or wasting oil. It's about working late!",
     "memoryTrick": "Imagine someone with an oil lamp at midnight — still working! Think: 'Midnight oil = late night work.'",
-    "examImportance": {"frequency": "medium", "probability": "likely", "score": 7}
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   },
   {
-    "id": "eng_gram_007", "section": "A", "subject": "English", "topic": "Spotting Errors",
-    "difficulty": "hard", "marks": 1, "level": "trap",
+    "id": "eng_gram_007",
+    "section": "A",
+    "subject": "English",
+    "topic": "Spotting Errors",
+    "difficulty": "hard",
+    "marks": 1,
+    "level": "trap",
     "question": "Find the error: 'One should always keep their promises.'",
-    "options": ["'their' should be 'one's'", "'should' must be 'must'", "'keep' should be 'kept'", "No error"], "correctAnswer": 0,
+    "options": [
+      "'their' should be 'one's'",
+      "'should' must be 'must'",
+      "'keep' should be 'kept'",
+      "No error"
+    ],
+    "correctAnswer": 0,
     "explanation": "'One' as a pronoun requires 'one's' (not 'their') for agreement. Correct: 'One should always keep one's promises.' In modern English 'their' is sometimes accepted, but formally 'one's' is correct.",
     "formula": "One → one's (formal). One should do one's duty. Not: One should do their duty.",
     "concept": "Pronoun agreement: 'One' requires 'one's' (not 'his', 'her', or 'their') in formal English.",
@@ -95,13 +220,32 @@
     "shortcut": "One = one's (formal agreement)",
     "commonMistake": "Using 'their' as a gender-neutral singular. While common in speech, formal English requires 'one's'.",
     "memoryTrick": "One → One's. Think: 'One does ONE's own work.' The pronoun matches the subject.",
-    "examImportance": {"frequency": "medium", "probability": "likely", "score": 7}
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    },
+    "appearanceCount": 5,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   },
   {
-    "id": "eng_gram_008", "section": "A", "subject": "English", "topic": "Sentence Arrangement",
-    "difficulty": "medium", "marks": 1, "level": "intermediate",
+    "id": "eng_gram_008",
+    "section": "A",
+    "subject": "English",
+    "topic": "Sentence Arrangement",
+    "difficulty": "medium",
+    "marks": 1,
+    "level": "intermediate",
     "question": "Arrange the sentences to form a coherent paragraph: P: 'This led to the development of new technologies.' Q: 'The industrial revolution began in Britain.' R: 'These technologies transformed manufacturing.' S: 'It spread to Europe and America by the 19th century.'",
-    "options": ["QSPR", "QRSP", "PQRS", "QPRS"], "correctAnswer": 0,
+    "options": [
+      "QSPR",
+      "QRSP",
+      "PQRS",
+      "QPRS"
+    ],
+    "correctAnswer": 0,
     "explanation": "Q introduces the topic (industrial revolution). S continues (spread to Europe). P follows (led to new technologies). R concludes (technologies transformed manufacturing). Order: Q-S-P-R.",
     "formula": "Paragraph order: Introduction → Continuation → Result → Conclusion. Q(intro) → S(continuation) → P(result) → R(conclusion).",
     "concept": "Sentence arrangement: find the topic sentence first, then follow logical flow (cause → effect, general → specific).",
@@ -109,6 +253,14 @@
     "shortcut": "Q(Start) → S(Spread) → P(Development) → R(Transformation)",
     "commonMistake": "Starting with P ('This led...') — 'This' has no antecedent. Q must come first.",
     "memoryTrick": "Paragraph flow: What started → Where it spread → What resulted → Final outcome. Think: 'Story order.'",
-    "examImportance": {"frequency": "medium", "probability": "likely", "score": 7}
+    "examImportance": {
+      "frequency": "medium",
+      "probability": "likely",
+      "score": 7
+    },
+    "appearanceCount": 7,
+    "frequencyScore": 7,
+    "frequencyRank": 2,
+    "probabilityRank": 2
   }
 ]

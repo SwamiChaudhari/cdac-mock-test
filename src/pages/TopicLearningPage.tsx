@@ -6,8 +6,11 @@ import type { Question } from '../utils/questionBank'
 import { loadAllQuestions } from '../data'
 
 function loadCards(): Promise<TopicCard[]> {
+  return import('../data/topicCards/split/cards-0.json').then(m => m.default as unknown as TopicCard[])
+}
+
+function loadRemainingCards(): Promise<TopicCard[]> {
   return Promise.all([
-    import('../data/topicCards/split/cards-0.json'),
     import('../data/topicCards/split/cards-1.json'),
     import('../data/topicCards/split/cards-2.json'),
     import('../data/topicCards/split/cards-3.json'),
@@ -74,9 +77,14 @@ export default function TopicLearningPage() {
   const cardRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    loadCards().then(cards => {
-      setTopicCards(cards)
+    // Load first chunk immediately so the page renders without waiting for 7MB
+    loadCards().then(firstChunk => {
+      setTopicCards(firstChunk)
       setCardsLoading(false)
+      // Load remaining chunks in the background
+      loadRemainingCards().then(rest => {
+        setTopicCards(firstChunk.concat(rest))
+      })
     })
     loadAllQuestions().then(qs => setAllQuestions(qs))
   }, [])
